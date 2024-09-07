@@ -17,7 +17,7 @@ Research
 
 Education experience
 ------
-2022.09-present [School of Economics, Nankai University](https://economics.nankai.edu.cn/)
+2022.09-present [School of Economics, Nankai University](https://economics.nankai.edu.cn/) \\
 2021.09-2022.09 [School of Materials Science and Engineering, Nankai University](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml)
 
 Awards
