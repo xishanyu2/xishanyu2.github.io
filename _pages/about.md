@@ -1,5 +1,11 @@
 ---
-About me
+permalink: /
+title: "About me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Hi！Welcome my personal academic homepage. I'm Zhenyu Zhao, a fourth grade undergraduate student at [Nankai University](https://www.nankai.edu.cn/). I have obtained the qualification for postgraduate recommendation from [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm), majoring in World Economy. 
