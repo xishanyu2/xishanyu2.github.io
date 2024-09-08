@@ -5,6 +5,8 @@ permalink: /writing/mpe
 tags:
 ---
 
+description
+
 Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(determinant, matrix, linear equations, eigenvalue and eigenvector, quadratic form)
 # PART 1 引论与基础
 1. 正名：作为科学的马克思经济学
