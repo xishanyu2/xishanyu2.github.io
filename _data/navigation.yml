@@ -8,8 +8,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/  
+  - title: "Reports"
+    url: /reports/  
 
   - title: "Notes"
     url: /notes/    
@@ -22,3 +22,6 @@ main:
         
   - title: "Blogs"
     url: /year-archive/
+
+  - title: "Bilibili"
+    url: /bilibili/
