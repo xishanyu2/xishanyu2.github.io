@@ -1,4 +1,11 @@
-==Prerequisites==: **Principle of Marxist Political Economy**, **Linear Algebra**(determinant, matrix, linear equations, eigenvalue and eigenvector, quadratic form)
+---
+title: 'MPE'
+date: 2024-09-08
+permalink: /posts/mpe
+---
+
+
+Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(determinant, matrix, linear equations, eigenvalue and eigenvector, quadratic form)
 # PART 1 引论与基础
 1. 正名：作为科学的马克思经济学
 	- 古典与现代经济学：演化、分野与嬗变
