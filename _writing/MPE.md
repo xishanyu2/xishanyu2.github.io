@@ -1,7 +1,7 @@
 ---
 title: 'MPE'
 date: 2024-09-08
-permalink: /posts/mpe
+permalink: /writing/mpe
 ---
 
 
