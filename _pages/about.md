@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal academic homepage! I'm Zhenyu Zhao, a fourth grade undergraduate student at [Nankai University](https://www.nankai.edu.cn/). I have obtained the qualification for postgraduate recommendation from [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm), majoring in World Economy. This website is used for academic communication and sharing, hoping to improve my writing skills.
+Welcome to my personal academic homepage! I'm Zhenyu Zhao, a fourth grade undergraduate student at [Nankai University](https://www.nankai.edu.cn/). I have obtained the qualification for postgraduate recommendation from [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm), majoring in World Economy.I couldn't agree more with the idea that knowledge should be shared. This website is used for academic communication and sharing and I hope it will improve my writing skills.
 
 Research
 ------
 - Field of study: Multinational Firms and International Investment, Innovation and Digital Economy, Casual Inference and Machine Learning
 - Field of interest: Mathematical Political Economy, Social Network Analysis
 
-Education experience
+Educations
 ------
 2022.09--present [School of Economics, Nankai University](https://economics.nankai.edu.cn/)  
 
