@@ -209,16 +209,25 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  reports:
     output: true
     permalink: /:collection/:path/
-  talks:
+  notes:
+    output: true
+    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  writing:
+    output: true
+    permalink: /:collection/:path/
+  blogs:
+    output: true
+    permalink: /:collection/:path/
+  videos:
     output: true
     permalink: /:collection/:path/
 
@@ -243,15 +252,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -261,21 +261,57 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _reports
   - scope:
       path: ""
-      type: portfolio
+      type: reports
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _writing
+  - scope:
+      path: ""
+      type: writing
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _blogs
+  - scope:
+      path: ""
+      type: blogs
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _videos
   - scope:
       path: ""
-      type: talks
+      type: videos
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
