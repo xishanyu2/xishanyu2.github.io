@@ -1,9 +1,12 @@
 ---
-title: 'MPE'
-date: 2024-09-08
+title: "mpe"
+collection: writing
+type: "mind"
 permalink: /writing/mpe
+date: 2024-09-08
 ---
 
+This is a description of a teaching experience. You can use markdown like any other post.
 
 Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(determinant, matrix, linear equations, eigenvalue and eigenvector, quadratic form)
 # PART 1 引论与基础
