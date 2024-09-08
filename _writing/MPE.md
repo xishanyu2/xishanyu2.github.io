@@ -5,11 +5,11 @@ permalink: /writing/mpe
 tags:
 ---
 
-description
+An ideal knowledge framework for Mathematical Political Economy.
 
 Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(determinant, matrix, linear equations, eigenvalue and eigenvector, quadratic form)  
 
-# PART 1 引论与基础  
+## PART 1 引论与基础  
 
 1. 正名：作为科学的马克思经济学
 	- 古典与现代经济学：演化、分野与嬗变
@@ -30,7 +30,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 霍金斯-西蒙条件
 	- 斯拉法体系  
 
-# Part 2 主体内容  
+## Part 2 主体内容  
 
 5. 线性生产理论I
 	- 价值价格理论
@@ -41,14 +41,14 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 马克思基本定理
 8. 转形问题ABC  
 
-# Part 3 放宽基本假定  
+## Part 3 放宽基本假定  
 
 9. 固定资本
 10. 联合生产
 11. 异质劳动
 12. 技术进步  
 
-# Part 4 前沿专题  
+## Part 4 前沿专题  
 
 13. 宏观经济增长、波动与周期
 	- 卡莱斯基增长模型
