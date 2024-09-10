@@ -1,7 +1,7 @@
 ---
 title: Some useful websites and databases
 date: 2024-09-09
-permalink: /bloge/webs
+permalink: /blogs/webs
 tags:
 ---
 
@@ -30,10 +30,11 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 4. 研究用：中国工业企业数据库、中国海关数据、工商企业注册数据库、企业税收调查数据库、SDC、BvD...
 # Thesis
 ## Searching
- [知网](https://www.cnki.net/)，[PubScholar](https://pubscholar.cn/)，谷歌学术，[万方](https://www.wanfangdata.com.cn/index.html)，[维普](https://lib.cqvip.com/)，[Web of Science](https://www.webofscience.com)，[Sage](https://journals.sagepub.com/)，[Taylor&Francis](https://www.tandfonline.com/)
+ [知网](https://www.cnki.net/)，[PubScholar](https://pubscholar.cn/)，谷歌学术，[万方](https://www.wanfangdata.com.cn/index.html)，[维普](https://lib.cqvip.com/)，[Web of Science](https://www.webofscience.com)，[Sage](https://journals.sagepub.com/)，[Taylor&Francis](https://www.tandfonline.com/)  
   [Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)
 ## Journals
-[经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[中国工业经济](https://ciejournal.ajcass.com/)...
+[经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[中国工业经济](https://ciejournal.ajcass.com/)...  
+
 [南开经济研究](https://nkes.nankai.edu.cn/#/)，[南开管理评论](https://nbr.nankai.edu.cn/nkglpl/home)，[政治经济学季刊](https://peqq.cbpt.cnki.net/portal/journal/portal/client/index)
 ## Writing
 [Overlea](https://www.overleaf.com/)，[SimpleTex](https://simpletex.cn/)，AxMath/MathType，[QuillBot](https://quillbot.com/)，[grammarly](https://www.grammarly.com/)，[DeepL](https://www.deepl.com/zh/translator)...
