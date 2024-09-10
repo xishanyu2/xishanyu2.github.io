@@ -12,17 +12,17 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 # Ebooks
 
 1. 搜索引擎：百度、必应、谷歌
-> 更推荐Bing，Bing比百度更干净、检索效率更高，这和PageRank算法有关。
-> warning：如果是Bilibili专栏里的百度网盘链接下载了也是有密码的，直接避雷。
+> 更推荐Bing，Bing比百度更干净、检索效率更高，这和PageRank算法有关。  
+> warning：如果是Bilibili专栏里的百度网盘链接下载了也是有密码的，直接避雷。  
 2. 微信公众号、QQ群
 3. Zlibrary（需要魔法），[Anna’s Archive](https://annas-archive.org/)
 > Zlibrary上部分书可能因为版权问题无法下载，但只要能搜到就能在Anna库下载\[doge]
 4. [FreeMbook](https://freembook.com/)+本卡风公众号+书籍解压合成工具包
-> 使用[图书搜索联盟](http://www.ucdrs.superlib.net/)/[读秀](http://www.duxiu.com)可能需要搭配油猴插件才能显示SS号。
-> FreeMbooks搜书名、ISBN基本也能获取SS ID
-> 之前还可以使用百度秒传码链接转存，但现在这种方法不行了。
-> 此方法能够基本能搜到2022年前的所有书。
-> 具体可参考[本卡风](https://bkfeng.top/)文章
+> 使用[图书搜索联盟](http://www.ucdrs.superlib.net/)/[读秀](http://www.duxiu.com)可能需要搭配油猴插件才能显示SS号。  
+> FreeMbooks搜书名、ISBN基本也能获取SS ID  
+> 之前还可以使用百度秒传码链接转存，但现在这种方法不行了。  
+> 此方法能够基本能搜到2022年前的所有书。  
+> 具体可参考[本卡风](https://bkfeng.top/)文章  
 5. [皮书](https://www.pishu.com.cn/skwx_ps/database?SiteID=14)，[超星电子书](http://www.sslibrary.com/)
 6. [Springer](https://link.springer.com/)，[WILEY](https://onlinelibrary.wiley.com/)，[Routledge](https://www.routledge.com/?srsltid=AfmBOoqwd-cmjDotzwxDKtM_jqnlQfo2i0tt_D5JjXsUlkUs0f3ddfHH)...
 > 
