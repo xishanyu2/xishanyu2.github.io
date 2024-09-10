@@ -42,7 +42,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 
  [知网](https://www.cnki.net/)，[PubScholar](https://pubscholar.cn/)，[万方](https://www.wanfangdata.com.cn/index.html)，[维普](https://lib.cqvip.com/)  
  谷歌学术，[Web of Science](https://www.webofscience.com)，[Sage](https://journals.sagepub.com/)，[Taylor&Francis](https://www.tandfonline.com/)  
-  [Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)
+ [Paper Digest](https://www.paperdigest.org/)，[Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)
 
 ## Journals
 
