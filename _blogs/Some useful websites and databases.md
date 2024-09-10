@@ -32,7 +32,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 # Data
 
 1. 金融类：[东方财富Choice](https://www.eastmoney.com/)，[同花顺iFinD](https://www.10jqka.com.cn/)，[万德Wind](https://www.wind.com.cn/)
-2. 经济类：[国泰安CSMAR](https://data.csmar.com/)，[CNRDS](https://www.cnrds.com/Home/Login)，[CEIC](https://insights.ceicdata.com.cn/login)，[Resset](https://www.resset.cn/databases),
+2. 经济类：[国泰安CSMAR](https://data.csmar.com/)，[CNRDS](https://www.cnrds.com/Home/Login)，[CEIC](https://insights.ceicdata.com.cn/login)，[Resset](https://www.resset.cn/databases)
 3. 学校买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[EMIS](https://www.emis.cn/zh-hant)
 4. 研究用：中国工业企业数据库、中国海关数据、工商企业注册数据库、企业税收调查数据库、SDC、BvD...
 
@@ -55,8 +55,8 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 
 # Scholars
 
-1. 微观类：[聂辉华](http://www.niehuihua.com/)，
-2. 宏观类：[刘岩](http://www.liuyanecon.com/)，
+1. 微观类：[聂辉华](http://www.niehuihua.com/)
+2. 宏观类：[刘岩](http://www.liuyanecon.com/)
 3. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[徐轶青](https://yiqingxu.org/)，[司继春](http://www.sijichun.pro/)，[徐嘉烨](https://jiayexu.quarto.pub/)
 4. 政经类：[陈伟凯](https://weikaichen.gitlab.io/)，[松尾匡](https://matsuo-tadasu.ptu.jp/)
 
