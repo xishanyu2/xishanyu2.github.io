@@ -1,5 +1,5 @@
 ---
-title: MPE
+title: What is MPE?
 date: 2024-09-08
 permalink: /writing/mpe
 tags:
