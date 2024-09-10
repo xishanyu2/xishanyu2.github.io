@@ -46,7 +46,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 
 ## Journals
 
-[经济研究](http://www.erj.cn/cn/default.aspx)，[管f理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[中国工业经济](https://ciejournal.ajcass.com/)...  
+[经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[中国工业经济](https://ciejournal.ajcass.com/)...  
 [南开经济研究](https://nkes.nankai.edu.cn/#/)，[南开管理评论](https://nbr.nankai.edu.cn/nkglpl/home)，[政治经济学季刊](https://peqq.cbpt.cnki.net/portal/journal/portal/client/index)
 
 ## Writing
