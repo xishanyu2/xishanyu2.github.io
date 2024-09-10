@@ -15,7 +15,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 数理政治经济学简史
 2. 剑桥资本争论
 	- 技术再转折
-3. 线性代数进阶
+3. 线性代数入门
 	- 线性代数的几何意义
 	- 线性映射与线性空间
 		- 线性代数基本定理
