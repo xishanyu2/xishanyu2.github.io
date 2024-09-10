@@ -2,7 +2,6 @@
 title: What is MPE?
 date: 2024-09-08
 permalink: /writing/mpe
-tags:
 ---
 
 An ideal knowledge framework for Mathematical Political Economy.
