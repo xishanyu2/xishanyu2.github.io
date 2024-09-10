@@ -2,7 +2,6 @@
 title: Some useful websites and databases
 date: 2024-09-10
 permalink: /blogs/webs
-tags:
 ---
 
 This blog is written in [Obsidian](https://obsidian.md/) , a private and flexible writing app that adapts to the way you think.
