@@ -52,7 +52,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 ## Part 4 前沿专题  
 
 13. 宏观经济增长、波动与周期
-	- 卡莱斯基增长模型
+	- 卡莱斯基模型
 	- 最优经济增长理论
 	- 古德温模型
 14. 地租理论
