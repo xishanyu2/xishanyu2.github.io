@@ -36,16 +36,18 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 6. 线性生产理论II
 	- 再生产理论
 7. 剥削理论
-	- 置盐定理
 	- 马克思基本定理
-8. 转形问题ABC  
+8. 转形问题ABC
+	- 两个总量一致
 
 ## Part 3 放宽基本假定  
 
-9. 固定资本
-10. 联合生产
-11. 异质劳动
-12. 技术进步  
+9. 技术进步
+	- 置盐定理
+11. 固定资本
+12. 联合生产
+	- 斯蒂德曼诘难
+13. 异质劳动  
 
 ## Part 4 前沿专题  
 
