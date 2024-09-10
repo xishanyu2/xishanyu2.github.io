@@ -21,7 +21,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 > Zlibrary上部分书可能因为版权问题无法下载，但只要能搜到就能在Anna库下载\[doge]
 4. [FreeMbook](https://freembook.com/)+本卡风公众号+书籍解压合成工具包
 > 使用[图书搜索联盟](http://www.ucdrs.superlib.net/)/[读秀](http://www.duxiu.com)可能需要搭配油猴插件才能显示SS号。  
-> FreeMbooks搜书名、ISBN基本也能获取SS ID  
+> FreeMbook搜书名、ISBN基本也能获取SS ID  
 > 之前还可以使用百度秒传码链接转存，但现在这种方法不行了。  
 > 此方法能够基本能搜到2022年前的所有书。  
 > 具体可参考[本卡风](https://bkfeng.top/)文章
