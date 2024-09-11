@@ -1,9 +1,9 @@
 ---
 title: References to MPE
-date: 2024-09-10
+date: 2024-09-11
 permalink: /writing/refs
 ---
 
 More enjoyable than reading is persuading others to read.
 
-Syllabus of MPE in NKU: [undergraduate](http://xishanyu2.github.io/files/MPE_syllabus_undergraduate.pdf)，[master](http://xishanyu2.github.io/files/MPE_syllabus_master.pdf)，[doctor](http://xishanyu2.github.io/files/MPE_syllabus_doctor.pdf)
+Syllabus of MPE in NKU: [undergraduate](http://xishanyu2.github.io/files/MPE_syllabus_undergraduate.pdf), [master](http://xishanyu2.github.io/files/MPE_syllabus_master.pdf), [doctor](http://xishanyu2.github.io/files/MPE_syllabus_doctor.pdf)
