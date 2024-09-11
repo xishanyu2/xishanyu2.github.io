@@ -14,6 +14,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 古典与现代经济学：演化、分野与嬗变
 	- 数理政治经济学简史
 2. 剑桥资本争论
+	- 工资利润曲线
 	- 技术再转折
 3. 线性代数入门
 	- 线性代数的几何意义
