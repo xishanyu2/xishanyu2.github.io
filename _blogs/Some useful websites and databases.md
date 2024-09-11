@@ -6,10 +6,10 @@ permalink: /blogs/webs
 
 This blog is written in [Obsidian](https://obsidian.md/) , a private and flexible writing app that adapts to the way you think.
 
-信息检索能力是当代大学生不可或缺的素养，在人手一台或几台电子设备、无纸化学习蔚然成风的今天，电子书不仅能很好的满足学习需求，极大地节约了时间和金钱成本；
+信息检索能力是当代大学生不可或缺的素养，在人手一台或几台电子设备、无纸化学习蔚然成风的今天，电子书不仅能很好的满足学习需求，极大地节约了时间和金钱成本；而文献检索、管理与运用更是每一个科研人必备的一项技能。
 > Disclaimer: 支持正版打击盗版，有能力应该支持作者的劳动成果!
 
-而文献检索、管理与运用更是每一个科研人必备的一项技能。下面列出了一些常用方法与网站，覆盖电子书、数据库、论文、学者个人主页、学习视频等方面内容。
+下面列出了一些常用方法与网站，覆盖电子书、数据库、论文、学者个人主页、学习视频等方面内容。
 
 # Ebooks
 
@@ -17,7 +17,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 > 更推荐Bing，Bing比百度更干净、检索效率更高，这和PageRank算法有关。  
 > warning：如果是Bilibili专栏里的百度网盘链接下载了也是有密码的，直接避雷。
 2. 微信公众号、QQ群
-3. Zlibrary（需要魔法），[Anna’s Archive](https://annas-archive.org/)
+3. [Zlibrary](https://zh.singlelogin.re/)（需要魔法），[Anna’s Archive](https://annas-archive.org/)
 > Zlibrary上部分书可能因为版权问题无法下载，但只要能搜到就能在Anna库下载\[doge]
 4. [FreeMbook](https://freembook.com/)+本卡风公众号+书籍解压合成工具包
 > 使用[图书搜索联盟](http://www.ucdrs.superlib.net/)/[读秀](http://www.duxiu.com)可能需要搭配油猴插件才能显示SS号。  
@@ -40,12 +40,15 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 ## Searching
 
  [知网](https://www.cnki.net/)，[PubScholar](https://pubscholar.cn/)，[万方](https://www.wanfangdata.com.cn/index.html)，[维普](https://lib.cqvip.com/)  
+ 
  谷歌学术，[Web of Science](https://www.webofscience.com)，[Sage](https://journals.sagepub.com/)，[Taylor&Francis](https://www.tandfonline.com/)  
+ 
  [Paper Digest](https://www.paperdigest.org/)，[Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)
 
 ## Journals
 
 [经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[中国工业经济](https://ciejournal.ajcass.com/)...  
+
 [南开经济研究](https://nkes.nankai.edu.cn/#/)，[南开管理评论](https://nbr.nankai.edu.cn/nkglpl/home)，[政治经济学季刊](https://peqq.cbpt.cnki.net/portal/journal/portal/client/index)
 
 ## Writing
