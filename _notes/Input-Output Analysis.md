@@ -1,5 +1,5 @@
 ---
-title: "Input-Output Analysis"
-permalink: '/files/Input_Output_Analysis.pdf'
+title: "[Input-Output Analysis](https://xishanyu2.github.io/files/Input_Output_Analysis.pdf)"
+
 ---
 
