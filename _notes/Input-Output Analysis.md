@@ -1,5 +1,5 @@
 ---
 title: Input-Output Analysis
-permalink: /files/MPE_syllabus_doctor.pdf
+permalink:/files/MPE_syllabus_doctor.pdf
 Latest
 ---
