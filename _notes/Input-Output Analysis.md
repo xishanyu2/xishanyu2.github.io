@@ -1,4 +1,5 @@
 ---
 title: Input-Output Analysis
-permalink: /files/Input_Output_Analysis.pdf
+permalink: MPE_syllabus_doctor.pdf
+Latest
 ---
