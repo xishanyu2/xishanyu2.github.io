@@ -8,4 +8,4 @@ More enjoyable than reading is persuading others to read.
 
 Syllabus of MPE in NKU: [undergraduate](http://xishanyu2.github.io/files/MPE_syllabus_undergraduate.pdf), [master](http://xishanyu2.github.io/files/MPE_syllabus_master.pdf), [doctor](http://xishanyu2.github.io/files/MPE_syllabus_doctor.pdf)
 
-[日本学者](https://xishanyu2.github.io/writing/refs/jp)，[欧美学者](https://xishanyu2.github.io/writing/refs/wea)，[国内学者](https://xishanyu2.github.io/writing/refs/cn)
+[日本学者](https://xishanyu2.github.io/writing/refs/jp)，[欧美学者](https://xishanyu2.github.io/writing/refs/ea)，[国内学者](https://xishanyu2.github.io/writing/refs/cn)
