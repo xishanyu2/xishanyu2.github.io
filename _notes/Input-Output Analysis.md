@@ -1,4 +1,5 @@
 ---
 title: "Input-Output Analysis"
-permalink: /files/Input_Output_Analysis.pdf
+paperurl: 'http://xishanyu2.github.io/files/Input_Output_Analysis.pdf'
 ---
+
