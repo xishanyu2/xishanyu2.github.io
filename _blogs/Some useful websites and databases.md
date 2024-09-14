@@ -26,7 +26,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 > 此方法能够基本能搜到2022年前的所有书。  
 > 具体可参考[本卡风](https://bkfeng.top/)文章。
 5. [皮书](https://www.pishu.com.cn/skwx_ps/database?SiteID=14)，[超星电子书](http://www.sslibrary.com/)
-6. [Springer](https://link.springer.com/)，[WILEY](https://onlinelibrary.wiley.com/)，[Routledge](https://www.routledge.com/?srsltid=AfmBOoqwd-cmjDotzwxDKtM_jqnlQfo2i0tt_D5JjXsUlkUs0f3ddfHH)...
+6. [Springer](https://link.springer.com/)，[Wiley](https://onlinelibrary.wiley.com/)，[Routledge](https://www.routledge.com/?srsltid=AfmBOoqwd-cmjDotzwxDKtM_jqnlQfo2i0tt_D5JjXsUlkUs0f3ddfHH)...
 
 # Data
 
