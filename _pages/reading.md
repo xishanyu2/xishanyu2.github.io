@@ -1,9 +1,9 @@
 ---
-permalink: /notes/
-title: "Notes"
+permalink: /reading/
+title: "Reading"
 author_profile: true
 redirect_from: 
-  - /notes
+  - /reading
 ---
 
 Seven times have I despised my soul:  
