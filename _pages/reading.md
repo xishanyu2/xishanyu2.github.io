@@ -10,6 +10,7 @@ Seven times have I despised my soul:
 <div style="text-align: right;">
 ——Kahlil Gibran
 </div>  
+
 The first time when I saw her being meek that she might attain height.  
 
 The second time when I saw her limping before the crippled.  
