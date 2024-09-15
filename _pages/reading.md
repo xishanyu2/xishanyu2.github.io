@@ -6,4 +6,4 @@ redirect_from:
   - /reading
 ---
  
- [CAPITAL]()
+ <br>[CAPITAL]()
