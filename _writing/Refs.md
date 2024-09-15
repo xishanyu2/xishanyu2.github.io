@@ -12,6 +12,6 @@ Syllabus of MPE in NKU: [undergraduate](http://xishanyu2.github.io/files/MPE_syl
 
 WeChat Official Accounts: iMarx、肆壹肆马研室、政治经济学新时空、武大政经、南开大学经济学系
 
-Bilibili Content Creater: 南开张俊山、Springfield1999、MarxistQ、金钗土间埋、老放头_、两粒车厘子
+Bilibili Content Creaters: 南开张俊山、Springfield1999、MarxistQ、金钗土间埋、老放头_、两粒车厘子
 
 Zhihu: 
