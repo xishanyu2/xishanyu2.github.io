@@ -33,7 +33,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 1. 金融类：[东方财富Choice](https://www.eastmoney.com/)，[同花顺iFinD](https://www.10jqka.com.cn/)，[万德Wind](https://www.wind.com.cn/)
 2. 经济类：[国泰安CSMAR](https://data.csmar.com/)，[CNRDS](https://www.cnrds.com/Home/Login)，[CEIC](https://insights.ceicdata.com.cn/login)，[Resset](https://www.resset.cn/databases)
 3. 学校买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[EMIS](https://www.emis.cn/zh-hant)
-4. 研究用：中国工业企业数据库、中国海关数据、工商企业注册数据库、企业税收调查数据库、SDC、BvD...
+4. 研究用：工企、海关、工商注册、税调、SDC、BvD...
 
 # Thesis
 
@@ -44,6 +44,8 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
  [谷歌学术](https://scholar.dosf.top/)，[Web of Science](https://www.webofscience.com)，[Sage](https://journals.sagepub.com/)，[Taylor&Francis](https://www.tandfonline.com/)  
  
  [Paper Digest](https://www.paperdigest.org/)，[Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)
+
+[ChatGPT](https://chatgpt.com/)，[文心一言](https://yiyan.baidu.com/)，[讯飞星火](https://xinghuo.xfyun.cn/)，[Kimi](https://kimi.moonshot.cn/)，[豆包](https://www.doubao.com/chat/)
 
 ## Journals
 
