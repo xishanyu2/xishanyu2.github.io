@@ -29,4 +29,4 @@ Awards
 
 Contact
 ------
-My email address is <2113133@mail.nankai.edu.cn>. If it can no longer be used, please contact me by <zzynankai@outlook.com>.
+My work email address is <2113133@mail.nankai.edu.cn>. If it can no longer be used, please contact me by <zzynankai@outlook.com>.
