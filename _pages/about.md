@@ -23,8 +23,9 @@ Educations
 
 Awards
 ------
+2023-2024 Scholarship of Academic Excellence
 
-
+2021-2022 Scholarship of Academic Excellence
 
 Contact
 ------
