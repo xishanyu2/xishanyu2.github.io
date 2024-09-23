@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal homepage! I'm Zhenyu Zhao, a fourth grade undergraduate student at [Nankai University](https://www.nankai.edu.cn/). I'm trying to obtain the qualification for postgraduate recommendation from [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm), majoring in World Economy. I wholeheartedly concur that knowledge should be disseminated. Thus, the purpose of this website is to facilitate intellectual discussion and collaboration. Apart from that, I wish to contribute marginally to academia while conducting worthwhile research.
+Welcome to my personal homepage! I'm Zhenyu Zhao, a fourth grade undergraduate student at [Nankai University](https://www.nankai.edu.cn/). I have obtained the qualification for postgraduate recommendation from [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm), majoring in World Economy. I wholeheartedly concur that knowledge should be disseminated. Thus, the purpose of this website is to facilitate intellectual discussion and collaboration. Apart from that, I wish to contribute marginally to academia while conducting worthwhile research.
 
 Research
 ------
