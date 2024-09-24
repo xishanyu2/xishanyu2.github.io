@@ -32,7 +32,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 
 1. 金融类：[东方财富Choice](https://www.eastmoney.com/)，[同花顺iFinD](https://www.10jqka.com.cn/)，[万德Wind](https://www.wind.com.cn/)
 2. 经济类：[国泰安CSMAR](https://data.csmar.com/)，[CNRDS](https://www.cnrds.com/Home/Login)，[CEIC](https://insights.ceicdata.com.cn/login)，[Resset](https://www.resset.cn/databases)
-3. 学校买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[EMIS](https://www.emis.cn/zh-hant)
+3. 学校买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[中经网]([https://www.emis.cn/zh-hant](https://db.cei.cn/jsps/Home))，青梨，FactSet...
 4. 研究用：工企、海关、工商注册、税调、SDC、BvD...
 
 # Thesis
