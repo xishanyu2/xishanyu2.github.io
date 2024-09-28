@@ -24,7 +24,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 		- LU分解
 		- QR分解
 	- 数学工具
-		- Moore-Penrose逆
+		- Moore-Penrose伪逆
 		- Perron-Frobenius定理
 4. 投入产出分析
 	- 霍金斯-西蒙条件
@@ -48,23 +48,30 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 11. 固定资本
 12. 联合生产
 	- 斯蒂德曼诘难
-13. 异质劳动  
+ 	- 世外桃源不可能性
+13. 异质劳动
+    	- 复杂劳动的还原问题
 
 ## Part 4 前沿专题  
 
-13. 宏观经济增长、波动与周期
+13. 马克思宏观经济模型I
 	- 卡莱斯基模型
-	- 最优经济增长理论
+		- Bhaduri-Marglin模型
 	- 古德温模型
-14. 地租理论
-	- 空间政治经济学
-15. 后凯恩斯主义经济学
-	- 存量-流量一致模型
-	- 货币与金融
-16. 余论
-	- 真实竞争理论
-	- 概率方法和经济物理学
+ 	- Foley's资本循环模型
+14. 马克思宏观经济模型II
+	- 最优经济增长理论
+	- 哈罗德-置盐模型
 	- 马克思主义RBC模型
-	- 马克思主义DSGE/异质性主体模型
+	- 马克思主义异质性主体模型
 		- HANK模型
 		- HAM模型
+15. 后凯恩斯主义经济学
+	- 存量-流量一致模型
+	- 明斯基理论
+16. 余论
+	- 大道理论
+ 	- 空间政治经济学
+ 	- 真实竞争理论
+	- 概率方法和经济物理学
+
