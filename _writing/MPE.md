@@ -47,9 +47,9 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 置盐定理
 11. 固定资本
 12. 联合生产
-	- 斯蒂德曼诘难
+	- 斯蒂德曼诘难  
  	- 世外桃源不可能性
-13. 异质劳动
+13. 异质劳动  
     	- 复杂劳动的还原问题
 
 ## Part 4 前沿专题  
@@ -57,7 +57,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 13. 马克思宏观经济模型I
 	- 卡莱斯基模型
 		- Bhaduri-Marglin模型
-	- 古德温模型
+	- 古德温模型  
  	- Foley's资本循环模型
 14. 马克思宏观经济模型II
 	- 最优经济增长理论
@@ -70,8 +70,8 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 存量-流量一致模型
 	- 明斯基理论
 16. 余论
-	- 大道理论
- 	- 空间政治经济学
- 	- 真实竞争理论
+	- 大道理论  
+ 	- 空间政治经济学  
+ 	- 真实竞争理论  
 	- 概率方法和经济物理学
 
