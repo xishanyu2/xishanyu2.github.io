@@ -8,6 +8,4 @@ redirect_from:
 
  <br>[Input-Output Analysis](http://xishanyu2.github.io/files/Input_Output_Analysis.pdf)
 
- <br>[Multinational Corporations and Foreign Direct Investment]()
-
  <br>[ The History of Foreign Economic Thoughts]()
