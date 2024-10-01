@@ -6,4 +6,4 @@ redirect_from:
   - /reading
 ---
  
- <br>[CAPITAL]()
+ <br>[马克思主义经济学（第4版）_大西広]()
