@@ -10,6 +10,6 @@ redirect_from:
 
  <br>[The History of Foreign Economic Thoughts](http://xishanyu2.github.io/files/The_History_of_Foreign_Economic_Thoughts.pdf)
 
- <br>[Advanced Microeconomics]()
+ <br>[Machine Learning]()
 
- <br>[Advanced Econometrics]()
+ <br>[Social Network Analysis]()
