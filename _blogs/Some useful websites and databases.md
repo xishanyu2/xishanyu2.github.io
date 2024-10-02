@@ -66,4 +66,4 @@ This blog is written in [Obsidian](https://obsidian.md/) , a private and flexibl
 
 # Moocs
 
-[超星](https://www.chaoxing.com/)，[爱课程](https://www.icourses.cn/home/)，[MOOC](https://www.icourse163.org/)，[雨课堂](https://www.yuketang.cn/)，[智慧树/知到](https://www.zhihuishu.com/)，[学堂在线](https://www.xuetangx.com/)，[MIT](https://ocw.mit.edu/)，[AEA](https://www.aeaweb.org/)
+[超星](https://www.chaoxing.com/)，[爱课程](https://www.icourses.cn/home/)，[MOOC](https://www.icourse163.org/)，[雨课堂](https://www.yuketang.cn/)，[智慧树/知到](https://www.zhihuishu.com/)，[学堂在线](https://www.xuetangx.com/)，[MIT](https://ocw.mit.edu/)，[AEA](https://www.aeaweb.org/)，[coursera](https://www.coursera.org/)
