@@ -23,11 +23,11 @@ a = b;
 b = t;
 ```
 `C++`里需要一个临时变量，可以看作有三个盒子，先把a中的小球放入t，再把b中的小球放入a，最后把t中原来a的小球放入b，实现两个数的对调。
-```Python
+```
 x,y=y,x
 ```
 `Python`一句话就能写完，又如Hello world程序：
-```C++
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -38,7 +38,7 @@ int main()
 }
 ```
 同样`Python`一句话就能写完：
-```Python
+```
 print("Hello world!")
 ```
 并不是越简单越好，`Python`给我的感觉是更混乱（当然是我学艺不精），`C++`在编程的底层逻辑上更强，所以工科还是先学`C`或`C++`。
@@ -66,11 +66,13 @@ print("Hello world!")
 我现在用`Markdown`和`Marp`取代了`Word`和`PowerPoint`，`Markdown`可在`VS Code`和`Obsidian`里编译，改改就能用`Marp`做slides.
 
 **彩蛋**：不同编程语言注释总结
-```C++
+```
+//C++
 //word里直接加两条斜杠不等于删除
 ```
 
-```Python
+```
+#Python
 #使用一个井字符单行注释
 '''
 使用一对三个英文单引号多行注释
@@ -80,15 +82,17 @@ print("Hello world!")
 """
 ```
 
-```Stata
-* 这样可以注释掉一行
+```
+*Stata
+*这样可以注释掉一行
 reg y $x, r //这样可以在一行后注释
 /*
 这样可以注释一块
 */
 ```
 
-```LATEX
+```
+%LATEX
 %用百分号进行注释
 ```
 [1] [【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  
