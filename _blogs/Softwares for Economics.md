@@ -66,7 +66,7 @@ print("Hello world!")
 
 **地理信息分析**：`ArcGIS`，`GeoDa`...
 
-**文字排版处理**：LaTeX、Markdown、Microsoft Office全家桶、Adobe全家桶
+**文字排版处理**：LaTeX、Markdown、Microsoft Office、Adobe
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
 我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown语法可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
