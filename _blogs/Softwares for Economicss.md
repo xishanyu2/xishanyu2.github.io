@@ -66,7 +66,7 @@ print("Hello world!")
 
 **地理信息分析**：`ArcGIS`，`GeoDa`...
 
-**文字排版处理**：LaTex、Markdown、Microsoft Office全家桶、Adobe全家桶
+**文字排版处理**：LaTeX、Markdown、Microsoft Office全家桶、Adobe全家桶
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
 我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown语法可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
@@ -75,7 +75,7 @@ print("Hello world!")
 **彩蛋**：不同编程语言注释总结
 ```
 //C++
-//word里直接加两条斜杠不等于删除！
+//Word里直接加两条斜杠不等于删除！
 ```
 
 ```
@@ -99,7 +99,7 @@ reg y $x, r //这样可以在一行后注释
 ```
 
 ```
-%LaTex
+%LaTeX
 %用百分号进行注释
 ```
 [1] [【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  
