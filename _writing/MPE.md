@@ -71,7 +71,8 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 明斯基理论
 16. 余论
 	- 大道理论
-	- 空间政治经济学
+	- 空间与地租
+	- 生态马克思主义
 	- 真实竞争理论
 	- 概率方法和经济物理学
 
