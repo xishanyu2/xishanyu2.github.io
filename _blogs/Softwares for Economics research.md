@@ -11,6 +11,8 @@ Economics is a jack of all trades and master of none.
 	<img src='/images/屏幕截图 2024-10-14 161254.png'>
 </div>
 
+---
+
 今天适逢诺贝尔经济学讲公布，虽然和物化不同与宇宙机无关，但21世纪经济研究需要一定的计算和编程能力，下面将盘点经济学都会用到哪些软件:
 
 **编程软件**：`C++`，`Python`，`R`，`Julia`  
