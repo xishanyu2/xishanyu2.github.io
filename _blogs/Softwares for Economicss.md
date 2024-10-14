@@ -1,5 +1,5 @@
 ---
-title: Softwares for Economics students
+title: Softwares for Economics
 date: 2024-10-14
 permalink: /blogs/soft
 ---
@@ -69,7 +69,7 @@ print("Hello world!")
 **文字排版处理**：LaTex、Markdown、Microsoft Office全家桶、Adobe全家桶
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
-我现在用`Markdown`和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；`Markdown`可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
+我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown语法可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
 `Excel`操作可参考我的投入产出笔记^^
 
 **彩蛋**：不同编程语言注释总结
