@@ -23,6 +23,7 @@ int b = 10;
 int t = a;
 a = b;
 b = t;
+
 ```
 `Python`一句话就能写完：
 ```
@@ -43,9 +44,9 @@ int main()
 ```
 print("Hello world!")
 ```
-并不是越简单越好，`Python`给我的感觉是更混乱（当然是我学艺不精），`C++`在编程的底层逻辑上更强，所以工科还是先学`C`或`C++`。
+`Python`给我的感觉是更"混乱"（当然是我学艺不精），`C++`在编程的底层逻辑上更强，所以工科还是先学`C`或`C++`。
 
-踪家峰老师在他的《区域与城市经济学》一书中指出本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`或`R`中精通一种。计算机领域的学者更熟悉`Python`，统计学领域的学折更熟悉`R`[2]，做机器学习也常用`Python`和`R`，但从陈强老师两本书的销量来看可能选择`Python`的更多。
+踪家峰老师在他的《区域与城市经济学》一书中指出本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`或`R`中精通一种。计算机领域的学者更熟悉`Python`，统计学领域的学者更熟悉`R`[2]，做机器学习也常用`Python`和`R`，但从陈强老师两本书的销量来看可能选择`Python`的更多。
 
 `Julia`是由MIT开发的，[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，我最早接触到看陈老师的notes，数理马政经借此做ABM：
 <div align=center>
