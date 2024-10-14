@@ -8,7 +8,7 @@ Economics is a jack of all trades and master of none.
 
 今天尧尧和我分享了一条推文^[1]，正好我之前用过Julia-Pluto；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用Stata，而且他需要提升一些编程能力；恰巧十一期间一位将去北京实习的同学X说他们要用SQL，而我当时做数据也正好涉及到：
 <div align=center>
-	<img src='/images/屏幕截图 2024-10-14 161254.png' width="200">
+	<img src='/images/屏幕截图 2024-10-14 161254.png'>
 </div>
 
 下面将盘点经济学都会用到哪些软件，一言以蔽之，经济学编程软件什么都得会一点，但样样通样样松。
@@ -47,7 +47,7 @@ print("Hello world!")
 
 `Julia`是由MIT开发的，[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，我最早接触到看陈老师的notes，数理马政经借此做ABM：
 <div align=center>
-	<img src='/images/Pasted image 20241014181409.png' width="200">
+	<img src='/images/Pasted image 20241014181409.png'>
 </div>
 
 **经济数据分析**：`Stata`，`SPSS`，`EViews`，`MATLAB`
