@@ -15,6 +15,9 @@ Economics is a jack of all trades and master of none.
 
 **编程软件**：`C++`，`Python`，`R`，`Julia`
  我大一刚入学时（理工科）学的就是`C++`，大二转向（经管类）学的`Python`，致使我一段时间不太适应这种语法转变，例如交换两个数的值：
+ <htmlblock id="blockname"></htmlblock>
+<!-- OR -->
+ <div k-htmlblock="blockname"></div>
 ```C++
 int a = 5;
 int b = 10;
