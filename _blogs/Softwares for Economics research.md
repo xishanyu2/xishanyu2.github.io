@@ -53,6 +53,7 @@ print("Hello world!")
 	<img src='/images/Pasted image 20241014181409.png'>
 </div>
 <br>
+
 **经济数据分析**：`Stata`，`SPSS`，`EViews`，`MATLAB`  
 经济学跑回归当然离不开`Stata`；`SPSS`是统计学上机会使用到，但之后就不太用得到了，更多的是商科和社科做相关分析、因子分析等会用到；`EViews`作为时间序列分析的工具，计量上机时有的老师使用（高级计量2和早些年张晓峒老师出的教科书）；`MATLAB`在经济学数值分析方法课程、高宏DSGE相关部分会用到，美赛通常也是使用`Python`或`MATLAB`。
 
