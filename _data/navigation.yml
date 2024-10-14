@@ -9,10 +9,7 @@ main:
     url: /publications/
 
   - title: "Reports"
-    url: /reports/  
-
-  - title: "Notes"
-    url: /notes/    
+    url: /reports/    
 
   - title: "Teaching"
     url: /teaching/    
@@ -22,6 +19,9 @@ main:
     
   - title: "Writing"
     url: /writing/
+
+  - title: "Notes"
+    url: /notes/  
         
   - title: "Blogs"
     url: /blogs/
