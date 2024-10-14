@@ -23,7 +23,6 @@ int b = 10;
 int t = a;
 a = b;
 b = t;
-
 ```
 `Python`一句话就能写完：
 ```
