@@ -6,7 +6,7 @@ permalink: /blogs/soft
 
 Economics is a jack of all trades and master of none.
 
-今天尧尧和我分享了一条推文[1]，正好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间一位去北京实习的小X说他们要用`SQL`，我当时正在做数据也涉及到：
+今天尧尧和我分享了一条推文[1]，正好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的小X说他们要用`SQL`，我当时正在做数据也涉及到：
 <div align=center>
 	<img src='/images/屏幕截图 2024-10-14 161254.png'>
 </div>
