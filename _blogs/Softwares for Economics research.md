@@ -1,13 +1,15 @@
 ---
 title: Softwares for Economics research
 date: 2024-10-14
-permalink: /blogs/software
+permalink: /blogs/soft
 ---
 
 Economics is a jack of all trades and master of none.
 
 今天尧尧和我分享了一条推文^[1]，正好我之前用过Julia-Pluto；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用Stata，而且他需要提升一些编程能力；恰巧十一期间一位将去北京实习的同学X说他们要用SQL，而我当时做数据也正好涉及到：
-![[屏幕截图 2024-10-14 161254.png]]
+<div align=center>
+	<img src='/images/屏幕截图 2024-10-14 161254.png' width="200">
+</div>
 
 下面将盘点经济学都会用到哪些软件，一言以蔽之，经济学编程软件什么都得会一点，但样样通样样松。
 
@@ -44,7 +46,9 @@ print("Hello world!")
 踪家峰老师在他的《区域与城市经济学》一书中指出本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`或`R`中精通一种。计算机领域的学者更熟悉`Python`，统计学领域的学折更熟悉`R`^[2]，做机器学习也常用`Python`和`R`，但从陈强老师两本书的销量来看可能选择`Python`的更多。
 
 `Julia`是由MIT开发的，[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，我最早接触到看陈老师的notes，数理马政经借此做ABM：
-![[Pasted image 20241014181409.png]]
+<div align=center>
+	<img src='/images/Pasted image 20241014181409.png' width="200">
+</div>
 
 **经济数据分析**：`Stata`，`SPSS`，`EViews`，`MATLAB`
 经济学跑回归当然离不开`Stata`；`SPSS`是统计学上机会使用到，但之后就不太用得到了，更多的是商科和社科做相关分析、因子分析等会用到；`EViews`作为时间序列分析的工具，计量上机时有的老师使用（高级计量2和早些年张晓峒老师出的教科书）；`MATLAB`在经济学数值分析方法课程、高宏DSGE相关部分会用到，美赛通常也是使用`Python`或`MATLAB`。
