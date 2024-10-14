@@ -100,4 +100,4 @@ reg y $x, r //这样可以在一行后注释
 %用百分号进行注释
 ```
 [1] [【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  
-[2]  Stata, R与Python，我该选哪个语言-陈强 [PPT](http://9251154.s21i.faiusr.com/61/ABUIABA9GAAggYjuhAYoqpT3-AM.pdf) [B站视频](https://www.bilibili.com/video/BV1kU4y1t7ZS)
+[2] 陈强-Stata, R与Python，我该选哪个语言 [PPT](http://9251154.s21i.faiusr.com/61/ABUIABA9GAAggYjuhAYoqpT3-AM.pdf) [B站视频](https://www.bilibili.com/video/BV1kU4y1t7ZS)
