@@ -66,8 +66,8 @@ print("Hello world!")
 
 **文字排版处理**：LATEX、Markdown、Microsoft Office全家桶、Adobe全家桶
 
-`TeX Live`+`TeXstudio`，`TeX Live`需要安装太大了，个人更偏好`Overleaf`.  
-我现在用`Markdown`和`Marp`取代了`Word`和`PowerPoint`，`Markdown`可在`VS Code`和`Obsidian`里编译，改改就能用`Marp`做slides.
+`TeX Live`+`TeXstudio`：`TeX Live`需要安装太大了，个人更偏好`Overleaf`.  
+我现在用`Markdown`和`Marp`取代了`Word`和`PowerPoint`，能自动排版，PPT也不是越炫酷越花里胡哨越；，`Markdown`可在`VS Code`和`Obsidian`里编译，改改就能用`Marp`做slides.
 
 **彩蛋**：不同编程语言注释总结
 ```
