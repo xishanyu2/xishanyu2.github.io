@@ -4,7 +4,7 @@ date: 2024-09-10
 permalink: /blogs/webs
 ---
 
-This blog is written in [Obsidian](https://obsidian.md/) , a private and flexible writing app that adapts to the way you think.
+This blog is written in [Obsidian](https://obsidian.md/) , a powerful Markdown editor with amazing community plugins.
 
 信息检索能力是当代大学生不可或缺的素养，在人手一台或几台电子设备、无纸化学习蔚然成风的今天，电子书不仅能很好的满足学习需求，极大地节约了时间和金钱成本；而文献检索、管理与运用更是每一个科研人必备的一项技能。
 > Disclaimer: 支持正版打击盗版，有能力应该支持作者的劳动成果!
