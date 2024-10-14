@@ -45,7 +45,7 @@ print("Hello world!")
 ```
 `Python`给我的感觉是更加混乱（我学艺不精TT），`C++`在编程的底层逻辑上更强，所以工科还是先学`C`或`C++`。
 
-踪家峰老师在他的《区域与城市经济学》一书中指出本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`或`R`中掌握一个。计算机领域的学者更熟悉`Python`，统计学领域的学者更多选择`R`。机器学习常用`Python`和`R`，但从陈强老师两本书的销量来看还是选择`Python`的更多。
+踪家峰老师在他的《区域与城市经济学》一书中指出经济学本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`或`R`中掌握一个。计算机领域的学者更熟悉`Python`，统计学领域的学者更多选择`R`。机器学习常用`Python`和`R`，但从陈强老师两本书的销量来看还是选择`Python`的更多。
 
 `Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，我最早接触到是看陈老师的notes，数理马政经借此做ABM：
 <div align=center>
