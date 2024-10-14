@@ -1,5 +1,5 @@
 ---
-title: Softwares for Economic research
+title: Softwares for Economic students
 date: 2024-10-14
 permalink: /blogs/soft
 ---
