@@ -6,7 +6,7 @@ permalink: /blogs/soft
 
 An economics student is a jack of all trades and master of none.
 
-今天尧尧和我分享了一则推文[1]，恰好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的小X说他们要用`SQL`，我当时正在做数据也涉及到：
+今天尧尧和我分享了一则推文[【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  ，恰好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的小K说他们要用`SQL`，我当时正在做数据也涉及到：
 <div align=center>
 	<img src='/images/Pasted image 20241014161254.png' style="border: 2px solid black;" />
 </div>
@@ -18,32 +18,29 @@ An economics student is a jack of all trades and master of none.
 **编程软件**：`C++`，`Python`，`R`，`Julia`  
  我大一刚入学时（理工科）学的就是`C++`，大二转向（经管类）学的`Python`，致使我一段时间不太适应这种语法转变。例如交换两个数的值，`C++`里需要一个临时变量，可以看作有三个盒子，先把a中的小球放入t，再把b中的小球放入a，最后把t中原来a的小球放入b，实现两个数的对调：
 ```
-int a = 5;
-int b = 10;
-int t = a;
-a = b;
-b = t;
-```
-`Python`一句话就能写完：
-```
-x,y=y,x
-```
-又如Hello world程序：
-```
 #include<iostream>
 using namespace std;
 int main()
 {
-	cout << "Hello world!" << endl;
+	int a = 5;
+	int b = 10;
+	int t = a;
+	a = b;
+	b = t;
+	cout << "a: " << a << endl;
+	cout << "b: " << b << endl;
 	system("pause");
 	return 0;
 }
 ```
-同样`Python`一句话就能写完：
+
+`Python`一句话就能写完：
 ```
-print("Hello world!")
+x,y=5,10
+x,y=y,x
+print(x,y)
 ```
-`Python`给我的感觉是比较混乱（我学艺不精TT），`C++`在编程的底层逻辑上更强，所以工科还是先学`C`或`C++`。
+`Python`更简洁，但`C++`在编程的底层逻辑上更强，所以工科还是先学`C`或`C++`。
 
 踪家峰老师在他的《区域与城市经济学》一书中指出经济学本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`或`R`中掌握一个。计算机领域的学者更熟悉`Python`，统计学领域的学者更熟悉`R`；机器学习两者都可选择，但从陈强老师两本书的销量来看还是选择`Python`的更多。
 
@@ -102,4 +99,3 @@ reg y $x, r //这样可以在一行后注释
 %LaTeX
 %用百分号进行注释
 ```
-[1] [【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  
