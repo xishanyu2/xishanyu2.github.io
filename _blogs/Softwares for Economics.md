@@ -66,7 +66,7 @@ print(x,y)
 **文字排版处理**：LaTeX、Markdown、Microsoft Office、Adobe
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
-我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown语法可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
+我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
 `Excel`操作可参考我的投入产出笔记^^
 
 **彩蛋**：不同编程语言注释总结
@@ -82,7 +82,7 @@ print(x,y)
 使用一对三个英文单引号进行多行注释
 '''
 """
-使用一对三个英文双引号进行多行注释
+或者使用一对三个英文双引号进行多行注释
 """
 ```
 
@@ -97,5 +97,5 @@ reg y $x, r //这样可以在一行后注释
 
 ```
 %LaTeX
-%用百分号进行注释
+%使用百分号进行注释
 ```
