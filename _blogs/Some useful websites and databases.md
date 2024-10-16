@@ -60,7 +60,7 @@ AER，ECTA，JPE，QJE，RES
 
 # Scholars
 
-1. 微观类：[聂辉华](http://www.niehuihua.com/)，[孙祥](https://www.xiangsun.org/)，[郑㼆](https://yingzheng-econ.github.io/)
+1. 微观类：[聂辉华](http://www.niehuihua.com/)，[孙祥](https://www.xiangsun.org/)
 2. 宏观类：[刘岩](http://www.liuyanecon.com/)
 3. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[徐轶青](https://yiqingxu.org/)，[郭峰](http://www.guof1984.net/)，[司继春](http://www.sijichun.pro/)，[徐嘉烨](https://jiayexu.quarto.pub/)
 4. 政经类：[陈伟凯](https://weikaichen.gitlab.io/)，[松尾匡](https://matsuo-tadasu.ptu.jp/)
