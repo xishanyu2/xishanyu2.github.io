@@ -48,7 +48,7 @@ This blog is written in [Obsidian](https://obsidian.md/) , a powerful Markdown e
 AI：[ChatGPT](https://chatgpt.com/)，[文心一言](https://yiyan.baidu.com/)，[讯飞星火](https://xinghuo.xfyun.cn/)，[Kimi](https://kimi.moonshot.cn/)，[豆包](https://www.doubao.com/chat/)  
 
 ## Journals
-美国经济评论（American Economic Review, AER），计量经济学（Econometrica, ECTA），政治经济学杂志（Journal of Political Economy, JPE），经济学季刊（Quarterly Journal of Economics, QJE），经济研究评论（Review of Economic Studies, RES）  
+AER，ECTA，JPE，QJE，RES  
 
 [经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[中国工业经济](https://ciejournal.ajcass.com/)...  
 
