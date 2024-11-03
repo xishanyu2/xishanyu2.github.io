@@ -44,7 +44,7 @@ print(x,y)
 
 踪家峰老师在他的《区域与城市经济学》一书中指出经济学本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`和`R`中掌握一个。计算机领域的学者更熟悉`Python`，统计学领域的学者更熟悉`R`；机器学习两者都可选择，但从陈强老师两本书的销量来看还是选择`Python`的更多。
 
-`Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，近年来出了用`Python`、`R`、`Julia`实现伍德里奇计量经济学的书 weblink [weblink](http://www.upfie.net/)：
+`Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，近年来出了用`Python`、`R`、`Julia`实现伍德里奇计量经济学的书 [weblink](http://www.upfie.net/)：
 <div align=center>
 	<img src='/images/Pasted image 20241023091528.png' style="border: 2px solid black;" />
 </div>
