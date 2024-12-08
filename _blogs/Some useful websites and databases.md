@@ -56,7 +56,7 @@ AER，ECTA，JPE，QJE，RES
 
 ## Writing
 
-[Overleaf](https://www.overleaf.com/)，[SimpleTex](https://simpletex.cn/)，AxMath/MathType，[QuillBot](https://quillbot.com/)，[Grammarly](https://www.grammarly.com/)，[DeepL](https://www.deepl.com/zh/translator)...
+[Overleaf](https://www.overleaf.com/)，[SimpleTex](https://simpletex.cn/)，AxMath/MathType，[QuillBot](https://quillbot.com/)，[Grammarly](https://www.grammarly.com/)，[DeepL](https://www.deepl.com/zh/translator)，[Kagi Translate](https://translate.kagi.com/)...
 
 # Scholars
 
