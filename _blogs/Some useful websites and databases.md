@@ -50,9 +50,9 @@ AI：[ChatGPT](https://chatgpt.com/)，[文心一言](https://yiyan.baidu.com/)�
 ## Journals
 AER，ECTA，JPE，QJE，RES  
 
-[经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[经济学（季刊）](https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm)，[中国工业经济](https://ciejournal.ajcass.com/)...  
+[经济研究](http://www.erj.cn/cn/default.aspx)，[管理世界](http://www.mwm.net.cn/web/)，[世界经济](https://manu30.magtech.com.cn/sjjj/CN/home)，[经济学（季刊）](https://www.nsd.pku.edu.cn/cbw/jjxjk/index.htm)，[中国工业经济](https://ciejournal.ajcass.com/)  
 
-[南开经济研究](https://nkes.nankai.edu.cn/#/)，[南开管理评论](https://nbr.nankai.edu.cn/nkglpl/home)，[政治经济学季刊](https://peqq.cbpt.cnki.net/portal/journal/portal/client/index)
+[南开经济研究](https://nkes.nankai.edu.cn/#/)，[南开管理评论](https://nbr.nankai.edu.cn/nkglpl/home)，[政治经济学季刊](https://peqq.cbpt.cnki.net/portal/journal/portal/client/index)...
 
 ## Writing
 
