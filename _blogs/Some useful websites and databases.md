@@ -64,7 +64,7 @@ AER，ECTA，JPE，QJE，RES
 2. 宏观类：[刘岩](http://www.liuyanecon.com/)
 3. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[徐轶青](https://yiqingxu.org/)，[司继春](http://www.sijichun.pro/)
 4. ML：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[郭峰](http://www.guof1984.net/)
-5. 政经类：[陈伟凯](https://weikaichen.gitlab.io/)，[松尾匡](https://matsuo-tadasu.ptu.jp/)，[MarxistQ](https://qwaeng.github.io/)
+5. 政经类：[陈伟凯](https://weikaichen.gitlab.io/)，[松尾匡](https://matsuo-tadasu.ptu.jp/)，[科克肖特](https://paulcockshott.wordpress.com/)，[MarxistQ](https://qwaeng.github.io/)
 
 # Moocs
 
