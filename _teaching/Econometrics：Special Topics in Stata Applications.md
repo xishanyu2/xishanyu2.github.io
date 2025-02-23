@@ -1,9 +1,9 @@
 ---
 title: "Econometrics：Special Topics in Stata Applications"
 collection: teaching
-type: "Undergraduate course"
+type: "A.P. Pin You"
 permalink: /teaching/stata
-venue: "A.P. Pin You"
+venue: "undergraduate course"
 date: 2025-01-01
 location: ""
 ---
