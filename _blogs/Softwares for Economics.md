@@ -58,7 +58,16 @@ print(x,y)
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
 我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
-`Excel`操作可参考我的投入产出笔记^^
+`Excel`在投入产出中的操作主要函数有：
+
+```
+1.矩阵乘法（MMULT）：函数——>数学和三角函数(Maths & Trig)——>MMULT，参数array1选择左乘的矩阵，array2选定右乘的矩阵；
+函数嵌套：MMULT(MMULT(A, B),C)等价于MMULT(A,MMULT(B,C))
+2.矩阵转置（TRANSPOSE）：Excel粘贴时能实现行/列向量、矩阵的转置；
+3.矩阵求逆（MINVERS）
+3.固定行/列（$）：在字母前加$表示固定列只改变行的位置，在数字前加$表示固定行只改变列的位置；
+4.条件语句（IF）：IF(logical_test,value_if true,value_if false)
+```
 
 **彩蛋**：不同编程语言注释总结
 ```
