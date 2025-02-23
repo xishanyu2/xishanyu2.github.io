@@ -1,9 +1,9 @@
 ---
 title: Econometrics：Special Topics in Stata Applications
-permalink: /ta/stata
+permalink: /teaching/stata
 ---
 
-2025 Spring
+2025 Spring as a teaching assistant
 
 1 Stata 入门专题  
 2 回归分析专题：一元线性回归模型  
