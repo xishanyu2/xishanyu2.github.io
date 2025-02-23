@@ -57,7 +57,8 @@ print(x,y)
 **文字排版处理**：LaTeX、Markdown、Microsoft Office、Adobe
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
-我现在用Markdown和`Marp`取代了`Word`和`PowerPoint`，能实现自动排版；Markdown可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
+Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等；可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
+
 `Excel`在投入产出中的操作主要有：
 
 ```
