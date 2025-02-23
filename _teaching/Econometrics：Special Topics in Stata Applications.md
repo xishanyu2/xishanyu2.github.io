@@ -8,7 +8,7 @@ date: 2025-01-01
 location: ""
 ---
 
-**As a teaching assistant**, please contact me in Feishu.
+**As a teaching assistant**.
 
 [Syllabus](http://xishanyu2.github.io/files/《计量经济学：Stata实验专题》教学大纲.pdf)
 
