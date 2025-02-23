@@ -1,5 +1,6 @@
 ---
 title: Econometrics：Special Topics in Stata Applications
+date: 
 permalink: /teaching/stata
 ---
 
