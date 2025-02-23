@@ -39,7 +39,7 @@ print(x,y)
 
 踪家峰老师在他的《区域与城市经济学》一书中指出经济学本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`和`R`中掌握一个。计算机领域的学者更熟悉`Python`，统计学领域的学者更熟悉`R`；机器学习两者都可选择，但从陈强老师两本书的销量来看还是选择`Python`的更多。
 
-`Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，近年来出了用`Python`、`R`、`Julia`实现伍德里奇计量经济学的书 [weblink](http://www.upfie.net/)：
+`Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，近年来出了用`Python`、`R`、`Julia`实现伍德里奇计量经济学的 [书](http://www.upfie.net/)：
 
 **经济数据分析**：`Stata`，`SPSS`，`EViews`，`MATLAB`  
 经济学跑回归离不开`Stata`，其重要性不言自明；  
@@ -57,7 +57,7 @@ print(x,y)
 **文字排版处理**：LaTeX、Markdown、Microsoft Office、Adobe
 
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
-Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等；可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
+Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等；可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides [Awesome-Marp](https://github.com/favourhong/Awesome-Marp).  
 
 **附录1**：`Excel`在投入产出中的操作主要有：
 
