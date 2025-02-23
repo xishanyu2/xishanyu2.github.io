@@ -59,7 +59,7 @@ print(x,y)
 `TeX Live`+`TeXstudio`：需要配环境且`TeX Live`太大了，个人更偏好`Overleaf`.  
 Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等；可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.  
 
-`Excel`在投入产出中的操作主要有：
+**附录1**：`Excel`在投入产出中的操作主要有：
 
 ```
 1.矩阵乘法（MMULT）：函数——>数学和三角函数(Maths & Trig)，array1、array2分别选择左乘右乘的矩阵
@@ -70,7 +70,7 @@ Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等
 6.条件语句（IF）：IF(logical_test,value_if true,value_if false)
 ```
 
-**彩蛋**：不同编程语言注释总结
+**附录2**：不同编程语言注释总结
 ```
 //C++
 //Word里直接加两条斜杠不等于删除！
