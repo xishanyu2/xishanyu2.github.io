@@ -8,7 +8,7 @@ date: 2025-01-01
 location: ""
 ---
 
-As a teaching assistant
+**As a teaching assistant**
 
 [Lecture 1]()
 
