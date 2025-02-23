@@ -6,7 +6,7 @@ permalink: /blogs/soft
 
 An economics student is a jack of all trades and master of none.
 
-今天尧尧和我分享了一则推文[【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  ，恰好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的小K说他们要用`SQL`。
+今天尧尧和我分享了一则推文[【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  ，恰好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的小K说他们要会`SQL`。
 
 适逢今天诺贝尔经济学奖公布，虽然和物化不同与AI无关，但21世纪经济学习需要一定的计算和编程能力，下面将盘点经济学都会用到的软件:
 
