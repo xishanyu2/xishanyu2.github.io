@@ -3,12 +3,12 @@ title: "Econometrics：Special Topics in Stata Applications"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/stata
-venue: ""
+venue: "A.P. Pin You"
 date: 2025-01-01
 location: ""
 ---
 
-2025 Spring as a teaching assistant
+As a teaching assistant
 
 [Lecture 1]()
 
