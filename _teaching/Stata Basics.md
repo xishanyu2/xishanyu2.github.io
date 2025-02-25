@@ -1,7 +1,11 @@
 ---
-layout: archive
-permalink: /teaching/stata/chap1
-author_profile: true
+title: "Stata Basics"
+collection: teaching
+type: "[pdf version]()"
+permalink: /teaching/stata
+venue: "[html version]"
+date: 2025-01-01
+location: ""
 ---
 
 {% include base_path %}
