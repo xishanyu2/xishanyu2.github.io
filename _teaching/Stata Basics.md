@@ -1,10 +1,12 @@
 ---
-layout: archive
+title: "Stata Basics"
+collection: teaching
+category: manuscripts
 permalink: /teaching/stata/chap1
-author_profile: true
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+date: 2025-02-24
+slidesurl: 'http://xishanyu2.github.io/files/Stata Basics.pdf'
 ---
-
-{% include base_path %}
 
 ---
 # Stata学习资源（结合Wooldridge, 6e）：
