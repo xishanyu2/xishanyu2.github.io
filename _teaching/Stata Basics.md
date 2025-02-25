@@ -3,7 +3,7 @@ title: "Stata Basics"
 collection: teaching
 category: manuscripts
 permalink: /teaching/stata/chap1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: ''
 date: 2025-02-24
 slidesurl: 'http://xishanyu2.github.io/files/Stata Basics.pdf'
 ---
