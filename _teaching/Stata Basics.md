@@ -1,3 +1,7 @@
+---
+collection: teaching
+permalink: /teaching/stata/L2
+---
 
 ---
 # Stata学习资源（结合Wooldridge, 6e）：
