@@ -6,6 +6,7 @@ author_profile: true
 
 {% include base_path %}
 
+---
 # Stata学习资源（结合Wooldridge, 6e）：
 
 学习视频：[Stata33讲](https://lianxh-class.cn/view/1527932289698443345)、[Stata+R软件基础](https://lianxh-class.cn/view/1527932289698443382)、[习明明讲计量](https://space.bilibili.com/1086486458/lists/1179466?type=season)
