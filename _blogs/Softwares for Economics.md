@@ -12,7 +12,7 @@ An economics student is a jack of all trades and master of none.
 
 **编程软件**：`C++`，`Python`，`R`，`Julia`  
  我大一刚入学时（理工科）学的就是`C++`，大二转向（经管类）学的`Python`，致使我一段时间不太适应这种语法转变。例如交换两个数的值，`C++`里需要一个临时变量，可以看作有三个盒子，先把a中的小球放入t，再把b中的小球放入a，最后把t中原来a的小球放入b，实现两个数的对调：
-```
+```c++
 #include<iostream>
 using namespace std;
 int main()
@@ -30,7 +30,7 @@ int main()
 ```
 
 `Python`一句话就能写完：
-```
+```python
 x,y=5,10
 x,y=y,x
 print(x,y)
@@ -71,12 +71,12 @@ Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等
 ```
 
 **附录2**：不同编程语言注释总结
-```
+```c++
 //C++
 //Word里直接加两条斜杠不等于删除！
 ```
 
-```
+```python
 #Python
 #使用一个井字符进行单行注释
 '''
@@ -87,7 +87,7 @@ Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等
 """
 ```
 
-```
+```stata
 *Stata
 *这样可以注释一行
 reg y $x, r //这样可以在一行后注释
@@ -96,7 +96,7 @@ reg y $x, r //这样可以在一行后注释
 */
 ```
 
-```
+```latex
 %LaTeX
 %使用百分号进行注释，正常打百分号需加转义符
 ```
