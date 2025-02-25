@@ -2,7 +2,8 @@
 permalink: /teaching/stata/L1
 ---
 
----
+{% include base_path %}
+
 # Stata学习资源（结合Wooldridge, 6e）：
 [连享会](https://www.lianxh.cn/)、[陈强](http://www.econometrics-stata.com/)、[Stata官网](https://www.stata.com/)...
 推荐学习视频：[连玉君：Stata33讲](https://lianxh-class.cn/view/1527932289698443345)、[公开课：Stata+R软件基础](https://lianxh-class.cn/view/1527932289698443382)、[习明明讲计量](https://space.bilibili.com/1086486458/lists/1179466?type=season)；**人手一份**：[Stata 101](https://file.lianxh.cn/KC/Slides/lianxh_Stata101.pdf)
