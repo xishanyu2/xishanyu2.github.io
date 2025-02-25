@@ -6,7 +6,7 @@ permalink: /blogs/soft
 
 An economics student is a jack of all trades and master of none.
 
-今天尧尧和我分享了一则推文[【芾椿经验002】Julia：速度更快的Stata高维面板回归命令——reghdfejl](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  ，恰好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的凯凯说他们要会`SQL`。
+今天尧尧和我分享了一则[推文](https://mp.weixin.qq.com/s/FBy8qso-ctVECK36-AsLTA)  ，恰好我之前用过`Julia`-`Pluto`；之后正在找实习的Boyi和我分享了他的简历：_熟悉使用Word、PowerPoint等办公软件，曾使用Excel和Stata收集分析上万条数据，并对文件管理非常熟悉_。我指出业界可能不太用`Stata`，并且他需要提升一些编程能力；十一期间去北京实习的凯凯说他们要会`SQL`。
 
 适逢今天诺贝尔经济学奖公布，虽然和物化不同与AI无关，但21世纪经济学习需要一定的计算和编程能力，下面将盘点经济学都会用到的软件:
 
@@ -39,7 +39,7 @@ print(x,y)
 
 踪家峰老师在他的《区域与城市经济学》一书中指出经济学本科生需要掌握`Stata`，研究生需要在`Stata`的基础上在`Python`和`R`中掌握一个。计算机领域的学者更熟悉`Python`，统计学领域的学者更熟悉`R`；机器学习两者都可选择，但从陈强老师两本书的销量来看还是选择`Python`的更多。
 
-`Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)，近年来出了用`Python`、`R`、`Julia`实现伍德里奇计量经济学的 [书](http://www.upfie.net/)：
+`Julia`是由MIT开发的，学习可参见[Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall24/)
 
 **经济数据分析**：`Stata`，`SPSS`，`EViews`，`MATLAB`  
 经济学跑回归离不开`Stata`，其重要性不言自明；  
