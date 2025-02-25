@@ -22,6 +22,7 @@ author_profile: true
 <div align=center>
 	<img src='/images/Pasted image 20250225203602.png' width="450">
 </div>
+
 2. 创建日志文件
 3. 数据导入与导出
 	- 4种导入数据方式：
@@ -41,6 +42,7 @@ twoway scatter price weight || lfit price weight
 twoway (scatter price weight) (lfit price weight)
 ```
 8. 善用`help`命令！
+
 # 第一章上机练习解答：
 
 # 问题汇总与解答：
