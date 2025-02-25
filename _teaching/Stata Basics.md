@@ -1,5 +1,6 @@
 ---
-permalink: /teaching/stata/L1
+permalink: /teaching/stata/L2
+date: 2025-2-25
 ---
 
 {% include base_path %}
@@ -21,6 +22,7 @@ set more off
 capture log close
 log using "chapter01.log", replace
 ```
+
 **可能的错误：**
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-25 125725(1).png' width="425">
@@ -34,6 +36,7 @@ set more off
 capture log close
 log using "chapter01.log", replace
 ```
+
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-25 130547(1).png' width="425">
 </div>
