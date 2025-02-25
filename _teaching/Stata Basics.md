@@ -1,6 +1,7 @@
 ---
-permalink: /teaching/stata/L2
-date: 2025-2-25
+layout: archive
+permalink: /teaching/stata/chap1
+author_profile: true
 ---
 
 {% include base_path %}
