@@ -22,7 +22,7 @@ author_profile: true
 	- 数据编辑器(编辑)与数据编辑器(浏览)的区别、三种颜色数据类型的区别与转换
 	- 用Ctrl+D替代在Do-file里点击执行所选(do)
 	<div align=center>
-	<img src='/images/Pasted image 20250225203602.png' width="450">
+		<img src='/images/Pasted image 20250225203602.png' width="450">
 	</div>
 
 2. 创建日志文件
