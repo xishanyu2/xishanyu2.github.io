@@ -44,7 +44,7 @@ twoway scatter price weight || lfit price weight
 *也可以写成
 twoway (scatter price weight) (lfit price weight)
 ```
-8. 善用`help`命令！
+8. 善用`help`命令！`hot`：[Stata最常用的十大外部命令 - 知乎](https://zhuanlan.zhihu.com/p/9275289629)
 
 ---
 # 第一章上机练习：
