@@ -8,7 +8,7 @@ date: 2025-2-25
 # Stata学习资源（结合Wooldridge, 6e）：
 [连享会](https://www.lianxh.cn/)、[陈强](http://www.econometrics-stata.com/)、[Stata官网](https://www.stata.com/)...
 
-推荐学习视频：[连玉君：Stata33讲](https://lianxh-class.cn/view/1527932289698443345)、[公开课：Stata+R软件基础](https://lianxh-class.cn/view/1527932289698443382)、[习明明讲计量](https://space.bilibili.com/1086486458/lists/1179466?type=season)
+推荐学习视频：[Stata33讲](https://lianxh-class.cn/view/1527932289698443345)、[Stata+R软件基础](https://lianxh-class.cn/view/1527932289698443382)、[习明明讲计量](https://space.bilibili.com/1086486458/lists/1179466?type=season)
 
 **人手一份**：[Stata 101](https://file.lianxh.cn/KC/Slides/lianxh_Stata101.pdf)
 
@@ -19,7 +19,7 @@ date: 2025-2-25
 # 问题汇总与解答：
 1.初始化设置：
 
-```Stata
+```stata
 cd "C:\Program Files\Stata18"
 clear all
 set more off
@@ -30,7 +30,7 @@ log using "chapter01.log", replace
 **可能的错误：**
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-25 125725(1).png' width="425">
-</div>\\
+</div>\
 
 **解决方案**：设置日志文件时不要储存在Stata安装路径下，例如可以修改为（假设D盘下已经建立了一个名为stata的文件夹）：
 
@@ -44,6 +44,6 @@ log using "chapter01.log", replace
 
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-25 130547(1).png' width="425">
-</div>\\
+</div>\
 
 此外，连玉君老师编写过一个profile.do文件，可以实现开机自动生成日志文件，参见：[Stata：聊聊 profile.do 文件](https://www.lianxh.cn/details/77.html)、[聊聊Stata中的profile文件-第二季](https://www.lianxh.cn/details/672.html)
