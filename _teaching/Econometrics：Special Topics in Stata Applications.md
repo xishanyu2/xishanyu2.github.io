@@ -5,7 +5,6 @@ type: "Teaching Assistant"
 permalink: /teaching/stata
 venue: "Spring"
 date: 2025-01-01
-location: ""
 ---
 
 Please contanct me in Feishu.
