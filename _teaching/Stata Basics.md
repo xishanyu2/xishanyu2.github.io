@@ -30,13 +30,13 @@ author_profile: true
 3. 数据导入与导出
 	- 4种导入数据方式：
 		1. 文件(File)→导入(Import)：可以导入多种类型的数据，注意导入Excel文件时是否将第一行作为变量名；
-		2. 快捷键”打开“（快捷键第一个图标或使用Ctrl+D）：只能导入Stata格式文件；
+		2. 快捷键”打开“（快捷键第一个图标或使用Ctrl+O）：只能导入Stata格式文件；
 		3. 输入命令：`use`和`sysuse`的区别、`import`与第一种导入方式结果窗口显示的命令相同；
 		4. 直接点击或拖动Stata格式数据到Stata界面（.dta文件和Do-file同时打开）
 	- 数据导出（同样可分为点击式和命令式）：`save`, `export`
 4. 数据审阅：`list`, `describe`, `codebook`, `sort`, `gsort`
 5. 描述性统计：`sum`, `tabulate`, `duplicates`（检查重复值）, `sum2docx`（导出描述性统计表格到论文中）
-6. 变量处理：`gen`, `rename`, `drop`, `keep`, `replace`, `label`
+6. 变量处理：`gen`, `rename`, `label`, `replace`, `keep`, `drop`, `winsor2`（缩尾处理，论文常用）
 7. 数据可视化：`histogram`, `scatter`, `line`, `kdensity`, `graph dot/pie/box/bar/matrix`（论文中则需要对图像细节做更多处理）
 ```stata
 *图形叠加
