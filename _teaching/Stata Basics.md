@@ -47,10 +47,10 @@ twoway (scatter price weight) (lfit price weight)
 8. 善用`help`命令！
 
 ---
-# 第一章上机练习解答：
+# 第一章上机练习：
 
 ---
-# 问题汇总与解答：
+# 问题汇总：
 1. 初始化设置：
 
 ```stata
