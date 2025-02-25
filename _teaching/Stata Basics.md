@@ -33,9 +33,9 @@ author_profile: true
 		3. 输入命令：`use`和`sysuse`的区别、`import`与第一种导入方式结果窗口显示的命令相同；
 		4. 直接拖动Stata格式数据到Stata
 	- 数据导出（同样可分为点击式和命令式）：`save`, `export`
-4. 数据审阅：`list`, `describe`, `codebook`
+4. 数据审阅：`list`, `describe`, `codebook`, `sort`, `gsort`
 5. 描述性统计：`sum`, `tabulate`, `duplicates`（检查重复值）, `sum2docx`（导出描述性统计表格到论文中）
-6. 变量处理：`gen`, `rename`, `drop`, `replace`, `label`
+6. 变量处理：`gen`, `rename`, `drop`, `keep`, `replace`, `label`
 7. 数据可视化：`histogram`, `scatter`, `line`, `kdensity`, `graph dot/pie/box/bar/matrix`（论文当中则需要对图像细节做更多处理）
 ```stata
 *图形叠加
