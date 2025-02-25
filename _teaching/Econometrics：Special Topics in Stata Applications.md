@@ -14,6 +14,6 @@ Please contanct me in Feishu.
 
 [Lecture 1]()
 
-[Lecture 2]()
+[Lecture 2](/_teaching/Stata Basics.md)
 
 [Lecture 3]()
