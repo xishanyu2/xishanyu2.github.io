@@ -1,11 +1,11 @@
 ---
 title: "Stata Basics"
 collection: teaching
-type: [pdf version]()
+type: 
 permalink: /teaching/stata
-venue: "[html version]"
+venue: 
 date: 2025-01-01
-location: ""
+location: 
 ---
 
 {% include base_path %}
