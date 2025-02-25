@@ -16,6 +16,7 @@ author_profile: true
 
 如果想用`Python`、`R`、`Julia`实现伍德里奇教材，可以阅读以下几本书：[Using R, Python and Julia for Introductory Econometrics](http://www.upfie.net/)
 # 第一章总结与补充：
+
 # 问题汇总与解答：
 1. 初始化设置：
 
@@ -32,7 +33,6 @@ log using "chapter01.log", replace
 	<img src='/images/屏幕截图 2025-02-25 125725(1).png' width="425">
 </div>
 <br>
-
 **解决方案**：设置日志文件时不要储存在Stata安装路径下，例如可以修改为（假设D盘下已经建立了一个名为stata的文件夹）：
 
 ```stata
@@ -47,5 +47,4 @@ log using "chapter01.log", replace
 	<img src='/images/屏幕截图 2025-02-25 130547(1).png' width="425">
 </div>
 <br>
-
 此外，连老师编写过一个profile.do文件，可以实现开机自动生成日志文件，参见：[Stata：聊聊 profile.do 文件](https://www.lianxh.cn/details/77.html)、[聊聊Stata中的profile文件-第二季](https://www.lianxh.cn/details/672.html)
