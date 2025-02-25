@@ -4,7 +4,6 @@ collection: teaching
 category: manuscripts
 permalink: /teaching/stata/chap1
 excerpt: ''
-date: 2025-02-24
 slidesurl: 'http://xishanyu2.github.io/files/Stata Basics.pdf'
 ---
 
