@@ -32,6 +32,7 @@ log using "chapter01.log", replace
 	<img src='/images/屏幕截图 2025-02-25 125725(1).png' width="425">
 </div>
 
+
 **解决方案**：设置日志文件时不要储存在Stata安装路径下，例如可以修改为（假设D盘下已经建立了一个名为stata的文件夹）：
 
 ```stata
@@ -45,5 +46,6 @@ log using "chapter01.log", replace
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-25 130547(1).png' width="425">
 </div>
+
 
 此外，连玉君老师编写过一个profile.do文件，可以实现开机自动生成日志文件，参见：[Stata：聊聊 profile.do 文件](https://www.lianxh.cn/details/77.html)、[聊聊Stata中的profile文件-第二季](https://www.lianxh.cn/details/672.html)
