@@ -15,7 +15,7 @@ author_profile: true
 
 [Wooldridge datasets](http://fmwww.bc.edu/ec-p/data/wooldridge/datasets.list.html)（结合`bcuse`命令），Boston College之前出过伍德里奇第一、二版书中例题的Stata程序代码，有学者针对第六版进行了更新[-Econometric-textbook-stata-replication](https://github.com/Econtech/-Econometric-textbook-stata-replication)
 
-如果想用`Python`、`R`、`Julia`实现伍德里奇教材，可以阅读以下几本书：[Using R, Python and Julia for Introductory Econometrics](http://www.upfie.net/)
+如果想用`Python`、`R`、`Julia`实现伍德里奇教材，可以阅读以下几本书：[Using R, Python and Julia for Introductory Econometrics](http://www.upfie.net/)，里面有丰富的代码。
 
 ---
 # 第一章总结与补充：
@@ -37,7 +37,7 @@ author_profile: true
 4. 数据审阅：`list`, `describe`, `codebook`, `sort`, `gsort`
 5. 描述性统计：`sum`, `tabulate`, `duplicates`（检查重复值）, `sum2docx`（导出描述性统计表格到论文中）
 6. 变量处理：`gen`, `rename`, `drop`, `keep`, `replace`, `label`
-7. 数据可视化：`histogram`, `scatter`, `line`, `kdensity`, `graph dot/pie/box/bar/matrix`（论文当中则需要对图像细节做更多处理）
+7. 数据可视化：`histogram`, `scatter`, `line`, `kdensity`, `graph dot/pie/box/bar/matrix`（论文中则需要对图像细节做更多处理）
 ```stata
 *图形叠加
 twoway scatter price weight || lfit price weight
@@ -66,7 +66,7 @@ log using "chapter01.log", replace
 	<img src='/images/屏幕截图 2025-02-25 125725(1).png' width="425">
 </div>
 <br>
-**解决方案**：设置日志文件时不要储存在Stata安装路径下，例如可以修改为（假设D盘下已经建立了一个名为stata的文件夹）：
+**解决方案**：设置日志文件时不要储存在Stata安装路径下，例如可以修改为（假设D盘已经建立了一个名为stata的文件夹）：
 
 ```stata
 cd "D:\stata"
