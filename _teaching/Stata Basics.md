@@ -1,11 +1,7 @@
 ---
-title: "Stata Basics"
-collection: teaching
-type: 
-permalink: /teaching/stata
-venue: 
-date: 2025-01-01
-location: 
+layout: archive
+permalink: /teaching/stata/chap1
+author_profile: true
 ---
 
 {% include base_path %}
