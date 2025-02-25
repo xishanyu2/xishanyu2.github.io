@@ -67,7 +67,7 @@ Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等
 3.矩阵转置（TRANSPOSE）：Excel粘贴时能实现行/列向量、矩阵的转置
 4.矩阵求逆（MINVERS）
 5.固定行/列（$）：在字母前加$表示固定列只改变行的位置，在数字前加$表示固定行只改变列的位置
-6.条件语句（IF）：IF(logical_test,value_if true,value_if false)
+6.构造矩阵：IF(logical_test,value_if true,value_if false)
 ```
 
 **附录2**：不同编程语言注释总结
