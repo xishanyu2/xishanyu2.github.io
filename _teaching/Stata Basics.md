@@ -31,7 +31,7 @@ author_profile: true
 		1. 文件(File)→导入(Import)：可以导入多种类型的数据，注意导入Excel文件时是否将第一行作为变量名；
 		2. 快捷键”打开“（快捷键第一个图标或使用Ctrl+D）：只能导入Stata格式文件；
 		3. 输入命令：`use`和`sysuse`的区别、`import`与第一种导入方式结果窗口显示的命令相同；
-		4. 直接拖动Stata格式数据到Stata
+		4. 直接点击或拖动Stata格式数据到Stata界面（.dta文件和Do-file同时打开）
 	- 数据导出（同样可分为点击式和命令式）：`save`, `export`
 4. 数据审阅：`list`, `describe`, `codebook`, `sort`, `gsort`
 5. 描述性统计：`sum`, `tabulate`, `duplicates`（检查重复值）, `sum2docx`（导出描述性统计表格到论文中）
