@@ -10,4 +10,4 @@ redirect_from:
 
 [Game theory and Economic Analysis]()
 
-[Mathematical Economics]()
+[初級日本語ノート]()
