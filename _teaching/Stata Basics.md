@@ -1,11 +1,14 @@
 ---
 title: "Stata Basics"
-collection: teaching
-category: manuscripts
+collection: talks
+type: ""
 permalink: /teaching/stata/chap1
-excerpt: ''
-slidesurl: 'http://xishanyu2.github.io/files/Stata Basics.pdf'
+venue: ""
+date: 2025-03-03
+location: ""
 ---
+
+[pdf version](http://xishanyu2.github.io/files/Stata Basics.pdf), [html vestion](http://xishanyu2.github.io/files/Stata Basics.html)
 
 ---
 # Stata学习资源（结合Wooldridge, 6e）：
