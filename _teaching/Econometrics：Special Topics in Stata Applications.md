@@ -22,7 +22,10 @@ Please contanct me in Feishu.
 ---
 ！计量初学者可跳过这一部分。
 我们在书中经常看到这样的“算法块”，以伍德里奇第12章为例，在这里我们不从ARIMA(p,d,q)模型和序列相关、异方差说起，而是以从理论向操作转变的代码描述为例，我建议同学们在学习过程中遇到例题或这种描述性语句多想想Stata代码该怎么写（以下给出了第12章所有代码描述对应基本语法，下图对应最后一个代码块）：
-![[屏幕截图 2025-02-26 222136.png]]
+<div align=center>
+	<img src='/images/屏幕截图 2025-02-26 222136.png'>
+</div>
+
 ```
 * Testing for AR(1) Serial Correlation with Strictly Exogenous Regressors:
 reg y_t x_t1 ... x_tk
@@ -72,7 +75,7 @@ prais hh x_t1 ... x_tk [aw=1/hh]
 伍德里奇的例题和习题都是非常好的练习素材，习题内容与难度也是层层递进、前后呼应的；
 当我们掌握了第12章所有的理论和Stata操作后，就要通过练习来理论联系实际达到应用，不妨来看一道有意思的课后计算机练习，这道题还有个名字叫“风浪越大，鱼越贵”（stormy seas would increase the price of fish）：
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src='/images/Pasted image 20250226171343.png' width="153">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src='/images/Pasted image 20250226171343.png' width="153">
     <img src='/images/Pasted image 20250226165852.png' width="500">
 </div>
 
