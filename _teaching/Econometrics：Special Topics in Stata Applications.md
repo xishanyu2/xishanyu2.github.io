@@ -25,6 +25,7 @@ Please contanct me in Feishu.
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-26 222136.png' width="500">
 </div>
+<br>
 
 ```
 * Testing for AR(1) Serial Correlation with Strictly Exogenous Regressors:
@@ -78,6 +79,7 @@ prais hh x_t1 ... x_tk [aw=1/hh]
     <img src='/images/Pasted image 20250226171343.png' width="153">
     <img src='/images/Pasted image 20250226165852.png' width="500">
 </div>
+<br>
 
 这道题是当时另一个计量班的作业，有同学问我我写的代码如下：
 ```stata
@@ -126,7 +128,15 @@ $$educ$$
 $$educ$$
 和
 $$u$$就可能相关。
-不要小看这个简单的例子，随着学习的深入，我们会在模型里加入一些控制变量、使用代理变量$IQ$（尽管$IQ$是$ability$的好的代理变量，但不是$educ$的好的工具变量，因为不满足外生性假定），用父母的教育程度或兄弟姐妹数作IV、用出生季度作IV（Angrist & Krueger, 1991），研究女性的投资回报率（Mroz, T.A., 1987）——`bcuse mroz`（Wooldrige, 6e：例题15.1、15.5、16.5），用PSM-DID方法研究如果上TJU而不是NKU工作后的工资是不是会更高，还可以采用断点回归（fuzzy RD）的方法[^1]...
+不要小看这个简单的例子，随着学习的深入，我们会在模型里加入一些控制变量、使用代理变量
+$$IQ$$
+（尽管
+$$IQ$$
+是
+$$ability$$
+的好的代理变量，但不是
+$$educ$$
+的好的工具变量，因为不满足外生性假定），用父母的教育程度或兄弟姐妹数作IV、用出生季度作IV（Angrist & Krueger, 1991），研究女性的投资回报率（Mroz, T.A., 1987）——`bcuse mroz`（Wooldrige, 6e：例题15.1、15.5、16.5），用PSM-DID方法研究如果上TJU而不是NKU工作后的工资是不是会更高，还可以采用断点回归（fuzzy RD）的方法[^1]...
 
 4. 操作：
 主要用到的就是`reg`命令，Stata代码为：
