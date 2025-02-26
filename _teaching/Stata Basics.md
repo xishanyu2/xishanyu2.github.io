@@ -1,7 +1,7 @@
 ---
 title: "Stata Basics"
 collection: talks
-type: "chap 1"
+type: "Chap1"
 permalink: /teaching/stata/chap1
 venue: "Mar 3rd"
 date: 2025-03-03
