@@ -1,5 +1,5 @@
 ---
-title: "Stata Basics"
+title: "Chap1: Stata Basics"
 collection: talks
 type: ""
 permalink: /teaching/stata/chap1
@@ -8,7 +8,7 @@ date: 2025-03-03
 location: ""
 ---
 
-[pdf version](http://xishanyu2.github.io/files/Stata Basics.pdf), [html vestion](http://xishanyu2.github.io/files/Stata Basics.html)
+[pdf version](http://xishanyu2.github.io/files/Stata Basics.pdf), [html version](http://xishanyu2.github.io/files/Stata Basics.html)
 
 ---
 # Stata学习资源（结合Wooldridge, 6e）：
