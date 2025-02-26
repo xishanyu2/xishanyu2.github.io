@@ -71,7 +71,11 @@ prais hh x_t1 ... x_tk [aw=1/hh]
 
 伍德里奇的例题和习题都是非常好的练习素材，习题内容与难度也是层层递进、前后呼应的；
 当我们掌握了第12章所有的理论和Stata操作后，就要通过练习来理论联系实际达到应用，不妨来看一道有意思的课后计算机练习，这道题还有个名字叫“风浪越大，鱼越贵”（stormy seas would increase the price of fish）：
-![[Pasted image 20250226171343.png|153]]![[Pasted image 20250226165852.png|500]]
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src='/images/Pasted image 20250226171343.png' width="153">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src='/images/Pasted image 20250226165852.png' width="500">
+</div>
+
 这道题是当时另一个计量班的作业，有同学问我我写的代码如下：
 ```stata
 bcuse fish
