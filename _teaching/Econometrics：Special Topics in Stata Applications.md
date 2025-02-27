@@ -104,7 +104,7 @@ prais lavgprc $x t wave2 wave3
 test wave2 wave3
 ```
 
-可以看到，尽管理论部分（Prais-Winsten估计、Newey-West方法）的计算有些麻烦，但在Stata里往往只需要一行命令就能实现（我们是站在前人的肩膀上摘苹果），因其简洁性我们是不是通过理解Stata代码就能记住理论推导步骤了呢。
+可以看到，尽管理论部分（Prais-Winsten估计、Newey-West方法...）的计算有些麻烦，但在Stata里往往只需要一行命令就能实现（我们是站在前人的肩膀上摘苹果！），因其简洁性我们是不是通过理解Stata代码就能记住理论推导步骤了呢。
 
 ---
 
