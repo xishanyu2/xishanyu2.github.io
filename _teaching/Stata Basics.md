@@ -86,7 +86,7 @@ log using "chapter01.log", replace
 <br>
 此外，连老师编写过一个profile.do文件，可以实现开机自动生成日志文件，参见：[Stata：聊聊 profile.do 文件](https://www.lianxh.cn/details/77.html)、[聊聊Stata中的profile文件-第二季](https://www.lianxh.cn/details/672.html)
 
-（2）do文档乱码问题
+（2）do文档乱码问题：
 <div align=center>
 	<img src='/images/屏幕截图 2025-02-27 124404.png' width="675">
 </div>
