@@ -7,7 +7,7 @@ venue: "Spring"
 date: 2025-01-01
 ---
 
-Please contanct me in Feishu.
+Please contact me in Feishu.
 
 ---
 # 写在前面：理解计量经济学的3种方式
