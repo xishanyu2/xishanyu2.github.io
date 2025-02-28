@@ -61,7 +61,7 @@ $$\LaTeX$$
 $$\LaTeX$$
 每次编译都需要一定的时间。
 
-所以如果不是非常严肃的场景，Markdown能满足我们绝大多数的需求，包括论文（先Mark一下）：
+所以如果不是非常严肃的场景，Markdown能满足我们绝大多数的需求，包括论文（Mark一下）：
 
 - [学术论文写作新武器：Markdown-上篇](https://www.lianxh.cn/details/603.html)
 - [学术论文写作新武器：Markdown-中篇](https://www.lianxh.cn/details/605.html)
