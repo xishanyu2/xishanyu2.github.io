@@ -92,7 +92,13 @@ Marp在VS Code里需要安装一系列拓展，且我之前（使用Awesome Marp
 当我在Ob里写完一篇`.md`文档时，上传到Github上几乎只需要把图片改成HTML语句再调整一下格式细节就行：
 ```
 <div align=center>
-	<img src='/images/Pasted image1.png' width="150">
+	<img src='/images/Pasted image.png'>
+</div>
+```
+
+```
+<div style="display: flex; justify-content: center; align-items: center;">
+	<img src='/images/Pasted image1.png' width="150">&nbsp;&nbsp;&nbsp;
 	<img src='/images/Pasted image2.png' width="200">
 </div>
 ```
