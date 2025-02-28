@@ -9,5 +9,3 @@ redirect_from:
 ---
 
 [Marxian Economics_Hiroshi Onishi]()
-
-[Machine Learning in Social Science_Feng Guo]()
