@@ -35,7 +35,7 @@ $$\LaTeX$$
           0 & 1 \\
           1 & 0 \\
 	\end{pmatrix}
-          相当于一二行互换（$r_1 \mapsto r_1 \times 0 +  r_2 \times 1$, $r_2 \mapsto r_2 \times 0 +  r_1 \times 1$）/ 一二列互换（$c_1 \mapsto c_1 \times 0 +  c_2 \times 1$, $c_2 \mapsto c_2 \times 0 +  c_1 \times 1$）
+	相当于一二行互换（$r_1 \mapsto r_1 \times 0 +  r_2 \times 1$, $r_2 \mapsto r_2 \times 0 +  r_1 \times 1$）/ 一二列互换（$c_1 \mapsto c_1 \times 0 +  c_2 \times 1$, $c_2 \mapsto c_2 \times 0 +  c_1 \times 1$）
 	\item 倍乘
 	\begin{pmatrix}
           1 & 0 \\
