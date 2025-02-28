@@ -3,7 +3,7 @@ title: "Stata Basics"
 collection: talks
 type: "Chap1"
 permalink: /teaching/stata/chap1
-venue: "Mar 3rd"
+venue: "Feb 24th"
 date: 2025-03-03
 location: ""
 ---
