@@ -1,8 +1,10 @@
 ---
-marp: true
-footer: 
-paginate: true
+title: Writing experience of Markdown
+date: 2025-02-28
+permalink: /blogs/md
 ---
+
+Basic Markdown syntax and Marp usage.
 
 就像输入数学公式时运用AxMath是一种介于“Word内嵌公式”和“$\LaTeX$”之间的方法，使用Markdown输入文本是一种介于Word和$\LaTeX$之间的方式。
 
