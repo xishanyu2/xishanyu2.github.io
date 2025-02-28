@@ -10,4 +10,4 @@ redirect_from:
 
 [Game theory and Economic Analysis]()
 
-[初級日本語ノート]()
+[Machine Learning in Social Science]()
