@@ -31,22 +31,22 @@ $$\LaTeX$$
 在单位阵的基础上考虑三种初等变换：
 \begin{enumerate}
 	\item 对换
-	    \begin{pmatrix}
+	\begin{pmatrix}
           0 & 1 \\
           1 & 0 \\
-        \end{pmatrix}
+	\end{pmatrix}
           相当于一二行互换（$r_1 \mapsto r_1 \times 0 +  r_2 \times 1$, $r_2 \mapsto r_2 \times 0 +  r_1 \times 1$）/ 一二列互换（$c_1 \mapsto c_1 \times 0 +  c_2 \times 1$, $c_2 \mapsto c_2 \times 0 +  c_1 \times 1$）
-    \item 倍乘
-        \begin{pmatrix}
+	\item 倍乘
+	\begin{pmatrix}
           1 & 0 \\
           0 & k \\
-        \end{pmatrix}
+	\end{pmatrix}
         相当于第二行/列乘了$k$倍（$r_2 \mapsto r_2 \times k$ / $c_2 \mapsto c_2 \times k$）
-    \item 倍加
-        \begin{pmatrix}
+	\item 倍加
+	\begin{pmatrix}
           1 & 0 \\
           k & 1 \\
-        \end{pmatrix}
+	\end{pmatrix}
         相当于第一行乘了$k$倍加到第二行上（$r_2 \mapsto r_2+ r_1 \times k$）/ 第二列乘了$k$倍加到第一列上（$c_1 \mapsto c_1+ c_2 \times k$） 
 \end{enumerate}
 ```
