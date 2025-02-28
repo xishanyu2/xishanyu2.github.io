@@ -105,4 +105,4 @@ Marp在VS Code里需要安装一系列拓展，且我之前（使用Awesome Marp
 
 用Marp做Slides就只需要用`---`分页，在篇首用`---`添加笔记属性（如marp: true，footer，paginate: true，tags，date等）；但一直困扰我的一个问题是图片在Marp里不显示，一次偶然间我从我的个人主页上直接复制图片链接粘到Ob里（而不是直接插入图片）就解决了这一问题；连老师给出了更多的方法：[Markdown图床：我们的图片存在哪里？](https://www.lianxh.cn/details/296.html)
 
-这时，我们就可以使用各种模板（`.css`格式文件）做伪beamer，在Ob里基于Marp插件导出HTML、PDF、PPT（PPT里为图片无法编辑）等格式的成品！
+这时，我们就可以使用各种模板（`.css`格式文件）做成伪beamer，在Ob里基于Marp插件导出HTML、PDF、PPT（PPT里为图片无法编辑）等格式的成品！
