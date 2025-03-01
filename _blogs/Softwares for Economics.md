@@ -64,12 +64,12 @@ Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等
 **附录1**：投入产出分析在`Excel`中的操作主要有：
 
 ```
-1.矩阵乘法（MMULT）：函数——>数学和三角函数(Maths & Trig)，array1、array2分别选择左乘右乘的矩阵
+1.矩阵乘法（MMULT）：函数——>数学和三角函数(Maths & Trig)，array1、array2分别选择左乘和右乘的矩阵
 2.函数嵌套：MMULT(MMULT(A,B),C)等价于MMULT(A,MMULT(B,C))
 3.矩阵转置（TRANSPOSE）：Excel粘贴时能实现行/列向量、矩阵的转置
 4.矩阵求逆（MINVERS）
 5.固定行/列（$）：在字母前加$表示固定列只改变行的位置，在数字前加$表示固定行只改变列的位置
-6.构造矩阵：IF(logical_test,value_if true,value_if false)
+6.构造矩阵：使用IF(logical_test,value_if true,value_if false)
 ```
 
 **附录2**：不同编程语言注释总结
