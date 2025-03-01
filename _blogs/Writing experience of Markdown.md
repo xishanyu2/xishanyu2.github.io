@@ -87,7 +87,7 @@ $$\LaTeX$$
 
 Marp在VS Code里需要安装一系列拓展，且我之前（使用Awesome Marp模板）存在导出为PPT时图标不显示的情况，因此以下均是最近我在使用Ob的心得。
 
-在Ob里依次点击设置图标—>第三方插件—>社区插件市场：浏览，我常用的有Mousewheel Image zoom（按住Alt键滑动鼠标滚轮就能缩放图片大小）、Marp Slides（搜索Marp安装量最多且更新时间最近）。
+在Ob里依次点击设置图标—>第三方插件—>社区插件市场：浏览，我常用的有Mousewheel Image zoom（按住Alt键滑动鼠标滚轮就能缩放图片大小）、Marp Slides（搜索Marp安装量最多且更新时间最近）、Better Export PDF（能生成目录和页眉页脚）。
 
 当我在Ob里写完一篇`.md`文档时，上传到Github上几乎只需要把图片改成HTML语句再调整一下格式细节就行：
 ```
