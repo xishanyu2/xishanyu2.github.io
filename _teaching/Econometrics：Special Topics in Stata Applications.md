@@ -57,7 +57,7 @@ test L1.uh L2.uh ... Lq.uh
 reg y_t x_t1 ... x_tk
 predict uhat, res
 reg uhat L.uhat //Cochrane-Orcutt (CO) estimation
-prais y_t x_t1 ... x_tk // Prais-Winsten (PW) estimation
+prais y_t x_t1 ... x_tk //Prais-Winsten (PW) estimation
 ```
 
 ```
