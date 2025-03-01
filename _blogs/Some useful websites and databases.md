@@ -56,7 +56,7 @@ AER，ECTA，JPE，QJE，RES
 [南开经济研究](https://nkes.nankai.edu.cn/#/)，[南开管理评论](https://nbr.nankai.edu.cn/nkglpl/home)，[政治经济学季刊](https://peqq.cbpt.cnki.net/portal/journal/portal/client/index)...
 
 ## Managing
-Endnote，Zotero，Mendeley，NoteExpress
+Endnote，[Zotero](https://www.zotero.org/)，Mendeley，NoteExpress
 
 ## Writing
 
