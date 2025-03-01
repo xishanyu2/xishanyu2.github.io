@@ -61,7 +61,7 @@ prais y_t x_t1 ... x_tk //Prais-Winsten (PW) estimation
 ```
 
 ```
-* Serial Correlation–Robust Standard Error for b1_hat
+* Serial Correlation–Robust Standard Error for b1_hat:
 newey y_t x_t1 ... x_tk, lag(n)
 ```
 
