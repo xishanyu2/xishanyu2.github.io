@@ -73,15 +73,19 @@ reshape long var, i(id) j(year)
 
 6.循环语句
 - `while`
+
 ```stata
 
 ```
+
 - `foreach`
+
 ```stata
 foreach v of varlist d81-d87{
 gen `v'educ =educ*(`v')
 }
 ```
+
 - `forvalues`
 
 ```stata
