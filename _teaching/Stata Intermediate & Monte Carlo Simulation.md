@@ -57,9 +57,9 @@ gen date1 = date( date , "YMD")
 4. 数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
 ```stata
 merge 1:1 varlist using filename [ , options]
-mergem:1 varlist using filename [ , options]
+merge m:1 varlist using filename [ , options]
 merge 1:m varlist using filename [ , options]
-mergem:m varlist using filename [ , options]
+merge m:m varlist using filename [ , options]
 merge 1:1 _n using filename [ , options]
 ```
 5. 长宽数据转换：`reshape`
