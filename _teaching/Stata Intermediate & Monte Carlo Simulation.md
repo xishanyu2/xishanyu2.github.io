@@ -81,6 +81,7 @@ reshape long var, i(id) j(year)
             ...
     end
 ```
+
 ```stata
 *Typical use: Example 2
 
@@ -103,6 +104,7 @@ program ...
             ...
     end
 ```
+
 ```stata
 
 *Typical use: Example 3
@@ -127,14 +129,14 @@ program ...
 ```
 
 7. 循环语句
-- while
+- `while`
 ```stata
 *Syntax
 while exp {
 	stata_commands
 }
 ```
-- foreach
+- `foreach`
 ```stata
 *Syntax
 foreach lname {in|of listtype} list {
@@ -146,8 +148,7 @@ foreach v of varlist d81-d87{
 gen `v'educ =educ*(`v')
 }
 ```
-
-- forvalues
+- `forvalues`
 ```stata
 *Syntax
 forvalues lname = range {
