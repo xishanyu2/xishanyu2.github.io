@@ -41,7 +41,9 @@ format %fmt varlist
 ```
 > %9.2f
 
-3.数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
+3.`binscatter`
+
+4.数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
 
 - 字符串提取：
 ```stata
@@ -54,7 +56,7 @@ gen newvar2 = substr( str2 ,-2,.)
 gen date1 = date( date , "YMD")
 ```
 
-4.数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
+5.数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
 ```stata
 merge 1:1 varlist using filename [ , options]
 merge m:1 varlist using filename [ , options]
@@ -62,13 +64,13 @@ merge 1:m varlist using filename [ , options]
 merge m:m varlist using filename [ , options]
 merge 1:1 _n using filename [ , options]
 ```
-5.长宽数据转换：`reshape`
+6.长宽数据转换：`reshape`
 ```stata
 reshape wide var, i(id) j(year)
 reshape long var, i(id) j(year)
 ```
 
-6.条件语句
+7.条件语句
 ```stata
 *Typical use: Example 1
 
@@ -128,7 +130,7 @@ program ...
     end
 ```
 
-7.循环语句
+8.循环语句
 - `while`
 ```stata
 *Syntax
