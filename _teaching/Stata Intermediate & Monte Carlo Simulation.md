@@ -1,7 +1,7 @@
 ---
 title: "Stata Intermediate & Monte Carlo Simulation"
 collection: talks
-type: "Chap2"
+type: "Chap2&3"
 permalink: /teaching/stata/chap2
 venue: "Mar 3rd"
 date: 2025-01-01
@@ -175,8 +175,10 @@ chap3.1_Stata模拟重复抽样v2.do [download]()
 chap3.2_simulate修改.do [download]()  
 chap3.3_同方差异方差.do [download]()  
 
-参考`BV13E421w79K`
-可视化网站：[Ordinary Least Squares](https://econometricsbysimulation.shinyapps.io/OLS-App/), [PGFplots.net](https://pgfplots.net/), [Stata Graph Gallery](https://surveydesign.com.au/stata/graphs.html), [Stata Visual Library](https://worldbank.github.io/stata-visual-library/)
+> 参考`BV13E421w79K`
+
+可视化网站：
+[Ordinary Least Squares](https://econometricsbysimulation.shinyapps.io/OLS-App/), [PGFplots.net](https://pgfplots.net/), [Stata Graph Gallery](https://surveydesign.com.au/stata/graphs.html), [Stata Visual Library](https://worldbank.github.io/stata-visual-library/)
 
 # 第二章上机练习
 ```stata
