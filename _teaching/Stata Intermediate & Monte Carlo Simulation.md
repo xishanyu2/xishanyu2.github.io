@@ -14,15 +14,7 @@ location: ""
 
 # Chap2 Stata进阶
 
-1.`bysort`
-```stata
-by varlist [, sort rc0]:  stata_cmd
-bysort varlist [, rc0]:  stata_cmd
-```
-2.`egen`
-```stata
-egen [type] newvar = fcn(arguments) [if] [in] [, options]
-```
+1.`bysort`, `egen`, `binscatter`
 
 - 数据类型
 
@@ -41,9 +33,7 @@ format %fmt varlist
 ```
 > %9.2f
 
-3.`binscatter`
-
-4.数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
+2.数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
 
 - 字符串提取：
 ```stata
@@ -56,116 +46,46 @@ gen newvar2 = substr( str2 ,-2,.)
 gen date1 = date( date , "YMD")
 ```
 
-5.数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
+3.数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
 ```stata
-merge 1:1 varlist using filename [ , options]
-merge m:1 varlist using filename [ , options]
-merge 1:m varlist using filename [ , options]
-merge m:m varlist using filename [ , options]
-merge 1:1 _n using filename [ , options]
+merge 1:1 varlist using filename
+keep if _merge == 3
+drop _merge
+
+merge m:1 varlist using filename, nogen
+
+merge 1:m varlist using filename
+merge m:m varlist using filename
+merge 1:1 _n using filename
 ```
-6.长宽数据转换：`reshape`
+4.长宽数据转换：`reshape`
 ```stata
 reshape wide var, i(id) j(year)
 reshape long var, i(id) j(year)
 ```
 
-7.条件语句
-```stata
-*Typical use: Example 1
-
-    program ...
-            syntax varlist [, Report ]
-            ...
-            if "`report'" != "" {
-                    (logic for doing the optional report)
-            }
-            ...
-    end
-```
-
-```stata
-*Typical use: Example 2
-
-program ...
-            syntax varlist [, Adjust(string) ]
-            ...
-            if "`adjust'" != "" {
-                    if "`adjust'" == "means" {
-                            ...
-                    }
-                    else if "`adjust'" == "medians" {
-                            ...
-                    }
-                    else {
-                            display as err /*
-                            */ "specify adjust(means) or adjust(medians)"
-                            exit 198
-                    }
-            }
-            ...
-    end
-```
-
+5.条件语句
 ```stata
 
-*Typical use: Example 3
-
-program ...
-            syntax ... [, ... n(integer 1) ... ]
-            ...
-            if `n'==1 {
-                local word "one"
-            }
-            else if `n'==2 {
-                local word "two"
-            }
-            else if `n'==3 {
-                local word "three"
-            }
-            else {
-                local word "big"
-            }
-            ...
-    end
 ```
 
-8.循环语句
+
+
+6.循环语句
 - `while`
 ```stata
-*Syntax
-while exp {
-	stata_commands
-}
+
 ```
 - `foreach`
-```stata
-*Syntax
-foreach lname {in|of listtype} list {
-	commands referring to `lname'
-}
-```
 ```stata
 foreach v of varlist d81-d87{
 gen `v'educ =educ*(`v')
 }
 ```
 - `forvalues`
+
 ```stata
-*Syntax
-forvalues lname = range {
-	Stata commands referring to `lname'
-}
-```
-```stata
-forvalues i = 1/1000 {
-	replace x = rnormal(5, 2)
-	replace u = rnormal(0, 1)
-	replace y = 2 + 0.5*x + u
-	qui regress y x
-	replace beta0 = _b[_cons] in `i'
-	replace beta1 = _b[x] in `i'
-}
+
 ```
 ---
 
