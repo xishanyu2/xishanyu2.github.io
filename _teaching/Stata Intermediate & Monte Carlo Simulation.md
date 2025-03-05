@@ -1,10 +1,15 @@
 ---
-marp: true
-footer: "[xishanyu2.github.io](xishanyu2.github.io)"
-paginate: true
+title: "Stata Intermediate & Monte Carlo Simulation"
+collection: talks
+type: "Chap2"
+permalink: /teaching/stata/chap2
+venue: "Mar 3rd"
+date: 2025-03-03
+location: ""
 ---
 
-# Stata Intermediate & Monte Carlo Simulation
+[pdf version](http://xishanyu2.github.io/files/Stata Intermediate & Monte Carlo Simulation.pdf), [html version](http://xishanyu2.github.io/files/Stata Intermediate & Monte Carlo Simulation.html)
+
 ---
 
 # Chap2 Stata进阶
@@ -18,7 +23,6 @@ bysort varlist [, rc0]:  stata_cmd
 ```stata
 egen [type] newvar = fcn(arguments) [if] [in] [, options]
 ```
----
 
 - 数据类型
 
@@ -30,16 +34,12 @@ egen [type] newvar = fcn(arguments) [if] [in] [, options]
 | float        | -1.70141173319*10^38 | 1.70141173319*10^38 | +/-10^-38                    | 4     |
 | double       | -8.9884656743*10^307 | 8.9884656743*10^307 | +/-10^-323                   | 8     |
 
----
-
 - 数据显示转换
 ```stata
 format varlist %fmt
 format %fmt varlist
 ```
 > %9.2f
-
----
 
 3. 数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
 
@@ -53,7 +53,6 @@ gen newvar2 = substr( str2 ,-2,.)
 ```stata
 gen date1 = date( date , "YMD")
 ```
----
 
 4. 数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
 ```stata
@@ -68,7 +67,6 @@ merge 1:1 _n using filename [ , options]
 reshape wide var, i(id) j(year)
 reshape long var, i(id) j(year)
 ```
----
 
 6. 条件语句
 ```stata
@@ -83,7 +81,6 @@ reshape long var, i(id) j(year)
             ...
     end
 ```
----
 
 ```stata
 *Typical use: Example 2
@@ -107,7 +104,7 @@ program ...
             ...
     end
 ```
----
+
 ```stata
 
 *Typical use: Example 3
@@ -130,7 +127,6 @@ program ...
             ...
     end
 ```
----
 
 7. 循环语句
 - while
@@ -153,7 +149,6 @@ foreach v of varlist d81-d87{
 gen `v'educ =educ*(`v')
 }
 ```
----
 
 - forvalues
 ```stata
@@ -173,7 +168,7 @@ forvalues i = 1/1000 {
 	replace beta1 = _b[x] in `i'
 }
 ```
----
+
 # Chap3 一元线性回归及蒙特卡罗模拟
 
 chap3.1_Stata模拟重复抽样v2.do [download]()
@@ -183,7 +178,6 @@ chap3.3_同方差异方差.do [download]()
 参考`BV13E421w79K`
 可视化网站：[Ordinary Least Squares](https://econometricsbysimulation.shinyapps.io/OLS-App/), [PGFplots.net](https://pgfplots.net/), [Stata Graph Gallery](https://surveydesign.com.au/stata/graphs.html), [Stata Visual Library](https://worldbank.github.io/stata-visual-library/)
 
----
 # 第二章上机练习
 ```stata
 //C8
