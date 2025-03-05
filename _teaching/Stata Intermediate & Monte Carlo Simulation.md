@@ -81,7 +81,6 @@ reshape long var, i(id) j(year)
             ...
     end
 ```
-
 ```stata
 *Typical use: Example 2
 
@@ -104,7 +103,6 @@ program ...
             ...
     end
 ```
-
 ```stata
 
 *Typical use: Example 3
@@ -143,7 +141,6 @@ foreach lname {in|of listtype} list {
 	commands referring to `lname'
 }
 ```
-
 ```stata
 foreach v of varlist d81-d87{
 gen `v'educ =educ*(`v')
@@ -157,7 +154,6 @@ forvalues lname = range {
 	Stata commands referring to `lname'
 }
 ```
-
 ```stata
 forvalues i = 1/1000 {
 	replace x = rnormal(5, 2)
