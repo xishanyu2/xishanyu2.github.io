@@ -173,8 +173,8 @@ forvalues i = 1/1000 {
 # Chap3 一元线性回归及蒙特卡罗模拟
 
 chap3.1_Stata模拟重复抽样v2.do [download](http://xishanyu2.github.io/files/chap3.1_Stata模拟重复抽样v2.do)  
-chap3.2_simulate修改.do [download]()  
-chap3.3_同方差异方差.do [download]()  
+chap3.2_simulate修改.do [download](http://xishanyu2.github.io/files/chap3.2_simulate修改.do)  
+chap3.3_同方差异方差.do [download](http://xishanyu2.github.io/files/chap3.3_同方差异方差.do)  
 
 > 参考`BV13E421w79K`
 
