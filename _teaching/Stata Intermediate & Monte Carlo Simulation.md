@@ -14,12 +14,12 @@ location: ""
 
 # Chap2 Stata进阶
 
-1. `bysort`
+1.`bysort`
 ```stata
 by varlist [, sort rc0]:  stata_cmd
 bysort varlist [, rc0]:  stata_cmd
 ```
-2. `egen`
+2.`egen`
 ```stata
 egen [type] newvar = fcn(arguments) [if] [in] [, options]
 ```
@@ -41,7 +41,7 @@ format %fmt varlist
 ```
 > %9.2f
 
-3. 数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
+3.数据类型转换：`destring`, `tostring`, `encode`, `decode`, `real`
 
 - 字符串提取：
 ```stata
@@ -54,7 +54,7 @@ gen newvar2 = substr( str2 ,-2,.)
 gen date1 = date( date , "YMD")
 ```
 
-4. 数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
+4.数据拆分与合并：横向拆分与纵向拆分，`append`, `merge`
 ```stata
 merge 1:1 varlist using filename [ , options]
 merge m:1 varlist using filename [ , options]
@@ -62,13 +62,13 @@ merge 1:m varlist using filename [ , options]
 merge m:m varlist using filename [ , options]
 merge 1:1 _n using filename [ , options]
 ```
-5. 长宽数据转换：`reshape`
+5.长宽数据转换：`reshape`
 ```stata
 reshape wide var, i(id) j(year)
 reshape long var, i(id) j(year)
 ```
 
-6. 条件语句
+6.条件语句
 ```stata
 *Typical use: Example 1
 
@@ -128,7 +128,7 @@ program ...
     end
 ```
 
-7. 循环语句
+7.循环语句
 - `while`
 ```stata
 *Syntax
@@ -173,7 +173,7 @@ chap3.1_Stata模拟重复抽样v2.do [download](http://xishanyu2.github.io/files
 chap3.2_simulate修改.do [download](http://xishanyu2.github.io/files/chap3.2_simulate修改.do)  
 chap3.3_同方差异方差.do [download](http://xishanyu2.github.io/files/chap3.3_同方差异方差.do)  
 
-> 参考`BV13E421w79K`
+> 平行趋势检验：参考`BV13E421w79K`
 
 可视化网站：
 [Ordinary Least Squares](https://econometricsbysimulation.shinyapps.io/OLS-App/), [PGFplots.net](https://pgfplots.net/), [Stata Graph Gallery](https://surveydesign.com.au/stata/graphs.html), [Stata Visual Library](https://worldbank.github.io/stata-visual-library/)
