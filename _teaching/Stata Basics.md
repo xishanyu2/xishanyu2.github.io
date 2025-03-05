@@ -4,7 +4,7 @@ collection: talks
 type: "Chap1"
 permalink: /teaching/stata/chap1
 venue: "Feb 24th"
-date: 2025-03-03
+date: 2025-01-01
 location: ""
 ---
 
