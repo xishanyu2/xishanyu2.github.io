@@ -168,6 +168,7 @@ forvalues i = 1/1000 {
 	replace beta1 = _b[x] in `i'
 }
 ```
+---
 
 # Chap3 一元线性回归及蒙特卡罗模拟
 
@@ -179,6 +180,8 @@ chap3.3_同方差异方差.do [download]()
 
 可视化网站：
 [Ordinary Least Squares](https://econometricsbysimulation.shinyapps.io/OLS-App/), [PGFplots.net](https://pgfplots.net/), [Stata Graph Gallery](https://surveydesign.com.au/stata/graphs.html), [Stata Visual Library](https://worldbank.github.io/stata-visual-library/)
+
+---
 
 # 第二章上机练习
 ```stata
