@@ -113,7 +113,7 @@ forvalues i = 1/100 {
 list
 ```
 
-- `foreach``of/in`
+- `foreach in/of`
 
 ```stata
 foreach v of varlist d81-d87{
