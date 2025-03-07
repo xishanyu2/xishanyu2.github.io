@@ -108,7 +108,7 @@ clear
 set obs 1
 gen sum = 0
 forvalues i = 1/100 {
-    qui replace sum = sum + `i'
+	qui replace sum = sum + `i'
 }
 list
 ```
