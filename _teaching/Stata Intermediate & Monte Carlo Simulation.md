@@ -75,7 +75,22 @@ reshape long var, i(id) j(year)
 - `while`
 
 ```stata
-
+local score = 88
+if `score' >= 90{
+	di "优秀"
+}
+else if `score' >= 80{
+	di "良好"
+}
+else if `score' >= 70{
+	di "一般"
+}
+else if `score' >= 60{
+	di "合格"
+}
+else{
+	di "不合格"
+}
 ```
 
 - `foreach`
