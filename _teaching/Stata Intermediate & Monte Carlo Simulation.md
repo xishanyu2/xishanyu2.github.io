@@ -104,7 +104,6 @@ list
 - `forvalues`
 
 ```stata
-clear
 set obs 1
 gen sum = 0
 forvalues i = 1/100 {
