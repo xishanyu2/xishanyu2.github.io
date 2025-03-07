@@ -116,7 +116,7 @@ list
 
 ```stata
 foreach v of varlist d81-d87{
-	gen `v'educ =educ*(`v')
+	gen `v'educ = educ*(`v')
 }
 ```
 
