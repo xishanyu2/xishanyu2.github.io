@@ -66,15 +66,6 @@ reshape long var, i(id) j(year)
 
 5.条件语句
 ```stata
-
-```
-
-
-
-6.循环语句
-- `while`
-
-```stata
 local score = 88
 if `score' >= 90{
 	di "优秀"
@@ -93,19 +84,43 @@ else{
 }
 ```
 
-- `foreach`
+
+
+6.循环语句
+- `while`
 
 ```stata
-foreach v of varlist d81-d87{
-gen `v'educ =educ*(`v')
+set obs 1
+gen sum = 0
+local i = 1
+local n = 100
+while `i' <= `n' {
+	qui replace sum = sum + `i'
+	local i = `i' + 1
 }
+list
 ```
 
 - `forvalues`
 
 ```stata
-
+clear
+set obs 1
+gen sum = 0
+forvalues i = 1/100 {
+    qui replace sum = sum + `i'
+}
+list
 ```
+
+- `foreach``of/in`
+
+```stata
+foreach v of varlist d81-d87{
+	gen `v'educ =educ*(`v')
+}
+```
+
 ---
 
 # Chap3 一元线性回归及蒙特卡罗模拟
