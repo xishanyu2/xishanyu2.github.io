@@ -128,7 +128,7 @@ chap3.1_Stata模拟重复抽样.do [download](http://xishanyu2.github.io/files/c
 chap3.2_simulate修改.do [download](http://xishanyu2.github.io/files/chap3.2_simulate修改.do)  
 chap3.3_同方差异方差.do [download](http://xishanyu2.github.io/files/chap3.3_同方差异方差.do)  
 
-> 平行趋势检验：参考`BV13E421w79K`
+> 安慰剂检验：参考`BV13E421w79K`
 
 可视化网站：
 [Ordinary Least Squares](https://econometricsbysimulation.shinyapps.io/OLS-App/), [PGFplots.net](https://pgfplots.net/), [Stata Graph Gallery](https://surveydesign.com.au/stata/graphs.html), [Stata Visual Library](https://worldbank.github.io/stata-visual-library/)
