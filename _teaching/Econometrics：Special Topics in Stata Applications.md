@@ -7,7 +7,7 @@ venue: "Spring"
 date: 2025-01-01
 ---
 
-The explanatory videos are uploaded to [Bilibili]().
+The explanatory videos are uploaded to [Bilibili](https://space.bilibili.com/355858932/upload/video).
 
 ---
 # 写在前面：理解计量经济学的3种方式
