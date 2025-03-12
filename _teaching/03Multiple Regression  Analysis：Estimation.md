@@ -52,9 +52,9 @@ $$SER=\widehat{\sigma}^2=\frac{\sum\widehat{u}_i^2}{n-k-1}$$
 
 ![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142914.png?raw=true)
 
-**两步法**：
-第一步，用该解释变量对其他解释变量回归，得到OLS残差；
-第二步，用y对第一步的残差回归。
+**两步法**：  
+第一步，用该解释变量对其他解释变量回归，得到OLS残差；  
+第二步，用y对第一步的残差回归。  
 **三步法**（与两步法等价）：
 ```stata
 reg Y X1
