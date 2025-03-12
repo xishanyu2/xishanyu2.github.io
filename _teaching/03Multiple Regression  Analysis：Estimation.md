@@ -15,29 +15,41 @@ location: ""
 ## 1. 一点提示：
 - 统计学：SSR（regression）SSE（error），计量经济学：SSE（explained）SSR（residual）
 - 自由度：
-	- 伍：$F=\frac{SSE/k}{SSR/(n-k-1)}$
-	- 张,南：$F=\frac{RSS/k}{ESS/(n-k-1)}$
-	- 张,清：$F=\frac{ESS/(k-1)}{RSS/(T-k)}$
-	- 伍：$F=\frac{(SSR_r-SSR_{ur})/q}{SSR_{ur}/(n-k-1)}$
-	- 陈：$F=\frac{(SSR^*-SSR)/m}{SSR/(n-K)}$
+	- 伍：
+ $$F=\frac{SSE/k}{SSR/(n-k-1)}$$
+	- 张,南：
+ $$F=\frac{RSS/k}{ESS/(n-k-1)}$$
+	- 张,清：
+ $$F=\frac{ESS/(k-1)}{RSS/(T-k)}$$
+	- 伍：
+ $$F=\frac{(SSR_r-SSR_{ur})/q}{SSR_{ur}/(n-k-1)}$$
+	- 陈：
+ $$F=\frac{(SSR^*-SSR)/m}{SSR/(n-K)}$$
 - SR与MR的比较（相同、不同与区别转化）：
+
 $$R^2=\frac{SSE}{SST}=1-\frac{SSR}{SST}$$
 $$Var(\widehat{\beta}_1)_{mr}=Var(\widehat{\beta}_1)_{sr}\times VIF$$
 - 回归结果解读：
+
 $$t=\frac{\widehat{\beta}_i}{se(\widehat{\beta}_i)}$$
- $$F=\frac{SSE/k}{SSR/(n-k-1)}=\frac{R^2/k}{1-R^2/(n-k-1)}$$
-  $$F=\frac{(SSR_r-SSR_{ur})/q}{SSR_{ur}/(n-k-1)}=\frac{R_{ur}^2-R_r^2/q}{(1-R_{ur}^2)/(n-k-1)}$$
+
+$$F=\frac{SSE/k}{SSR/(n-k-1)}=\frac{R^2/k}{1-R^2/(n-k-1)}$$
+
+$$F=\frac{(SSR_r-SSR_{ur})/q}{SSR_{ur}/(n-k-1)}=\frac{R_{ur}^2-R_r^2/q}{(1-R_{ur}^2)/(n-k-1)}$$
+
 $$\overline{R^2}=1-\frac{SSR/(n-k-1)}{SST/(n-1)}=1-(1-R^2)\frac{n-1}{n-k-1}$$
+
 $$SER=\widehat{\sigma}^2=\frac{\sum\widehat{u}_i^2}{n-k-1}$$
+
 **EViews结果解读：**
-![|500](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FEViews.jpg?raw=true)
+![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FEViews.jpg?raw=true)
 **Stata结果解读：**
-![|500](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FStata.jpg?raw=true)
+![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FStata.jpg?raw=true)
 ## 2. 运用Venn图理解偏回归系数、遗漏变量、多重共线性
 （整理自连享会gitee）
-![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142849.png?raw=true)
+![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142849.png?raw=true)
 
-![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142914.png?raw=true)
+![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142914.png?raw=true)
 
 **两步法**：
 第一步，用该解释变量对其他解释变量回归，得到OLS残差；
@@ -52,16 +64,23 @@ predict e, res
 reg u e
 ```
 ## 3. 遗漏变量偏误
-$y= \beta _0+ \beta _1x_1+ \beta _2x_2+ u$
-$\widetilde{y} = \widetilde{\beta } _0+ \widetilde{\beta } _1x_1$
-$x_2= \delta _0+ \delta _1x_1+ v$
-$\begin{aligned} y & =\beta_{0}+\beta_{1}x_{1}+\beta_{2}(\delta_{0}+\delta_{1}x_{1}+v)+u={(\beta_{0}+\beta_{2}\delta_{0})}+{(\beta_{1}+\beta_{2}\delta_{1})}x_{1}+{(\beta_{2}v+u)} \end{aligned}$
-**偏误方向**即$\beta_{2}\delta_{1}$的正负：
 
-|             | $Corr(x1, x2)>0$ | $Corr(x1, x2)<0$ |
+$$y= \beta _0+ \beta _1x_1+ \beta _2x_2+ u$$
+
+$$$\widetilde{y} = \widetilde{\beta } _0+ \widetilde{\beta } _1x_1$$
+
+$$x_2= \delta _0+ \delta _1x_1+ v$$
+
+$$\begin{aligned} y & =\beta_{0}+\beta_{1}x_{1}+\beta_{2}(\delta_{0}+\delta_{1}x_{1}+v)+u={(\beta_{0}+\beta_{2}\delta_{0})}+{(\beta_{1}+\beta_{2}\delta_{1})}x_{1}+{(\beta_{2}v+u)} \end{aligned}$$
+
+**偏误方向**即
+$$\beta_{2}\delta_{1}$$
+的正负：
+
+|             | $$Corr(x1, x2)>0$$ | $$Corr(x1, x2)<0$$ |
 | ----------- | :--------------: | :--------------: |
-| $\beta_2>0$ |       $+$        |       $-$        |
-| $\beta_2<0$ |       $-$        |       $+$        |
+| $$\beta_2>0$$ |       $$+$$        |       $$-$$        |
+| $$\beta_2<0$$ |       $$-$$        |       $$+$$        |
 
 Wooldridge 6e, chap3:
 (1)Example 3.4 Determinants of College GPA
@@ -91,9 +110,9 @@ $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}$$
 $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}\beta_{j}^{2}$$
 - Lasso Regression:
 $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}|\beta_{j}|$$
-![left width:500px](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20003728.png?raw=true)
+![|300](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20003728.png?raw=true)
 
-![bg right width:460px](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20003657.png?raw=true)
+![|300](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20003657.png?raw=true)
 ### Stata command:
 
 - Ridge Regression: `ridgereg`, `rxridge`
