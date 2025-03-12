@@ -55,7 +55,8 @@ $$SER=\widehat{\sigma}^2=\frac{\sum\widehat{u}_i^2}{n-k-1}$$
 
 **两步法**：  
 第一步，用该解释变量对其他解释变量回归，得到OLS残差；  
-第二步，用y对第一步的残差回归。  
+第二步，用y对第一步的残差回归。
+
 **三步法**（与两步法等价）：
 ```stata
 reg Y X1
@@ -112,7 +113,7 @@ $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}\beta_{j}^{2}$$
 $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}|\beta_{j}|$$
 <div style="display: flex; justify-content: center; align-items: center;">
 	<img src='/images/屏幕截图 2025-03-12 003728.png' width="300">&nbsp;&nbsp;&nbsp;
-	<img src='/images/屏幕截图 2025-03-12 003657.png' width="260">
+	<img src='/images/屏幕截图 2025-03-12 003657.png' width="270">
 </div>
 
 ### Stata command:
