@@ -30,6 +30,7 @@ location: ""
 $$R^2=\frac{SSE}{SST}=1-\frac{SSR}{SST}$$
 
 $$Var(\widehat{\beta}_1)_{mr}=Var(\widehat{\beta}_1)_{sr}\times VIF$$
+
 - 回归结果解读：
 
 $$t=\frac{\widehat{\beta}_i}{se(\widehat{\beta}_i)}$$
