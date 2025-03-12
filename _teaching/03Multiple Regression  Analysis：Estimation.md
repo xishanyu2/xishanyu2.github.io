@@ -28,6 +28,7 @@ location: ""
 - SR与MR的比较（相同、不同与区别转化）：
 
 $$R^2=\frac{SSE}{SST}=1-\frac{SSR}{SST}$$
+
 $$Var(\widehat{\beta}_1)_{mr}=Var(\widehat{\beta}_1)_{sr}\times VIF$$
 - 回归结果解读：
 
@@ -42,19 +43,18 @@ $$\overline{R^2}=1-\frac{SSR/(n-k-1)}{SST/(n-1)}=1-(1-R^2)\frac{n-1}{n-k-1}$$
 $$SER=\widehat{\sigma}^2=\frac{\sum\widehat{u}_i^2}{n-k-1}$$
 
 **EViews结果解读：**
-![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FEViews.jpg?raw=true)
+![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FEViews.jpg?raw=true)
 **Stata结果解读：**
-![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FStata.jpg?raw=true)
+![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E8%AE%A1%E9%87%8FStata.jpg?raw=true)
 ## 2. 运用Venn图理解偏回归系数、遗漏变量、多重共线性
 （整理自连享会gitee）
-![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142849.png?raw=true)
+![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142849.png?raw=true)
 
-![|400](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142914.png?raw=true)
+![](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20142914.png?raw=true)
 
 **两步法**：
 第一步，用该解释变量对其他解释变量回归，得到OLS残差；
 第二步，用y对第一步的残差回归。
-
 **三步法**（与两步法等价）：
 ```stata
 reg Y X1
@@ -67,7 +67,7 @@ reg u e
 
 $$y= \beta _0+ \beta _1x_1+ \beta _2x_2+ u$$
 
-$$$\widetilde{y} = \widetilde{\beta } _0+ \widetilde{\beta } _1x_1$$
+$$\widetilde{y} = \widetilde{\beta } _0+ \widetilde{\beta } _1x_1$$
 
 $$x_2= \delta _0+ \delta _1x_1+ v$$
 
@@ -78,19 +78,18 @@ $$\beta_{2}\delta_{1}$$
 的正负：
 
 |             | $$Corr(x1, x2)>0$$ | $$Corr(x1, x2)<0$$ |
-| ----------- | :--------------: | :--------------: |
+| :-----------: | :--------------: | :--------------: |
 | $$\beta_2>0$$ |       $$+$$        |       $$-$$        |
 | $$\beta_2<0$$ |       $$-$$        |       $$+$$        |
 
-Wooldridge 6e, chap3:
+Wooldridge 6e, chap3:  
 (1)Example 3.4 Determinants of College GPA
 ```stata
 corr colGPA hsGPA ACT
 reg colGPA hsGPA ACT
 reg colGPA ACT
 ```
-(2)Example 3.6 Hourly Wage Equation
-
+(2)Example 3.6 Hourly Wage Equation  
 (3)Problem8
 ## 4. 多重共线性的识别与处理
 
@@ -110,15 +109,15 @@ $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}$$
 $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}\beta_{j}^{2}$$
 - Lasso Regression:
 $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}|\beta_{j}|$$
-![|300](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20003728.png?raw=true)
+<div style="display: flex; justify-content: center; align-items: center;">
+	<img src='/images/Pasted image1.png' width="150">&nbsp;&nbsp;&nbsp;
+	<img src='/images/Pasted image2.png' width="200">
+</div>
 
-![|300](https://github.com/xishanyu2/xishanyu2.github.io/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-12%20003657.png?raw=true)
 ### Stata command:
 
 - Ridge Regression: `ridgereg`, `rxridge`
-
 - Lasso Regression: `lassopack`(`lasso2`, `cvlasso`, `rlasso`)
-
 - Elasti Net: `elasticregress`
 
 **参考资料：**
