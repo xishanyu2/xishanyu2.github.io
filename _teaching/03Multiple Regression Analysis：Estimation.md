@@ -120,7 +120,7 @@ $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}|\beta_{j}|$$
 
 - Ridge Regression: `ridgereg`, `rxridge`
 - Lasso Regression: `lassopack`(`lasso2`, `cvlasso`, `rlasso`)
-- Elasti Net: `elasticregress`
+- Elastic Net: `elasticregress`
 
 **参考资料：**
 - 陈强编著.机器学习及Python应用.高等教育出版社.2021 **chap9**
