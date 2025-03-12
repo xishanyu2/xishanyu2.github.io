@@ -110,8 +110,8 @@ $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}\beta_{j}^{2}$$
 - Lasso Regression:
 $$f=\sum_{i=1}^{n}(y_{i}-X\hat{\beta})^{2}+\lambda\sum_{j=1}^{p}|\beta_{j}|$$
 <div style="display: flex; justify-content: center; align-items: center;">
-	<img src='/images/Pasted image1.png' width="150">&nbsp;&nbsp;&nbsp;
-	<img src='/images/Pasted image2.png' width="200">
+	<img src='/images/屏幕截图 2025-03-12 003728.png' width="500">&nbsp;&nbsp;&nbsp;
+	<img src='/images/屏幕截图 2025-03-12 003657.png' width="460">
 </div>
 
 ### Stata command:
