@@ -1,3 +1,17 @@
+---
+title: "Multiple Regression  Analysis：Estimation"
+collection: talks
+type: "Chap4"
+permalink: /teaching/stata/chap4
+venue: "Mar 10th"
+date: 2025-01-01
+location: ""
+---
+
+[pdf version](http://xishanyu2.github.io/files/Multiple Regression  Analysis：Estimation.pdf), [html version](http://xishanyu2.github.io/files/Multiple Regression  Analysis：Estimation.html)
+
+---
+
 ## 1. 一点提示：
 - 统计学：SSR（regression）SSE（error），计量经济学：SSE（explained）SSR（residual）
 - 自由度：
