@@ -163,3 +163,13 @@ sum sxu
 clear
 set seed 10101
 ```
+
+---
+
+### 3月15日补充：
+
+[Stata：append 命令动图演示](https://www.bilibili.com/video/BV1zQ4y1W7nh?vd_source=0157f662d038fde520efb02dbe730b48)  
+[Stata：merge 1:1 动图展示](https://www.bilibili.com/video/BV16841167C8?vd_source=0157f662d038fde520efb02dbe730b48)  
+[Stata：merge 1:m 动图演示](https://www.bilibili.com/video/BV1hN4y117cY?vd_source=0157f662d038fde520efb02dbe730b48)  
+[Stata：merge m:1 动图演示](https://www.bilibili.com/video/BV1iN4114758?vd_source=0157f662d038fde520efb02dbe730b48)  
+[Stata：使用 spread 和 gather 进行长宽数据转换动图演示](https://www.bilibili.com/video/BV1Rw411z7dh?vd_source=0157f662d038fde520efb02dbe730b48)
