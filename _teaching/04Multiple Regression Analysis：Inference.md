@@ -43,7 +43,8 @@ twoway function F20=Fden(10,20,x),range(0 5) ///
 ```
 # t值、p值、F值、临界值的计算：
 
-chap5.1_t检验与F检验 [download]()
+chap5.1_t检验与F检验 [download](http://xishanyu2.github.io/files/chap5_upload.do)
+
 # 检验
 1. `test`
 - 排除性约束检验/联合显著性检验
