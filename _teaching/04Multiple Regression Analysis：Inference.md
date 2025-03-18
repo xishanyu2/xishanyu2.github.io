@@ -12,6 +12,8 @@ location: ""
 
 ---
 
+本章主要参考资料：陈强（2023），Baum（2006），Adkins & Hill（2011），Cameron & Trivedi（2010）
+
 # 四大重要分布：
 
 1.1 标准正态分布
