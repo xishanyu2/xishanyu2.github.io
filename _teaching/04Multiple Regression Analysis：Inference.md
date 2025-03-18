@@ -98,4 +98,4 @@ ttest x, by(group)
 ```
 
 3.`ftest`  
-4.Wald检验、LM检验（没有`lmtest`）与LR检验`lrtst`
+4.Wald检验、LM检验（没有`lmtest`）与LR检验`lrtest`
