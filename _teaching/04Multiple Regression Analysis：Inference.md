@@ -1,10 +1,16 @@
 ---
-marp: true
-footer: "[xishanyu2.github.io](xishanyu2.github.io)"
-paginate: true
+title: "Multiple Regression Analysis：Inference"
+collection: talks
+type: "Chap5"
+permalink: /teaching/stata/chap5
+venue: "Mar 17th"
+date: 2025-01-01
+location: ""
 ---
-# Multiple Regression Analysis：Inference
 
+[pdf version](http://xishanyu2.github.io/files/Multiple Regression Analysis：Inference.pdf), [html version](http://xishanyu2.github.io/files/Multiple Regression Analysis：Inference.html)
+
+---
 
 # 四大重要分布：
 
