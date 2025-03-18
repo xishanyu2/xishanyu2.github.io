@@ -1,5 +1,5 @@
 ---
-title: "Multiple Regression  Analysis：Estimation"
+title: "Multiple Regression Analysis：Estimation"
 collection: talks
 type: "Chap4"
 permalink: /teaching/stata/chap4
