@@ -41,11 +41,16 @@ twoway function chi3=chi2den(3,x),range(0 20) ///
 twoway function F20=Fden(10,20,x),range(0 5) ///
 || function F5=Fden(10,5,x),range(0 5) lp(dash) ytitle("概率密度")
 ```
+
+---
+
 # t值、p值、F值、临界值的计算：
 
 chap5.1_t检验与F检验 [download](http://xishanyu2.github.io/files/chap5_upload.do)
 
-# 检验
+---
+
+# 检验：
 1.`test`
 - 排除性约束检验/联合显著性检验
 ```stata
