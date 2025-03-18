@@ -46,7 +46,7 @@ twoway function F20=Fden(10,20,x),range(0 5) ///
 chap5.1_t检验与F检验 [download](http://xishanyu2.github.io/files/chap5_upload.do)
 
 # 检验
-1. `test`
+1.`test`
 - 排除性约束检验/联合显著性检验
 ```stata
 test x
@@ -82,7 +82,7 @@ testnl _b[x]/_b[x] = c //chi2
 nlcom _b[x]/_b[x] - c //z
 ```
 
-2. `ttest`（检验均值）
+2.`ttest`（检验均值）
 ```stata
 ttest x == c
 ```
@@ -96,6 +96,6 @@ ttest x == y
 ttest x, by(group)
 ```
 
-3. `ftest`
-4. Wald检验、LM检验与LR检验
+3.`ftest`
+4.Wald检验、LM检验与LR检验
 `lrtst`，没有`lmtest`
