@@ -98,5 +98,5 @@ ttest x, by(group)
 ```
 
 3.`ftest`  
-4.Wald检验、LM检验与LR检验
+4.Wald检验、LM检验与LR检验：
 `lrtst`，没有`lmtest`
