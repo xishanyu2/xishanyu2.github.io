@@ -35,7 +35,7 @@ twoway function t=tden(1,x),range(-5 5) ///
 3.卡方分布
 ```stata
 twoway function chi3=chi2den(3,x),range(0 20) ///
-|| function chi5=chi2den(100,x),range(0 20) lp(dash) ytitle("概率密度")
+|| function chi5=chi2den(5,x),range(0 20) lp(dash) ytitle("概率密度")
 ```
 
 4.F分布
