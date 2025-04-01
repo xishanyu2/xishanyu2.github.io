@@ -12,6 +12,7 @@ location: ""
 
 ---
 
+调整的R方：
 ```stata
 qui reg math4 pctsgle lmedinc free
 eststo m1
