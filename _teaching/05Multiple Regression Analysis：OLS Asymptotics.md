@@ -10,7 +10,7 @@ location: ""
 
 
 
-
+---
 
 ```stata
 qui reg math4 pctsgle lmedinc free
