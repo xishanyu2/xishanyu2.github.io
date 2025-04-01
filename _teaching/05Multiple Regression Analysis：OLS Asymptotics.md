@@ -14,6 +14,7 @@ location: ""
 
 调整的R方：
 ```stata
+use "\meapsingle.dta" 
 qui reg math4 pctsgle lmedinc free
 eststo m1
 qui reg math4 pctsgle
@@ -22,7 +23,7 @@ qui reg math4 pctsgle lmedinc
 eststo m3
 qui reg math4 pctsgle free
 eststo m4
-esttab, ar2
+esttab, r2 ar2 //报告R方和调整的R方
 /*
 ----------------------------------------------------------------------------
                       (1)             (2)             (3)             (4)   
@@ -41,6 +42,7 @@ _cons               51.72           96.77***        20.97           93.00***
                    (0.88)         (60.60)          (0.34)         (56.97)   
 ----------------------------------------------------------------------------
 N                     229             229             229             229   
+R-sq                0.460           0.380           0.384           0.459   
 adj. R-sq           0.453           0.377           0.378           0.454   
 ----------------------------------------------------------------------------
 t statistics in parentheses
