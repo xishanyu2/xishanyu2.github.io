@@ -13,6 +13,7 @@ No video in this chapter.
 ---
 
 1. 补充（伍德里奇第三章C11）：多重共线性处理之逐个放入——看调整的R方
+
 ```stata
 use "\meapsingle.dta" 
 qui reg math4 pctsgle lmedinc free
