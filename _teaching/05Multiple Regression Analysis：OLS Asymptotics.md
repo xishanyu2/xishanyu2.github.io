@@ -51,6 +51,8 @@ t statistics in parentheses
 */
 ```
 
+---
+
 1. 无偏性与一致性
 2. OLS的渐近性：  
 大样本下：  
