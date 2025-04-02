@@ -77,3 +77,6 @@ scalar x1_mean = r(mean)
 gen x1cx2 = ( x1 - x1_mean ) * x2
 ```
 
+## 实验6：拟合优度和变量选择
+
+## 实验7：预测和残差分析
