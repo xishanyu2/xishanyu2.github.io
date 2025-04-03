@@ -203,7 +203,7 @@ twoway (scatter lprice lnox if e(sample),
 ```
 ---
 
-本章主要参考资料：  
+**本章主要参考资料：**  
 [课件/open5_regress.zip · lianxh/Stata公开课-连享会 - Gitee.com](https://gitee.com/lianxh/stataopen/blob/master/%E8%AF%BE%E4%BB%B6/open5_regress.zip)  
 [线性回归中相关系数与决定系数相等的证明 - 知乎](https://zhuanlan.zhihu.com/p/338241979)  
 [相关系数和R方的关系是什么？ - 知乎](https://www.zhihu.com/question/32021302/answer/739464752)  
