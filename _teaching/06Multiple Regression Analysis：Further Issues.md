@@ -48,6 +48,7 @@ dis 100*( exp(_b[x]) - 1 )
 ## 实验4：含二次项的模型
 
 $$y = ax^2 + bx + c$$
+
 $$dy/dx = 2ax + b$$
 
 ```stata
@@ -96,9 +97,11 @@ esttab m1 m2 m3 m4, mtitle(ols nocenter center_inter center_all)
 ## 实验5：含交叉项的模型
 
 $$y = a + b1X +e$$
+
 $$dy/dX = b1$$
 
 $$y = a + b1X + b2Z + b3(XZ) + e$$
+
 $$dy/dX = b1 + b3Z$$
 
 X 的边际效果依赖于 Z
