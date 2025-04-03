@@ -194,7 +194,7 @@ summarize lnox if e(sample), meanonly
 local lnoxbar = r(mean)
 label var xb "Pred"
 label var uplim "95% prediction interval"
-label var lowlim "96% prediction interval"
+label var lowlim "95% prediction interval"
 twoway (scatter lprice lnox if e(sample),
 > sort ms(Oh) xline(`lnoxbar'))
 > (connected xb lnox if e(sample), sort msize(small))
