@@ -203,6 +203,9 @@ ytitle(Actual and predicted log price) legend(cols(3))
 
 ## Bootstrap
 
+[Stata：Bootstrap-自抽样-自举法](https://www.lianxh.cn/details/43.html)  
+[Stata：手动实现置换检验(permutation)和自抽样(bootstrap)](https://www.lianxh.cn/details/1091.html)
+
 ---
 
 **本章主要参考资料：**  
