@@ -51,8 +51,8 @@ dis 100*( exp(_b[x]) - 1 )
 
 ## 实验4：含二次项的模型
 
-y = a\*x^2 + b\*x + c
-dy/dx = 2a\*x + b
+$$y = ax^2 + bx + c$$
+$$dy/dx = 2ax + b$$
 
 
 ```stata
@@ -101,11 +101,11 @@ esttab m1 m2 m3 m4, mtitle(ols nocenter center_inter center_all)
 
 ## 实验5：含交叉项的模型
 
-y = a + b1\*X +e
-dy/dX = b1
+$$y = a + b1X +e$$
+$$dy/dX = b1$$
 
- y = a + b1\*X + b2\*Z + b3\*(X\*Z) + e
-dy/dX = b1 + b3\*Z
+$$y = a + b1X + b2Z + b3(XZ) + e$$
+$$dy/dX = b1 + b3\Z$$
 X 的边际效果依赖于 Z
 - 若 b1 和 b3 符号相同, 则表明随着 Z 的增加，X 对 y 的边际影响得以"加强";
 - 若 b1 和 b3 符号不同, 则表明随着 Z 的增加，X 对 y 的边际影响会"减弱";
