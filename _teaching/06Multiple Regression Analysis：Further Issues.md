@@ -187,7 +187,6 @@ use http://www.stata-press.com/data/imeus/hprice2a, clear
 quietly regress lprice lnox if _n<=100
 predict double xb if e(sample)
 predict double stdpred if e(sample), stdp
-
 scalar tval = invttail(e(df_r), 0.025)
 generate double uplim = xb + tval * stdpred
 generate double lowlim = xb - tval * stdpred
