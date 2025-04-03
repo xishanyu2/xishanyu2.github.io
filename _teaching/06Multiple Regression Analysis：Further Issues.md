@@ -194,12 +194,15 @@ local lnoxbar = r(mean)
 label var xb "Pred"
 label var uplim "95% prediction interval"
 label var lowlim "95% prediction interval"
-twoway (scatter lprice lnox if e(sample),
-> sort ms(Oh) xline(`lnoxbar'))
-> (connected xb lnox if e(sample), sort msize(small))
-> (rline uplim lowlim lnox if e(sample), sort),
-> ytitle(Actual and predicted log price) legend(cols(3))
+twoway (scatter lprice lnox if e(sample), ///
+sort ms(Oh) xline(`lnoxbar')) ///
+(connected xb lnox if e(sample), sort msize(small)) ///
+(rline uplim lowlim lnox if e(sample), sort), ///
+ytitle(Actual and predicted log price) legend(cols(3))
 ```
+
+## Bootstrap
+
 ---
 
 **本章主要参考资料：**  
