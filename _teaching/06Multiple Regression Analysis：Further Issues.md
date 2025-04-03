@@ -94,13 +94,13 @@ esttab m1 m2 m3 m4, mtitle(ols nocenter center_inter center_all)
 
 ## 实验5：含交叉项的模型
 
-$$y = a + b1X +e$$
+$$y = a + b_1X +e$$
 
-$$dy/dX = b1$$
+$$dy/dX = b_1$$
 
-$$y = a + b1X + b2Z + b3(XZ) + e$$
+$$y = a + b_1X + b_2Z + b_3(XZ) + e$$
 
-$$dy/dX = b1 + b3Z$$
+$$dy/dX = b_1 + b_3Z$$
 
 X 的边际效果依赖于 Z：
 - 若 b1 和 b3 符号相同, 则表明随着 Z 的增加，X 对 y 的边际影响得以"加强";
