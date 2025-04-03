@@ -69,7 +69,6 @@ reg y c.x##(c.p2-p9) //生成x与p2-p9的系列交互项，和x与p2-p9本身
 sum x
 gen x_centered = x - r(mean)
 ```
----
 
 ```stata
 sysuse auto, clear
@@ -87,7 +86,6 @@ reg price c.C_mpg##c.C_wei  //对主变量、调节变量和交乘项都做去�
 est store m4
 esttab m1 m2 m3 m4, mtitle(ols nocenter center_inter center_all)
 	
-*  ----------
 *-Notes: 
 *-中心化仅是方便一次项系数的解释，不能克服共线性，也不能解决内生性;
 *-只关注交乘项的系数，中心化与否均可;
@@ -205,8 +203,8 @@ twoway (scatter lprice lnox if e(sample),
 ```
 ---
 
-本章主要参考资料：
+本章主要参考资料：  
 [课件/open5_regress.zip · lianxh/Stata公开课-连享会 - Gitee.com](https://gitee.com/lianxh/stataopen/blob/master/%E8%AF%BE%E4%BB%B6/open5_regress.zip)  
-[线性回归中相关系数(Correlation coefficient)与决定系数(coefficient of determination)相等的证明 - 知乎](https://zhuanlan.zhihu.com/p/338241979)  
+[线性回归中相关系数与决定系数相等的证明 - 知乎](https://zhuanlan.zhihu.com/p/338241979)  
 [相关系数和R方的关系是什么？ - 知乎](https://www.zhihu.com/question/32021302/answer/739464752)  
 [Stata数据处理：各种求和方式一览](https://www.lianxh.cn/news/3ce33ba6750a7.html)  
