@@ -177,7 +177,6 @@ dis a0h*m //y的预测值
 *过原点的回归
 reg y m, noc //斜率即为α0_check的估计值
 corr y yf
-
 *-Note: 因变量为lny时转换为y后的可决系数=y的预测值与y观测值相关系数的平方
 ```
 
