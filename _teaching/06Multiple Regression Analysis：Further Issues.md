@@ -37,6 +37,8 @@ reg y x1_z x2_z x3_z, noc
 reg y x1 x2 x3, beta
 ```
 
+[如何比较解释变量的系数相对大小？](https://www.lianxh.cn/news/02622336fe183.html)
+
 ## 实验3：含对数的模型
 
 > 精确百分比的计算与使用条件
