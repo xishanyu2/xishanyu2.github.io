@@ -23,8 +23,6 @@ location: ""
 |   R²    |    不变     |    不变     |    基本不变    |
 | SSR、SER |    改变     |    不变     |    基本不变    |
 
-
-
 ## 实验2：标准化系数
 
 ```stata
@@ -38,7 +36,6 @@ reg y x1_z x2_z x3_z, noc
 *等价于：
 reg y x1 x2 x3, beta
 ```
----
 
 ## 实验3：含对数的模型
 
@@ -47,13 +44,11 @@ reg y x1 x2 x3, beta
 ```stata
 dis 100*( exp(_b[x]) - 1 )
 ```
----
 
 ## 实验4：含二次项的模型
 
 $$y = ax^2 + bx + c$$
 $$dy/dx = 2ax + b$$
-
 
 ```stata
 *生成交互项
@@ -97,7 +92,6 @@ esttab m1 m2 m3 m4, mtitle(ols nocenter center_inter center_all)
 *-只关注交乘项的系数，中心化与否均可;
 *-虚拟变量无需中心化	
 ```
----
 
 ## 实验5：含交叉项的模型
 
@@ -109,7 +103,6 @@ $$dy/dX = b1 + b3\Z$$
 X 的边际效果依赖于 Z
 - 若 b1 和 b3 符号相同, 则表明随着 Z 的增加，X 对 y 的边际影响得以"加强";
 - 若 b1 和 b3 符号不同, 则表明随着 Z 的增加，X 对 y 的边际影响会"减弱";
----
 
 主效应项系数的方向和显著性重要么？
 不重要，b1的含义：当Z=0时, X的变动平均会带来y的变动
@@ -127,7 +120,6 @@ sum x1
 scalar x1_mean = r(mean)
 gen x1cx2 = ( x1 - x1_mean ) * x2
 ```
----
 
 ## 实验6：拟合优度和变量选择
 
@@ -137,10 +129,7 @@ R2 越高越好吗？
 
 [R2分解：相对重要性分析 (Dominance Analysis)](https://www.lianxh.cn/news/845b935d8d599.html) `domin`
 
----
-
 ## 实验7：预测和残差分析
-
 
 ```stata
 reg y $x, r
@@ -149,7 +138,6 @@ gen resid = y - yhat
 
 predict uhat, residual
 ```
----
 
 ```stata
 bcuse gpa2, clear
@@ -169,7 +157,6 @@ list yhat if _n == _N
 
 *-Note: 利用回归模型预测时，解释变量的值最好不要离开样本范围太远
 ```
----
 
 ```stata
 *6-4d Predicting y When the Dependent Variable Is log(y):
@@ -190,7 +177,7 @@ corr y yf
 
 *-Note: 因变量为lny时转换为y后的可决系数=y的预测值与y观测值相关系数的平方
 ```
----
+
 ```stata
 *Baum_4.6.1 Computing interval predictions (self-reading)
 use http://www.stata-press.com/data/imeus/hprice2a, clear
@@ -215,7 +202,7 @@ twoway (scatter lprice lnox if e(sample),
 ---
 
 本章主要参考资料：
-[课件/open5_regress.zip · lianxh/Stata公开课-连享会 - Gitee.com](https://gitee.com/lianxh/stataopen/blob/master/%E8%AF%BE%E4%BB%B6/open5_regress.zip)
-[线性回归中相关系数(Correlation coefficient)与决定系数(coefficient of determination)相等的证明 - 知乎](https://zhuanlan.zhihu.com/p/338241979)
-[相关系数和R方的关系是什么？ - 知乎](https://www.zhihu.com/question/32021302/answer/739464752)
-[Stata数据处理：各种求和方式一览](https://www.lianxh.cn/news/3ce33ba6750a7.html)
+[课件/open5_regress.zip · lianxh/Stata公开课-连享会 - Gitee.com](https://gitee.com/lianxh/stataopen/blob/master/%E8%AF%BE%E4%BB%B6/open5_regress.zip)  
+[线性回归中相关系数(Correlation coefficient)与决定系数(coefficient of determination)相等的证明 - 知乎](https://zhuanlan.zhihu.com/p/338241979)  
+[相关系数和R方的关系是什么？ - 知乎](https://www.zhihu.com/question/32021302/answer/739464752)  
+[Stata数据处理：各种求和方式一览](https://www.lianxh.cn/news/3ce33ba6750a7.html)  
