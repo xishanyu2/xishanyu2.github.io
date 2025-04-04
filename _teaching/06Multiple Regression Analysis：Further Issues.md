@@ -8,7 +8,7 @@ date: 2025-01-01
 location: ""
 ---
 
-[pdf version](http://xishanyu2.github.io/files/), [html version](http://xishanyu2.github.io/files/)
+[pdf version](http://xishanyu2.github.io/files/Multiple Regression Analysis：Further Issues.pdf), [html version](http://xishanyu2.github.io/files/Multiple Regression Analysis：Further Issues.html)
 
 ---
 
