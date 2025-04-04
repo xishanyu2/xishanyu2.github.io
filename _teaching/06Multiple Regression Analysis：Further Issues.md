@@ -168,9 +168,9 @@ list yhat if _n == _N
 reg lny x1 x2 x3
 predict lnyh
 predict uh, res
-gen usq = uh^2
-egen sumu2 = sum(usq)
-dis sumu2/_N //smearing estimator偏误修正估计值
+gen eu = exp(uh)
+egen sumeu = sum(eu)
+dis sumeu/_N //smearing estimator偏误修正估计值
 gen m=exp(lnyh)
 dis a0h*m //y的预测值
 ```
