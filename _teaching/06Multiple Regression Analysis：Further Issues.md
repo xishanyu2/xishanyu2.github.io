@@ -27,12 +27,12 @@ location: ""
 
 ```stata
 *标准化变量
-egen x_z = std( x )
+egen z_x = std( x )
 ```
 
 ```stata
 *比较解释变量的重要程度
-reg y x1_z x2_z x3_z, noc
+reg z_y z_x1 z_x2 z_x3, noc
 *等价于：
 reg y x1 x2 x3, beta
 ```
