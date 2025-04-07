@@ -3,7 +3,7 @@ title: "Multiple Regression Analysis with Qualitative Information"
 collection: talks
 type: "Chap8"
 permalink: /teaching/stata/chap8
-venue: "Apr 7st"
+venue: "Apr 7th"
 date: 2025-01-01
 location: ""
 ---
