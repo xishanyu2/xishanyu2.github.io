@@ -13,6 +13,7 @@ location: ""
 ---
 
 # Summary
+
 **Binary Dummy:**
 1. 虚拟变量陷阱：有m个虚拟变量类别
 	- 模型带常数项，至多能设m-1个虚拟变量；
