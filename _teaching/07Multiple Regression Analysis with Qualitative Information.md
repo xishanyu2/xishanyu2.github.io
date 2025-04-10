@@ -33,6 +33,7 @@ location: ""
 5. 生成虚拟变量：`gen dummy = (判断条件)` 
 
 **Interactions with Dummies:**
+
 ```stata
 *Example 7.10: Log Hourly Wage Equation
 reg lwage i.female##i.educ c.exper##c.exper c.tenure##c.tenure
@@ -45,6 +46,7 @@ testparm 1.female#c.educ //检验男女的教育回报率是否相同
 $$F=\frac{\left[{SSR}_{P}-({SSR}_{1}+{SSR}_{2})\right]}{{SSR}_{1}+{SSR}_{2}}\cdot\frac{\left[n-2(k+1)\right]}{k+1}$$
 
 **Chow test:**
+
 ```stata
 chowtest y x1 x2 x3, group(组别)
 ```
@@ -56,6 +58,7 @@ chowtest y x1 x2 x3, group(组别)
 4. LPM 的优缺点与解决
 	 - `robust`
 	 - `logit`, `probit`
+
 ```stata
 reg y $x, r
 predict yhat
