@@ -63,7 +63,3 @@ predict yhat
 replace yhat = max(0,min(1,yhat))
 gen pred_class = (yhat >= 0.5)
 ```
-
----
-
-# Addition
