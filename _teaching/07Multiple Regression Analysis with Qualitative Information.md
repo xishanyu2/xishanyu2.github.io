@@ -43,7 +43,7 @@ testparm 1.female#c.educ //检验男女的教育回报率是否相同
 
 **Chow statistic:**
 
-$$F=\frac{\left[{SSR}_{P}-({SSR}_{1}+{SSR}_{2})\right]}{{SSR}_{1}+{SSR}_{2}}\cdot\frac{\left[n-2(k+1)\right]}{k+1}$$
+
 
 **Chow test:**
 
