@@ -41,6 +41,8 @@ testparm 1.female 1.female#c.educ //检验男女的平均工资是否相同
 testparm 1.female#c.educ //检验男女的教育回报率是否相同
 ```
 
+Attention: 含`i.x`回归方程的检验不能用`test`而是用`testparm`。
+
 **Chow test:**
 
 ```stata
