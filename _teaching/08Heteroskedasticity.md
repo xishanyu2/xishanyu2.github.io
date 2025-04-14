@@ -51,8 +51,8 @@ predict yhat
 predict uhat, r
 gen yhsq = yhat^2
 gen uhsq = uhat^2
-reg uhsq yhsq
-test yhsq
+reg uhsq yhat yhsq
+test yhat yhsq
 dis "LM统计量为：" _N*e(r2)
 ```
 
