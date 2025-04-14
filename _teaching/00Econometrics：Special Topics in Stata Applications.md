@@ -73,7 +73,7 @@ gen lu2 = ln( uh^2 )
 reg lu2 x_t1 ... x_tk
 predict gh
 gen hh = exp(gh)
-prais hh x_t1 ... x_tk [aw=1/hh]
+prais y x_t1 ... x_tk [aw=1/hh]
 ```
 
 伍德里奇的例题和习题都是非常好的练习素材，习题内容与难度也是层层递进、前后呼应的；
