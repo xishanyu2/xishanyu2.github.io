@@ -13,7 +13,7 @@ location: ""
 ---
 
 # Some useful Stata command
-1. 数据处理
+1.数据处理
 - 打开文件：`use 文件路径\文件名.dta, clear`
 - 变量标签：`label variable x xlabel`
 - 审视数据：`describe`, `list`
@@ -43,7 +43,7 @@ location: ""
 
 ---
 
-2. 线性回归分析
+2.线性回归分析
 - `regress y $x`
 - `regress y $x, noc`
 - `regress y $x if q >= 6000`
@@ -102,7 +102,7 @@ vcemway reg y $x, cluster(id year)
 
 ---
 
-3. 正态分布检验
+3.正态分布检验
 - `hist x, normal`
 - `kdensity x, normal`
 - `qnorm x`
@@ -117,7 +117,7 @@ di chi2tail()
 - `sfrancia x`
 
  ---
-4. 异方差处理
+4.异方差处理
 - 画残差图：`rvfplot`
 - 怀特检验：`estat imtest, white`, `whitetst`
 - BP检验：
@@ -131,7 +131,7 @@ di chi2tail()
 
 ---
 
-5. 模型设定
+5.模型设定
 - 遗漏变量：`estat ovtest`, `estat ovtest, rhs`
 - 多重共线性：`estat vif`
 - 极端数据：
@@ -165,7 +165,7 @@ winsor2 x, cuts(0 97.5) trim
 
 ---
 
-6. 虚拟变量
+6.虚拟变量
 - `gen d = (year >= 1978)`
 - `tabulate province, gen(pr)`
 
@@ -180,7 +180,7 @@ reg y x i.dummy
 
 ---
 
-7. 描述性统计和回归结果导出：
+7.描述性统计和回归结果导出：
 - `logout`
 - `sum2docx`
 - `asdoc`
