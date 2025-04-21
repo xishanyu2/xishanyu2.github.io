@@ -188,4 +188,22 @@ reg y x i.dummy
 
 ---
 
+8. [Stata编程：暂元，local！暂元，local！](https://www.lianxh.cn/details/658.html)
+
+在 Stata 中，暂元分为局部暂元`local`与全局暂元`global`两种。其中，局部暂元执行完一次命令后就失效了，而全局暂元在 Stata 关闭之前一直存在，可以随时引用。运行包含局部暂元的多行命令时，需要一次性执行完，否则会出错。
+
+暂元里可以存放数字、文字、表达式、变量、文件路径等。
+
+```stata
+local xx "x1 x2 x3 x4"
+reg y `x'
+```
+
+```stata
+global xx "x1 x2 x3 x4"
+reg y $x
+```
+
+---
+
 主要参考资料：叶阿忠[等] 编著.高级计量经济学.厦门大学出版社.2020 附录
