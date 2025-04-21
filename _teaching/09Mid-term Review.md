@@ -8,7 +8,7 @@ date: 2025-01-01
 location: ""
 ---
 
-[pdf version](http://xishanyu2.github.io/files/Heteroskedasticity.pdf), [html version](http://xishanyu2.github.io/files/Heteroskedasticity.html)
+[pdf version](http://xishanyu2.github.io/files/Mid-term Review.pdf), [html version](http://xishanyu2.github.io/files/Mid-term Review.html)
 
 ---
 
