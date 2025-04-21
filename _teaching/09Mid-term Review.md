@@ -196,12 +196,12 @@ reg y x i.dummy
 
 ```stata
 local xx "x1 x2 x3 x4"
-reg y `x'
+reg y `xx'
 ```
 
 ```stata
 global xx "x1 x2 x3 x4"
-reg y $x
+reg y $xx
 ```
 
 ---
