@@ -154,7 +154,7 @@ winsor2 x, replace cuts(2.5 97.5)
 ```
 - 截尾
 ```stata
-drop x if x >= 1
+drop if x >= 1
 winsor2 x, cuts(2.5 97.5) trim
 winsor2 x, cuts(2.5 100) trim
 winsor2 x, cuts(0 97.5) trim
