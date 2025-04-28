@@ -26,7 +26,7 @@ location: ""
 ---
 
 **References：**  
-[1]江艇.因果推断经验研究中的中介效应与调节效应[J].中国工业经济,2022,(05):100-120.DOI:10.19581/j.cnki.ciejournal.2022.05.005.  
+[1]江艇.因果推断经验研究中的中介效应与调节效应[J].中国工业经济,2022,(05):100-120.  
 [2]李春涛, 司海涛, 薛原著.Stata正则表达式及其在财务数据中的应用.中国金融出版社.2022  
 [3]Acemoglu D, Johnson S, Robinson J A. The colonial origins of comparative development: An empirical investigation[J]. American economic review, 2001, 91(5): 1369-1401.  
 [4]Nunn N. The long-term effects of Africa's slave trades[J]. The Quarterly journal of economics, 2008, 123(1): 139-176.  
