@@ -1,7 +1,7 @@
 ---
 title: "Mid-term Test"
 collection: talks
-type: "test"
+type: "Test"
 permalink: /teaching/stata/test
 venue: "Apr 28th"
 date: 2025-01-01
