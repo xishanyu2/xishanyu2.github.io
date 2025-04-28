@@ -27,12 +27,11 @@ location: ""
 
 **References：**  
 [1]江艇.因果推断经验研究中的中介效应与调节效应[J].中国工业经济,2022,(05):100-120.DOI:10.19581/j.cnki.ciejournal.2022.05.005.  
-[2]金星晔,左从江,方明月,等.企业数字化转型的测度难题：基于大语言模型的新方法与新发现[J].经济研究,2024,59(03):34-53.  
+[2]李春涛, 司海涛, 薛原著.Stata正则表达式及其在财务数据中的应用.中国金融出版社.2022  
 [3]Acemoglu D, Johnson S, Robinson J A. The colonial origins of comparative development: An empirical investigation[J]. American economic review, 2001, 91(5): 1369-1401.  
 [4]Nunn N. The long-term effects of Africa's slave trades[J]. The Quarterly journal of economics, 2008, 123(1): 139-176.  
 [5]Nunn N, Qian N. The potato's contribution to population and urbanization: evidence from a historical experiment[J]. The quarterly journal of economics, 2011, 126(2): 593-650.  
-[6]Nunn N, Wantchekon L. The slave trade and the origins of mistrust in Africa[J]. American economic review, 2011, 101(7): 3221-3252.  
-[7]李春涛, 司海涛, 薛原著.Stata正则表达式及其在财务数据中的应用.中国金融出版社.2022
+[6]Nunn N, Wantchekon L. The slave trade and the origins of mistrust in Africa[J]. American economic review, 2011, 101(7): 3221-3252.
 
 [Stata数据清洗：十分钟搞定CSMAR上市公司数据库的清洗_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1554y1F7ZZ/?spm_id_from=333.337.search-card.all.click)  
 [Stata 数据标签和合并](https://www.lianxh.cn/news/3b91400dd874e.html)  
