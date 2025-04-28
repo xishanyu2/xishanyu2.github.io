@@ -25,7 +25,7 @@ location: ""
 
 ---
 
-**References：**
+**References：**  
 [1]江艇.因果推断经验研究中的中介效应与调节效应[J].中国工业经济,2022,(05):100-120.DOI:10.19581/j.cnki.ciejournal.2022.05.005.  
 [2]金星晔,左从江,方明月,等.企业数字化转型的测度难题：基于大语言模型的新方法与新发现[J].经济研究,2024,59(03):34-53.  
 [3]Acemoglu D, Johnson S, Robinson J A. The colonial origins of comparative development: An empirical investigation[J]. American economic review, 2001, 91(5): 1369-1401.  
