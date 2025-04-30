@@ -8,6 +8,6 @@ redirect_from:
 
 ---
 
-[Machine Learning in Social Science]()
+[Machine Learning in Economics]()
 
 [Social Network Analysis]()
