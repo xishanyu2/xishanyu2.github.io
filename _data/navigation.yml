@@ -16,9 +16,6 @@ main:
 
   - title: "Reading"
     url: /reading/ 
-    
-  - title: "Writing"
-    url: /writing/
 
   - title: "Notes"
     url: /notes/  
