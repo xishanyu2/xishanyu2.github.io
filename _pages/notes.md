@@ -8,6 +8,6 @@ redirect_from:
 
 ---
 
-[Game theory and Economic Analysis]()
-
 [Machine Learning in Social Science]()
+
+[Social Network Analysis]()
