@@ -80,7 +80,7 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 
 **Syllabus** of MPE in NKU: [undergraduate](http://xishanyu2.github.io/files/MPE_syllabus_undergraduate.pdf), [master](http://xishanyu2.github.io/files/MPE_syllabus_master.pdf), [doctor](http://xishanyu2.github.io/files/MPE_syllabus_doctor.pdf)
 
-**Reference Books:** [国内学者](https://xishanyu2.github.io/blogs/refs/cn)，[日本学者](https://xishanyu2.github.io/blogs/refs/jp)，[欧美学者](https://xishanyu2.github.io/blogs/refs/ea)
+**Reference Books:** [国内学者](https://xishanyu2.github.io/blogs/mpe/cn)，[日本学者](https://xishanyu2.github.io/blogs/mpe/jp)，[欧美学者](https://xishanyu2.github.io/blogs/mpe/ea)
 
 **公众号：** CPEER、东陆政经、读点不一样的宏观经济学、枫叶研习室、Heter Econ 笔记本、iMarx、经济思想史小站、可能有用的马经、MACRO贾维斯、南开大学经济学院（系）、Political Economy前沿、啥都有吧就、肆壹肆马研室、武大政经、阅马场、政治经济学新时空...
 
