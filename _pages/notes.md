@@ -19,6 +19,6 @@ I intend to update a series of study notes regarding mathematical and computatio
 07 Machine Learning  
 08 Deep Learning
 
-Although I am extremely intrigued in next subjects, owing to the difficulties, I anticipate to gain insight and arrange them in the near future.  
+Although I am extremely intrigued in next subjects, owing to the difficulties, I am anticipating to gain insight and arrange them in the near future.  
 09 Advanced International Trade  
 10 Mathematical Political Economy  
