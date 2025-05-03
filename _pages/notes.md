@@ -8,7 +8,7 @@ redirect_from:
 
 ---
 
-I intend to update a series of study notes regarding mathematical and computational methodologies associated with economic research. The proposed topics are as follows:
+I intend to update a series of study notes regarding mathematical and computational methodologies associated with economic research. The prospective topics are as follows:
 
 01 Linear Algebra (start from column space of matrix A)  
 02 Stata and Python (Programming and Visualization)  
@@ -19,6 +19,6 @@ I intend to update a series of study notes regarding mathematical and computatio
 07 Machine Learning  
 08 Deep Learning
 
-Although I am extremely intrigued in these subjects, owing to the difficulties, I anticipate to gain insight and arrange them in the near future.  
+Although I am extremely intrigued in next subjects, owing to the difficulties, I anticipate to gain insight and arrange them in the near future.  
 09 Advanced International Trade  
 10 Mathematical Political Economy  
