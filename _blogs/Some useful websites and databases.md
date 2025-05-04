@@ -42,7 +42,7 @@ Like browser favourites. Quickly access web pages.
 
  [知网](https://www.cnki.net/)，[PubScholar](https://pubscholar.cn/)，[万方](https://www.wanfangdata.com.cn/index.html)，[维普](https://lib.cqvip.com/)  
  
- [谷歌学术](https://scholar.dosf.top/)，[Web of Science](https://www.webofscience.com)，[Sage](https://journals.sagepub.com/)，[ResearchGate](https://www.researchgate.net/)， [Taylor&Francis](https://www.tandfonline.com/)  
+ [谷歌学术](https://scholar.dosf.top/)，[Web of Science](https://www.webofscience.com)，[Taylor&Francis](https://www.tandfonline.com/)，[ResearchGate](https://www.researchgate.net/)
  
  [Paper Digest](https://www.paperdigest.org/)，[Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)  
 
@@ -67,8 +67,9 @@ Endnote，[Zotero](https://www.zotero.org/)，Mendeley，NoteExpress...
 1. 微观类：[聂辉华](http://www.niehuihua.com/)，[孙祥](https://www.xiangsun.org/)
 2. 宏观类：[刘岩](http://www.liuyanecon.com/)，[王彬](https://github.com/binwangwork)
 3. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[徐轶青](https://yiqingxu.org/)，[司继春](http://www.sijichun.pro/)
-4. ML：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[郭峰](http://www.guof1984.net/)
-5. 政经类：[陈伟凯](https://weikaichen.gitlab.io/)，[松尾匡](https://matsuo-tadasu.ptu.jp/)，[科克肖特](https://paulcockshott.wordpress.com/)，[MarxistQ](https://qwaeng.github.io/)
+4. ML类：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[郭峰](http://www.guof1984.net/)
+5. IE类：[Daron Acemoglu](https://economics.mit.edu/people/faculty/daron-acemoglu), [Dave Donaldson](https://dave-donaldson.com/), [Nathan Nunn](https://nathannunn.arts.ubc.ca/)
+6. 政经类：[陈伟凯](https://weikaichen.gitlab.io/)，[松尾匡](https://matsuo-tadasu.ptu.jp/)，[科克肖特](https://paulcockshott.wordpress.com/)，[MarxistQ](https://qwaeng.github.io/)
 
 # Moocs
 
