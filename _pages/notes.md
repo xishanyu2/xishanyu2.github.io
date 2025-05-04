@@ -21,4 +21,4 @@ I intend to update a series of study notes regarding mathematical and computatio
 
 Although I am extremely intrigued in next subjects, owing to the difficulties, I am anticipating to gain insight and arrange them in the near future.  
 09 Advanced International Trade  
-10 Mathematical Political Economy  
+10 Game Theory and Information Economics
