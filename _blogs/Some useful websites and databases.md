@@ -33,7 +33,7 @@ Like browser favourites. Quickly access web pages.
 
 1. 金融类：[东方财富Choice](https://www.eastmoney.com/)，[同花顺iFinD](https://www.10jqka.com.cn/)，[万德Wind](https://www.wind.com.cn/)
 2. 经济类：[国泰安CSMAR](https://data.csmar.com/)，[CNRDS](https://www.cnrds.com/Home/Login)，[CEIC](https://insights.ceicdata.com.cn/login)，[Resset](https://www.resset.cn/databases)
-3. 学院买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[中经网](https://db.cei.cn/jsps/Home)
+3. 学院买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[中经网](https://db.cei.cn/jsps/Home)，彭博Bloomberg
 4. 研究用：工企、海关、工商注册、税调、SDC、BvD、FactSet...
 
 # Thesis
@@ -69,7 +69,7 @@ Endnote，[Zotero](https://www.zotero.org/)，Mendeley，NoteExpress...
 3. 宏观类：[刘岩](http://www.liuyanecon.com/)，[王彬](https://github.com/binwangwork)
 4. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[徐轶青](https://yiqingxu.org/)，[司继春](http://www.sijichun.pro/)
 5. CI：[Angrist](https://economics.mit.edu/people/faculty/josh-angrist)'s [MHE](https://www.mostlyharmlesseconometrics.com/) & [MM](https://www.masteringmetrics.com/)
-6. ML：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[郭峰](http://www.guof1984.net/)
+6. ML：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[郭峰](http://www.guof1984.net/)，[ISL](https://www.statlearning.com/)，[ESL](https://esl.hohoweiya.xyz/index.html)
 7. IE：[Acemoglu](https://economics.mit.edu/people/faculty/daron-acemoglu)，[Arkolakis](https://arkolakis.com/)，[Dave Donaldson](https://dave-donaldson.com/)，[Feenstra](http://www.robertcfeenstra.com/)，[Nathan Nunn](https://nathannunn.arts.ubc.ca/)
 
 # Moocs
