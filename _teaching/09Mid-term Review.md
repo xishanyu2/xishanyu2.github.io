@@ -3,7 +3,7 @@ title: "Mid-term Review"
 collection: talks
 type: "Summary"
 permalink: /teaching/stata/mid
-venue: "Apr 21th"
+venue: "Apr 21st"
 date: 2025-01-01
 location: ""
 ---
