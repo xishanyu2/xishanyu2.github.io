@@ -1,5 +1,5 @@
 ---
-title: "Panel Data"
+title: "Pooled Cross Section and Panel Data"
 collection: talks
 type: "Chap12"
 permalink: /teaching/stata/chap12
