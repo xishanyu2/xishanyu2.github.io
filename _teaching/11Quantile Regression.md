@@ -1,5 +1,5 @@
 ---
-title: "Quantile Regression"
+title: "Model Setting, Data Issues and Quantile Regression"
 collection: talks
 type: "Chap10&11"
 permalink: /teaching/stata/chap10
