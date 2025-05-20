@@ -12,8 +12,8 @@ Welcome to my personal homepage! I'm Zhenyu Zhao, a fourth grade undergraduate s
 
 Research
 ------
-- Fields of study: Transnational Firms and International Investment, International Political Economy, Causal Inference and Machine Learning
-- Fields of interest: Mathematical Political Economy, Computational Social Science
+- Fields of study: Transnational Firms and International Investment, Industrial Policy, Causal Inference and Machine Learning
+- Fields of interest: Mathematical Political Economy, Cliometrics
 
 Educations
 ------
