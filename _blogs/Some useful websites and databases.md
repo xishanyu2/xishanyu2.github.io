@@ -43,6 +43,8 @@ Like browser favourites. Quickly access web pages.
  [知网](https://www.cnki.net/)，[PubScholar](https://pubscholar.cn/)，[万方](https://www.wanfangdata.com.cn/index.html)，[维普](https://lib.cqvip.com/)  
  
  [谷歌学术](https://scholar.dosf.top/)，[Web of Science](https://www.webofscience.com)，[Taylor&Francis](https://www.tandfonline.com/)，[ResearchGate](https://www.researchgate.net/)
+
+ [CiNii](https://cir.nii.ac.jp/)，[IRDB](https://irdb.nii.ac.jp/)，[J-STAGE](https://www.jstage.jst.go.jp/browse/-char/ja)
  
  [Paper Digest](https://www.paperdigest.org/)，[Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)  
 
