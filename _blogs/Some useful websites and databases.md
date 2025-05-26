@@ -48,8 +48,6 @@ Like browser favourites. Quickly access web pages.
  
  [Paper Digest](https://www.paperdigest.org/)，[Connected Papers](https://www.connectedpapers.com/)，[CiteSpace](http://cluster.cis.drexel.edu/~cchen/citespace/download/)  
 
-AI：[ChatGPT](https://chatgpt.com/)，[文心一言](https://yiyan.baidu.com/)，[讯飞星火](https://xinghuo.xfyun.cn/)，[Kimi](https://kimi.moonshot.cn/)，[豆包](https://www.doubao.com/chat/)，[DeepSeek](https://www.deepseek.com/)，[Sider](https://sider.ai/)...  
-
 ## Journals
 AER，ECTA，JPE，QJE，RES  
 
@@ -63,6 +61,8 @@ Endnote，[Zotero](https://www.zotero.org/)，Mendeley，NoteExpress...
 ## Writing
 
 [Overleaf](https://www.overleaf.com/)，[SimpleTex](https://simpletex.cn/)，[AxMath](https://www.amyxun.com/)/MathType，[QuillBot](https://quillbot.com/)，[Grammarly](https://www.grammarly.com/)，[DeepL](https://www.deepl.com/zh/translator)，[Kagi Translate](https://translate.kagi.com/)...
+
+[ChatGPT](https://chatgpt.com/)，[文心一言](https://yiyan.baidu.com/)，[讯飞星火](https://xinghuo.xfyun.cn/)，[Kimi](https://kimi.moonshot.cn/)，[豆包](https://www.doubao.com/chat/)，[DeepSeek](https://www.deepseek.com/)，[Sider](https://sider.ai/)...  
 
 # Scholars
 
