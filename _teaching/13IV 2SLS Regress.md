@@ -2,7 +2,7 @@
 title: "IV, 2SLS & Logit, Probit"
 collection: talks
 type: "Chap13&14"
-permalink: /teaching/stata/chap13&14
+permalink: /teaching/stata/chap13
 venue: "May 26th"
 date: 2025-01-01
 location: ""
