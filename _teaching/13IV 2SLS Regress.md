@@ -19,7 +19,7 @@ The end.
     【实验2】男性的教育回报率  
     【实验3】 Card(1995) 教育回报研究  
     【实验4】职业女性的教育回报  
-四、模型的检验方法  
+四、模型的检验方法
 - 模型的内生性检验
   - Huasman检验`hausman iv ols, constant sigmamore`
   - DWH检验`estat endog`
