@@ -6,22 +6,16 @@
 
 main:
   - title: "Publications"
-    url: /publications/
-
-  - title: "Reports"
-    url: /reports/    
+    url: /publications/  
 
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Reading"
-    url: /reading/ 
+  - title: "Coding"
+    url: /coding/ 
 
   - title: "Notes"
     url: /notes/  
         
   - title: "Blogs"
     url: /blogs/
-
-  - title: "Videos"
-    url: /videos/
