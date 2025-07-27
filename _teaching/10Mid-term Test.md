@@ -44,7 +44,5 @@ location: ""
 [QJE新任主编AER上"非洲奴隶贸易与不信任的起源", 一篇堪称经典的截面数据实证论文](https://mp.weixin.qq.com/s/mFgEVsix_4iy2HHQSyc77w)  
 [【香樟推文2206】黑奴贸易与非洲地区社会不信任的起源](https://mp.weixin.qq.com/s/Wk5weXYJ4_wM8eyM8jO4nA)  
 [GitHub - ShutterZor/StataTutorialAppendixData: Appendix Data for my Stata Tutorial.](https://github.com/ShutterZor/StataTutorialAppendixData)  
-[「公开讲座」文本分析实录：原理、应用与操作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1fj41197M3/?spm_id_from=333.1387.search.video_card.click)  
-[Network analysis using Stata | nwcommands.org](https://nwcommands.wordpress.com/)  
 [机器学习之惩罚回归—基于python实现（附完整代码）-CSDN博客](https://blog.csdn.net/qq_45856698/article/details/130304623?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522172368466216800182143519%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=172368466216800182143519&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-130304623-null-null.142%5Ev100%5Epc_search_result_base2&utm_term=student-mat.csv&spm=1018.2226.3001.4187)  
 [Microsoft PowerPoint - Chen-2018-08-14-大数据、高维回归与Stata](https://www.stata.com/meeting/china18/slides/china18_Chen.pdf)
