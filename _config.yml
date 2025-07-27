@@ -212,22 +212,16 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  reports:
-    output: true
-    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
-  writing:
+  coding:
     output: true
     permalink: /:collection/:path/
   notes:
     output: true
     permalink: /:collection/:path/
   blogs:
-    output: true
-    permalink: /:collection/:path/
-  videos:
     output: true
     permalink: /:collection/:path/
 
@@ -261,15 +255,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _reports
-  - scope:
-      path: ""
-      type: reports
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _teaching
   - scope:
       path: ""
@@ -279,10 +264,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _writing
+  # _coding
   - scope:
       path: ""
-      type: writing
+      type: coding
     values:
       layout: single
       author_profile: true
@@ -306,14 +291,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _videos
-  - scope:
-      path: ""
-      type: videos
-    values:
-      layout: single
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS
