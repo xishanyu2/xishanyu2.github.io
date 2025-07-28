@@ -39,7 +39,7 @@ est sto re
 hausman fe re
 ```
 
-**Reference**  
+**References**  
 陈强（2023）chap12  
 [连享会-gitee/PanelData](https://gitee.com/arlionn/PanelData "PanelData")  
 [Stata 101/面板数据](https://book.lianxh.cn/stata101/body/XT1_%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B%E7%AE%80%E4%BB%8B.html)
