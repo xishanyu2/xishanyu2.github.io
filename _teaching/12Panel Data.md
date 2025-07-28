@@ -29,7 +29,9 @@ reg △y △x //不能使用D., help xtserial
 reg y $x i.id, vce(cluster id)
 
 *- FE, RE估计
-xtreg y $x, fe //reg y x i.id
+xtreg y $x, fe
+//reg y $x i.id
+//reghdfe y $x, absorb(id)
 est sto fe
 xtreg y $x, re
 est sto re
