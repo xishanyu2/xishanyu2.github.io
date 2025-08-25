@@ -4,7 +4,7 @@ date: 2024-09-10
 permalink: /blogs/webs
 ---
 
-Like browser favourites. Quickly access web pages.
+My browser bookmarks.
 
 
 信息检索能力是当代大学生不可或缺的素养，在人手一台或几台电子设备、无纸化学习蔚然成风的今天，电子书不仅能很好的满足学习需求，极大地节约了时间和金钱成本；而文献检索、管理与运用更是每一个科研人必备的一项技能。
@@ -18,7 +18,7 @@ Like browser favourites. Quickly access web pages.
 > 更推荐Bing，Bing比百度更干净、检索效率更高，这和PageRank算法有关。  
 > warning：如果是Bilibili专栏里的百度网盘链接下载了也是有密码的，直接避雷。
 2. 微信公众号、QQ群
-3. [Zlibrary](https://zh.z-lib.fm/)（需要魔法），[Anna’s Archive](https://annas-archive.org/)
+3. Zlibrary[镜像](https://zlib.wwwnav.com/)，[Anna’s Archive](https://annas-archive.org/)
 > Zlibrary上部分书可能因为版权问题无法下载，但只要能搜到就能在Anna库下载。
 4. [FreeMbook](https://freembook.com/)+本卡风公众号+书籍解压合成工具包
 > 使用[图书搜索联盟](http://www.ucdrs.superlib.net/)/[读秀](http://www.duxiu.com)可能需要搭配油猴插件才能显示SS号。  
