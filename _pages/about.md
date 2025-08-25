@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal homepage! I'm Zhenyu Zhao, a first-year master’s student specializing in World Economy at the Nankai Institute of International Economics. I deeply believe that knowledge gains its true value when shared. That’s exactly why this website exists: it’s not just a platform, but my own little where I can dive into learning, keep track of my growth, and share the insights I’ve gathered along the way.
+Welcome to my personal homepage! I'm Zhenyu Zhao, a first-year master’s student specializing in World Economy at the Nankai Institute of International Economics. I deeply believe that knowledge gains its true value when shared. That’s exactly why this website exists: it’s not just a platform, but my own little corner where I can dive into learning, keep track of my growth, and share the insights I’ve gathered along the way.
 
 Research
 ------
