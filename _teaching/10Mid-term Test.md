@@ -13,7 +13,7 @@ location: ""
 ---
 
 
-[试题](http://xishanyu2.github.io/files/test-images.pdf)，[数据](http://xishanyu2.github.io/files/data.rar)，[说明](http://xishanyu2.github.io/files/readme.md)，[点评](http://xishanyu2.github.io/files/期中测试考情分析及重点讲解与练习.pdf)
+[试题](http://xishanyu2.github.io/files/test-images.pdf)，[数据](http://xishanyu2.github.io/files/data.rar)，[点评](http://xishanyu2.github.io/files/期中测试考情分析及重点讲解与练习.pdf)
 
 |     |                                                                                     答案                                                                                      |    解析    |
 | :-: | :-: | :-: |
