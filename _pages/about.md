@@ -22,7 +22,7 @@ Bachelor of Economics, Nankai University
 
 Awards
 ------
-2023-2024 Academic Excellence Scholarship ([School of Economics, Nankai University](https://economics.nankai.edu.cn/))
+2023-2024 Academic Excellence Scholarship ([School of Economics, Nankai University](https://economics.nankai.edu.cn/))  
 2021-2022 Academic Excellence Scholarship (School of Materials Science and Engineering, Nankai University)
 
 Contact
