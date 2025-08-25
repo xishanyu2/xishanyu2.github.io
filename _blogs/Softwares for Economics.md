@@ -59,8 +59,7 @@ $$\LaTeX$$
 、Markdown
 
 `TeX Live`+`TeXstudio`需要配环境且太大了，个人更偏好`Overleaf`；可参考[一份不太简短的LATEX2ε介绍](https://github.com/CTeX-org/lshort-zh-cn)。  
-Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等，可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides；可参考[Awesome-Marp](https://github.com/favourhong/Awesome-Marp).  
-
+Markdown是一种轻量级标记语言，可做网页、笔记、演示文稿等，可在`VS Code`或`Obsidian`里编译，改改就能用`Marp`做slides.
 **附录1**：投入产出分析在`Excel`中的操作主要有：
 
 ```
