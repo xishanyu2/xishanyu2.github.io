@@ -212,13 +212,16 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  reports:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
-  coding:
+  notes:
     output: true
     permalink: /:collection/:path/
-  notes:
+  coding:
     output: true
     permalink: /:collection/:path/
   blogs:
@@ -255,6 +258,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _reports
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _teaching
   - scope:
       path: ""
@@ -264,19 +276,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _coding
+  # _notes
   - scope:
       path: ""
-      type: coding
+      type: notes
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _notes
+  # _coding
   - scope:
       path: ""
-      type: notes
+      type: coding
     values:
       layout: single
       author_profile: true
