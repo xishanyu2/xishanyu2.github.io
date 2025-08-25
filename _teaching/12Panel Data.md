@@ -23,7 +23,7 @@ reg y $x if year==1
 xtfmb y $x //Fama and MacBeth (1973)
 
 *- FD估计
-reg △y △x //不能使用D., help xtserial
+reg diff_y diff_x //不能使用D., help xtserial
 
 *- LSDV估计
 reg y $x i.id, vce(cluster id)
