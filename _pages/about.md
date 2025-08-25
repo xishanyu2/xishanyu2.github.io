@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal homepage! I'm Zhenyu Zhao, a first-year master’s student specializing in World Economy at the Nankai Institute of International Economics. I deeply believe that knowledge gains its true value when shared. That’s exactly why this website exists: it’s not just a platform, but my own little corner where I can dive into learning, keep track of my growth, and share the insights I’ve gathered along the way.
+Welcome to my personal homepage! I'm Zhenyu Zhao, a first-year master’s student specializing in World Economy at [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm). I deeply believe that knowledge gains its true value when shared. That’s exactly why this website exists: it’s not just a platform, but my own little corner where I can dive into learning, keep track of my growth, and share the insights I’ve gathered along the way.
 
 Research
 ------
@@ -22,10 +22,9 @@ Bachelor of Economics, Nankai University
 
 Awards
 ------
-2023-2024 Academic Excellence Scholarship (School of Economics, Nankai University)
-
+2023-2024 Academic Excellence Scholarship ([School of Economics, Nankai University](https://economics.nankai.edu.cn/))
 2021-2022 Academic Excellence Scholarship (School of Materials Science and Engineering, Nankai University)
 
 Contact
 ------
-My email address is <2113133@mail.nankai.edu.cn>. You can reach me at <zzynankai@outlook.com> as well.
+My email address is <2120253538@mail.nankai.edu.cn>. You can reach me at <zzynankai@outlook.com> as well.
