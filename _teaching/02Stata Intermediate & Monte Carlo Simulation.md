@@ -166,7 +166,7 @@ set seed 10101
 
 ---
 
-### 3月15日补充：
+### 补充：
 
 [Stata：append 命令动图演示](https://www.bilibili.com/video/BV1zQ4y1W7nh?vd_source=0157f662d038fde520efb02dbe730b48)  
 [Stata：merge 1:1 动图展示](https://www.bilibili.com/video/BV16841167C8?vd_source=0157f662d038fde520efb02dbe730b48)  
