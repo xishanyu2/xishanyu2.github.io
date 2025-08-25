@@ -8,14 +8,17 @@ main:
   - title: "Publications"
     url: /publications/  
 
+  - title: "Reports"
+    url: /reports/ 
+
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Coding"
-    url: /coding/ 
-
   - title: "Notes"
     url: /notes/  
+
+  - title: "Coding"
+    url: /coding/ 
         
   - title: "Blogs"
     url: /blogs/
