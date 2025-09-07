@@ -81,7 +81,7 @@ $$\LaTeX$$
 
 此外，图片、表格等都能在Ob里直接插入，删除线、待办等个人不常用，此处不再赘述。
 
-Marp在VS Code里需要安装一系列拓展，且我之前（使用[Awesome-Marp](https://github.com/favourhong/Awesome-Marp)模板）存在导出为PPT时模板不显示的情况（[解决方案](https://forum-zh.obsidian.md/t/topic/44135/2)：把themes里的文件后缀名scss都改成css）。以下是最近我在使用Ob的心得。
+Marp在VS Code里需要安装一系列拓展，且我之前（使用[Awesome-Marp](https://github.com/favourhong/Awesome-Marp)模板）存在导出为PPT时模板不显示的情况（[解决方案](https://forum-zh.obsidian.md/t/topic/44135/2)：把themes里的文件后缀名scss都改成css）。
 
 在Ob里依次点击设置图标—>第三方插件—>社区插件市场：浏览，我常用的有Mousewheel Image zoom（按住Alt键滑动鼠标滚轮就能缩放图片大小）、Marp Slides（搜索Marp安装量最多且更新时间最近）、Better Export PDF（能生成目录和页眉页脚）。
 
