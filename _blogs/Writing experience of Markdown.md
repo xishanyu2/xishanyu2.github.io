@@ -83,8 +83,6 @@ $$\LaTeX$$
 
 Marp在VS Code里需要安装一系列拓展，在Ob里同样需要安装插件：依次点击设置图标—>第三方插件—>社区插件市场：浏览，我常用的有Mousewheel Image zoom（按住Alt键滑动鼠标滚轮就能缩放图片大小）、Marp Slides（搜索Marp安装量最多且更新时间最近）、Better Export PDF（能生成目录和页眉页脚）。
 
-我在Ob中使用[Awesome-Marp](https://github.com/favourhong/Awesome-Marp)模板存在导出PPT时模板不显示的情况，[解决方案](https://forum-zh.obsidian.md/t/topic/44135/2)：把themes里的文件后缀名scss都改成css。
-
 当我在Ob里写完一篇`.md`文档时，上传到Github上几乎只需要把图片改成HTML语句再调整一下格式细节就行：
 ```
 <div align=center>
@@ -100,5 +98,7 @@ Marp在VS Code里需要安装一系列拓展，在Ob里同样需要安装插件�
 ```
 
 用Marp做Slides就只需要用`---`分页，在篇首用`---`添加笔记属性（如marp: true，footer，paginate: true，tags，date等）；但一直困扰我的一个问题是图片在Marp里不显示，一次偶然间我从我的个人主页上直接复制图片链接粘到Ob里（而不是直接插入图片）就解决了这一问题；连老师给出了更多的方法：[Markdown图床：我们的图片存在哪里？](https://www.lianxh.cn/details/296.html)
+
+我在Ob中使用[Awesome-Marp](https://github.com/favourhong/Awesome-Marp)模板存在导出PPT时模板不显示的情况，[解决方案](https://forum-zh.obsidian.md/t/topic/44135/2)：把themes里的文件后缀名scss都改成css。
 
 这时，我们就可以使用各种模板（`.css`格式文件）做成伪beamer，在Ob里基于Marp插件导出HTML、PDF、PPT（PPT里为图片无法编辑）等格式的成品！
