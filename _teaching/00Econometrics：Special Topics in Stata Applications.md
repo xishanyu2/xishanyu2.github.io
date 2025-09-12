@@ -1,7 +1,7 @@
 ---
 title: "Econometrics：Special Topics in Stata Applications"
 collection: teaching
-type: "[Excellent Teaching Assistant](https://jwc.nankai.edu.cn/2025/0912/c35937a577379/page.htm)"
+type: "Excellent Teaching Assistant"
 permalink: /teaching/stata
 venue: "Spring"
 date: 2025-01-01
