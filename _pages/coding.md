@@ -17,3 +17,7 @@ CheatSheets: [stata2r](http://xishanyu2.github.io/files/stata2r-CheatSheet.pdf),
 统计学第一次上机课
 
 CheatSheets: [matplotlib](http://xishanyu2.github.io/files/matplotlib-CheatSheet.pdf)
+
+## Stata
+
+统计学第一次上机课
