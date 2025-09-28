@@ -10,7 +10,7 @@ redirect_from:
 
 [统计学第一次上机课](http://xishanyu2.github.io/files/统计学（R实现）.pdf)
 
-CheatSheets: [stata2r](http://xishanyu2.github.io/files/stata2r-CheatSheet.pdf), [ggplot2](http://xishanyu2.github.io/files/ggplot2-CheatSheet.pdf)
+CheatSheets: [ggplot2](http://xishanyu2.github.io/files/ggplot2-CheatSheet.pdf), [stata2r](http://xishanyu2.github.io/files/stata2r-CheatSheet.pdf)
 
 ## Python
 
@@ -21,3 +21,5 @@ CheatSheets: [matplotlib](http://xishanyu2.github.io/files/matplotlib-CheatSheet
 ## Stata
 
 [统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)
+
+CheatSheets: [stata-official](https://www.stata.com/flyers/statacheatsheets.pdf))
