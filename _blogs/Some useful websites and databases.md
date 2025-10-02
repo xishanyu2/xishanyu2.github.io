@@ -62,7 +62,7 @@ Endnote，[Zotero](https://www.zotero.org/)，Mendeley，NoteExpress...
 
 [Overleaf](https://www.overleaf.com/)，[SimpleTex](https://simpletex.cn/)，[AxMath](https://www.amyxun.com/)/MathType，[QuillBot](https://quillbot.com/)，[Grammarly](https://www.grammarly.com/)，[DeepL](https://www.deepl.com/zh/translator)，[Kagi Translate](https://translate.kagi.com/)...
 
-[ChatGPT](https://chatgpt.com/)，[Grok](https://grok.com/)，[Gemini](https://gemini.google.com/app?hl=zh)，[文心一言](https://yiyan.baidu.com/)，[讯飞星火](https://xinghuo.xfyun.cn/)，[Kimi](https://kimi.moonshot.cn/)，[豆包](https://www.doubao.com/chat/)，[DeepSeek](https://www.deepseek.com/)，[Sider](https://sider.ai/)...  
+[ChatGPT](https://chatgpt.com/)，[Grok](https://grok.com/)，[Gemini](https://gemini.google.com/app?hl=zh)，[文心一言](https://yiyan.baidu.com/)，[讯飞星火](https://xinghuo.xfyun.cn/)，[Kimi](https://kimi.moonshot.cn/)，[豆包](https://www.doubao.com/chat/)，[DeepSeek](https://www.deepseek.com/)...  
 
 # Scholars
 
@@ -71,7 +71,7 @@ Endnote，[Zotero](https://www.zotero.org/)，Mendeley，NoteExpress...
 3. 宏观类：[刘岩](http://www.liuyanecon.com/)，[王彬](https://github.com/binwangwork)，[冯志钢](https://sites.google.com/site/zfeng202/)
 4. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[徐轶青](https://yiqingxu.org/)，[丁鹏](https://sites.google.com/site/pengdingpku/home)，[司继春](http://www.sijichun.pro/)，[史震涛](https://zhentaoshi.github.io/)
 5. ML：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[郭峰](http://www.guof1984.net/)，[ISL](https://www.statlearning.com/)，[ESL](https://hastie.su.domains/ElemStatLearn/)
-6. IE：[Arkolakis](https://arkolakis.com/)，[Chaney](https://sites.google.com/site/thomaschaney/)，[Donaldson](https://dave-donaldson.com/)，[Feenstra](http://www.robertcfeenstra.com/)，[Nunn](https://nathannunn.arts.ubc.ca/)
+6. IE：[Arkolakis](https://arkolakis.com/)，[Chaney](https://sites.google.com/site/thomaschaney/)，[Donaldson](https://dave-donaldson.com/)，[Feenstra](http://www.robertcfeenstra.com/)，[Nunn](https://nathannunn.arts.ubc.ca/), [Yotov](https://yotoyotov.com/index.html)
 
 # Moocs
 
