@@ -22,7 +22,7 @@ CheatSheets: [matplotlib](http://xishanyu2.github.io/files/matplotlib-CheatSheet
 
 ## Stata
 
-[统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)+[Stata基础](http://xishanyu2.github.io/files/Stata入门教程：从0到1.pdf)
+[统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)
 
 CheatSheets: [stata-official](https://www.stata.com/flyers/statacheatsheets.pdf)
 
