@@ -19,7 +19,7 @@ Three major important questions in economics:
 
 ---
 
-1. Why is Africa Poor?
+1.Why is Africa Poor?
 
 > Nunn(QJE, 2008):  
 > Africa's current underdevelopment can be explained by its slave trades.
@@ -32,12 +32,12 @@ Three major important questions in economics:
 > Rugged terrain hinders trade and most productive activities.  
 > Rugged terrain within Africa afforded protection to those being raided during the slave trades.
 
-2. Escape from the Malthusian trap
+2.Escape from the Malthusian trap
 
 > Chatterjee&Vogl(AER, 2018):  
 > Fertility was procyclical but declined and delayed with long-run growth; fluctuations late (but not early) in the reproductive period affected lifetime fertility.
 
-3. The mystery of the origins of modern growth
+3.The mystery of the origins of modern growth
 
 **Needham Puzzle:**
 Why didn't China have a scientific revolution considering its early scientific accomplishments?
@@ -49,7 +49,7 @@ Why didn't China have a scientific revolution considering its early scientific a
    - Why didn't China achieve a breakthrough around the same time as Europe?
 
 - Big question (“Great Divergence”): Why was Europe first in achieving modern economic growth?
-- Small question (“Little Divergence”): Why, within Europe, was Britain first?
+   - Small question (“Little Divergence”): Why, within Europe, was Britain first?
 
 Three popular answers to “Why Britain?”
 1. Good institutions, in particular after the Glorious Revolution of 1688 (Acemoglu and Robinson).
