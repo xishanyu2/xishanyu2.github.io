@@ -13,7 +13,7 @@ Welcome to my personal homepage! I'm Zhenyu Zhao, a first-year master’s studen
 Research
 ------
 - Fields of study: Transnational Firms and International Investment, Causal Inference and Machine Learning
-- Fields of interest: Mathematical Political Economy, Cliometrics
+- Fields of interest: [Mathematical Political Economy](https://xishanyu2.github.io/blogs/mpe), [Cliometrics](https://xishanyu2.github.io/blogs/eh)
 
 Educations
 ------
