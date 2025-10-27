@@ -56,3 +56,5 @@ Three popular answers to “Why Britain?”
 2. Scientific/technological innovations created by a “culture of growth” (Joel Mokyr).
 3. High wages created by international trade and urbanization induced technological innovation (Robert Allen).
 
+Spread to Europe: The French Revolution
+> Acemoglu etc.(AER, 2011):
