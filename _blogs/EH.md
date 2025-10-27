@@ -4,7 +4,7 @@ date: 2025-10-27
 permalink: /blogs/eh
 ---
 
-Understanding Economics from a historical perspective (especialy Cliometrics), and compare with History of Economic Thought.
+Understanding Economics from a historical perspective (especialy Cliometrics).
 
 **Cliometrics** is the application of economic theory and quantitative methods to the study of economic history.
 
