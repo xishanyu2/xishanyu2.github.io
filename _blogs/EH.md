@@ -52,9 +52,9 @@ Why didn't China have a scientific revolution considering its early scientific a
    - Small question (“Little Divergence”): Why, within Europe, was Britain first?
 
 Three popular answers to “Why Britain?”
-- Good institutions, in particular after the Glorious Revolution of 1688 (Acemoglu and Robinson).
-- Scientific/technological innovations created by a “culture of growth” (Joel Mokyr).
-- High wages created by international trade and urbanization induced technological innovation (Robert Allen).
+- Acemoglu and Robinson: Good institutions, in particular after the Glorious Revolution of 1688.
+- Joel Mokyr: Scientific/technological innovations created by a “culture of growth”.
+- Robert Allen: High wages created by international trade and urbanization induced technological innovation.
 
 Spread to Europe: The French Revolution
 > Acemoglu etc.(AER, 2011):
