@@ -20,6 +20,8 @@ Visualization: [R CHARTS](https://r-charts.com/), [R Graph Gallery](https://r-gr
 
 CheatSheets: [matplotlib](http://xishanyu2.github.io/files/matplotlib-CheatSheet.pdf)
 
+Visualization: [Seaborn](https://seaborn.org.cn/)
+
 ## Stata
 
 [统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)
