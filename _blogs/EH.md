@@ -10,8 +10,6 @@ Understanding Economics from a historical perspective (especialy Cliometrics).
 
 Douglass C. North and Robert W. Fogel
 
-[James Kung](https://www.jameskung.net/), [Zhiwu Chen](https://www.hkubs.hku.hk/people/zhiwu-chen/), [Chicheng Ma](https://chichengma.weebly.com/)...
-
 ---
 
 Three major important questions in economics:
