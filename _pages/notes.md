@@ -8,4 +8,12 @@ redirect_from:
 
 ---
 
-Under construction...
+[[中级计量经济学]Chap1 Finite Sample Properties of OLS - 知乎](https://zhuanlan.zhihu.com/p/1989365462644065546)
+
+[[中级计量经济学]Chap2 Large Sample Theory - 知乎](https://zhuanlan.zhihu.com/p/1989368241076838501)
+
+[[中级计量经济学]Chap3 Maximum Likelihood Estimation - 知乎](https://zhuanlan.zhihu.com/p/1989369862225691723)
+
+[[中级计量经济学]Chap4 Endogeneity and IV Estimation - 知乎](https://zhuanlan.zhihu.com/p/1989372097571618879)
+
+[[中级计量经济学]Chap5 GMM_Single Equation - 知乎](https://zhuanlan.zhihu.com/p/1989372714385941902)
