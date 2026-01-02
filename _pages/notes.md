@@ -22,4 +22,6 @@ redirect_from:
 
 [[中级计量经济学]Chap5 addition to Proposition 3.6 - 知乎](https://zhuanlan.zhihu.com/p/1989615311113177064)
 
+[[中级计量经济学]Chap6 GMM_multiple equation - 知乎](https://zhuanlan.zhihu.com/p/1990425969790583186)
+
 [[中级计量经济学]Chap9 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177)
