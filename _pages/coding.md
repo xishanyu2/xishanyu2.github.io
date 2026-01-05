@@ -24,7 +24,7 @@ Visualization: [Seaborn](https://seaborn.org.cn/)
 
 ## Stata
 
-[统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)、[第二次上机课](http://xishanyu2.github.io/files/第二次上机课.pdf)
+[统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)、[第二次上机课](http://xishanyu2.github.io/files/第二次上机课.pdf)、[第三次上机课](http://xishanyu2.github.io/files/第三次上机课.pdf)
 
 CheatSheets: [stata-official](https://www.stata.com/flyers/statacheatsheets.pdf)
 
