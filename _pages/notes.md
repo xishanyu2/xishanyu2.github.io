@@ -24,4 +24,8 @@ redirect_from:
 
 [[中级计量经济学]Chap6 GMM_Multiple Equation - 知乎](https://zhuanlan.zhihu.com/p/1990425969790583186)
 
-[[中级计量经济学]Chap9 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177)
+[[中级计量经济学]Chap6 addition to Three-Stage Least Squares (3SLS) - 知乎](https://zhuanlan.zhihu.com/p/1993017819311399666)
+
+[[中级计量经济学]Chap11 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177)
+
+Download all the notes in pdf format, including Chap9&10 (Models with Limited Dependent Variables): [Download](http://xishanyu2.github.io/files/合并.pdf)
