@@ -30,7 +30,7 @@ TA
 Awards
 ------
 2023-2024 Academic Excellence Scholarship ([School of Economics, Nankai University](https://economics.nankai.edu.cn/))  
-2021-2022 Academic Excellence Scholarship (School of Materials Science and Engineering, Nankai University)
+2021-2022 Academic Excellence Scholarship ([School of Materials Science and Engineering, Nankai University](https://mse.nankai.edu.cn/))
 
 Contact
 ------
