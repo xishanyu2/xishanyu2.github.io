@@ -39,3 +39,4 @@ est sto re
 
 *- Hausman检验
 hausman fe re
+```
