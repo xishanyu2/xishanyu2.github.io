@@ -23,7 +23,7 @@ Bachelor of Economics, Nankai University
 TA
 ------
 - Winter vacation 2026 - [lianxh's class](https://www.lianxh.cn/details/1737.html)
-- Fall 2025 - [Statistics](https://xishanyu2.github.io/coding/) (Undergraduate)
+- Fall 2025 - [Statistics](https://xishanyu2.github.io/coding/) (Undergraduate) - Excellent TA
 - Fall 2025 - Applied Statistics and Econometrics (Master) - Honorary TA
 - Spring 2025 - [Econometrics and Stata Applications](https://xishanyu2.github.io/teaching/) (Undergraduate) - Excellent TA
 
