@@ -28,4 +28,6 @@ redirect_from:
 
 [[中级计量经济学]Chap11 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177)
 
+[[中级计量经济学]番外：Model Comparisons - 知乎](https://zhuanlan.zhihu.com/p/1993348877789708327)
+
 Download all the notes in pdf format, including Chap9&10 (Models with Limited Dependent Variables): [Download](http://xishanyu2.github.io/files/合并.pdf)
