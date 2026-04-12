@@ -15,9 +15,7 @@ Understanding Economics from a historical perspective (especialy Cliometrics).
 首先摆出结论：“经济思想史”不等于“经济史”。很多人/在很多场合经常将二者混为一谈，这是不对的。  
 经济史三个字足以具有迷惑性：“经济”+“历史”，过去发生的一切皆为历史，过去的人终成历史，他们的思想也成为历史。  
 哲学系一上来学的叫“西方哲学史”，人们耳熟能详的早期哲学家莫过于苏格拉底、柏拉图和亚里士多德：苏格拉底提出“认识你自己”（**真**、善、美对应**认识论**、道德论和审美论），拉斐尔画作《雅典学院》中间两人便是柏拉图和亚里士多德：
-
 ![](https://n.sinaimg.cn/sinakd20240622s/142/w2048h1294/20240622/f19e-0c98057a13fa5fbce11350bea282327e.jpg)
-
 跨越哲学史一直到德国古典哲学，离不开的是康德：康德是一座桥，之前所有的哲学家都流入康德，之后一切的哲学家都自康德流出。  
 历史上的哲学家如璀璨的星星般数不胜数，哲学本身就带着一种对哲理的思考，哲学史研究的是哲学家们的思想，如果对应到经济学，似乎叫哲学思想史更能体现出与经济思想史之间的对应关系；经济思想家与哲学家并非是互为补集的——大卫休谟、亚当斯密等都被冠以不止哲学家和经济学家的名号。  
 斯密的两部作品《道德情操论》《国民财富的性质和原因的研究》（简称国富论）就很好地对应他的两种身份；再如国人所熟知的马克思，他的哲学思想来源于德国古典哲学、经济学思想源自英国古典政治经济学，当然还有空想社会主义。  
@@ -28,9 +26,9 @@ Understanding Economics from a historical perspective (especialy Cliometrics).
 基于我国的国情，需要中国哲学史（冯友兰）、中国经济思想史（胡寄窗）这样立足于本土的中国思想史，这里暂且不表。  
 经济思想史在大学课堂中更多的是介绍西方经济思想史；由于我国是社会主义国家，学习的是马恩思想，所以单拎出来有了“马克思主义哲学史”、“马克思主义发展史”、“马克思主义经济学说史”这样的研究。  
 国内早期的经济学说史代表性教材（如鲁友章和李宗正）一般介绍到凯恩斯，因为自凯恩斯之后才开始分流派。
-
-![](https://gcpareto.com/wp-content/uploads/2023/10/economistas-startup-frame-gcpareto-blog.jpg)
-
+<div align=center>
+	<img src='https://gcpareto.com/wp-content/uploads/2023/10/economistas-startup-frame-gcpareto-blog.jpg' width="1200">
+</div>
 经济思想史上有三次革命（斯密、马克思、凯恩斯）和三次综合（小穆勒、马歇尔、萨缪尔森）。  
 早期的经济思想包括重商主义、重农学派。重商主义认为货币（金银）是财富的形式，对外贸易是财富的源泉，只有贸易顺差才能积累财富（零和博弈），国家应采取积极手段进行干预；当下逆全球化背景下又衍生出“新重商主义”的贸易保护主义的抬头。重农学派则认为土地才是财富创造的源泉，威廉配第提出“土地是财富之母，劳动是财富之父”。  
 古典政治经济学在英国从威廉配第开始到大卫李嘉图结束，在法国从布阿吉尔贝尔开始到西斯蒙第结束。鼎盛时期的人物是亚当斯密，因为斯密的理论是双重或多重的，使得后世不同的对立的经济学流派寻求思想渊源时都能在斯密那里找到，斯密也理所当然的被认为是“经济学之父”；经济增长理论被分为斯密型增长、外生和内生型增长，斯密强调的是分工和资本积累，中国古代用儒家经典取仕的中央集权官僚体制用“斯密型增长”来描述不太准确，这是集体主义文化信念下的分工模式，没有/抑制了资本/技术的创新、积累与传播，从而无法为工业革命的产生奠基。  
@@ -46,7 +44,7 @@ Understanding Economics from a historical perspective (especialy Cliometrics).
 
 **Cliometrics** is the application of economic theory and quantitative methods to the study of economic history.
 
-representative figures: Douglass C. North and Robert W. Fogel
+Representative figures: Douglass C. North and Robert W. Fogel
 
 ---
 
