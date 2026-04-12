@@ -29,7 +29,7 @@ Understanding Economics from a historical perspective (especialy Cliometrics).
 经济思想史在大学课堂中更多的是介绍西方经济思想史；由于我国是社会主义国家，学习的是马恩思想，所以单拎出来有了“马克思主义哲学史”、“马克思主义发展史”、“马克思主义经济学说史”这样的研究。  
 国内早期的经济学说史代表性教材（如鲁友章和李宗正）一般介绍到凯恩斯，因为自凯恩斯之后才开始分流派。
 
-![|800](https://gcpareto.com/wp-content/uploads/2023/10/economistas-startup-frame-gcpareto-blog.jpg)
+![|1200](https://gcpareto.com/wp-content/uploads/2023/10/economistas-startup-frame-gcpareto-blog.jpg)
 
 经济思想史上有三次革命（斯密、马克思、凯恩斯）和三次综合（小穆勒、马歇尔、萨缪尔森）。  
 早期的经济思想包括重商主义、重农学派。重商主义认为货币（金银）是财富的形式，对外贸易是财富的源泉，只有贸易顺差才能积累财富（零和博弈），国家应采取积极手段进行干预；当下逆全球化背景下又衍生出“新重商主义”的贸易保护主义的抬头。重农学派则认为土地才是财富创造的源泉，威廉配第提出“土地是财富之母，劳动是财富之父”。  
