@@ -22,7 +22,7 @@ Bachelor of Economics, Nankai University
 
 TA
 ------
-- Spring 2026 - Market Research and Analysis (Undergraduate)
+- Spring 2026 - [Market Research and Analysis](https://xishanyu2.github.io/reports/) (Undergraduate)
 - Spring 2026 - Econometrics and Stata Applications (Undergraduate)
 - Winter vacation 2026 - [lianxh's class](https://www.lianxh.cn/details/1737.html)
 - Fall 2025 - [Statistics](https://xishanyu2.github.io/coding/) (Undergraduate) - Excellent TA
