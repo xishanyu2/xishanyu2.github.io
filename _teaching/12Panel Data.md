@@ -40,3 +40,5 @@ est sto re
 *- Hausman检验
 hausman fe re
 ```
+
+[Handbook of DID family](https://yuzhang.net/2023/10/25/Handbook%20of%20DID%20family_20231026/)
