@@ -17,6 +17,6 @@ redirect_from:
 Syllabus and References [Slides](http://xishanyu2.github.io/files/Lecture0.pdf)  
 Lecture 1: Big Data Analysis in AI Era [Slides](http://xishanyu2.github.io/files/Lecture1.pdf)  
 Lecture 2: Introduction to Machine Learning [Slides](http://xishanyu2.github.io/files/Lecture2.pdf)  
-Lecture 3: Natural Language Process and Text Analysis[Slides](http://xishanyu2.github.io/files/Lecture3.pdf)  
+Lecture 3: Natural Language Process and Text Analysis [Slides](http://xishanyu2.github.io/files/Lecture3.pdf)  
 Lecture 4: Large Language Model Annotation [Slides](http://xishanyu2.github.io/files/Lecture4.pdf), [History](https://medium.com/@lmpo/a-brief-history-of-lmms-from-transformers-2017-to-deepseek-r1-2025-dae75dd3f59a)  
 Lecture 5: Double Machine Learning for Causal Inference [Slides](http://xishanyu2.github.io/files/Lecture5.pdf), [Math](http://xishanyu2.github.io/files/数学附录.pdf)
