@@ -20,4 +20,4 @@ Lecture 2: Introduction to Machine Learning [Slides](http://xishanyu2.github.io/
 Lecture 3: Natural Language Process and Text Analysis [Slides](http://xishanyu2.github.io/files/Lecture3.pdf), [Refs](https://textdata.cn/)  
 Lecture 4: Large Language Model Annotation [Slides](http://xishanyu2.github.io/files/Lecture4.pdf), [History](https://medium.com/@lmpo/a-brief-history-of-lmms-from-transformers-2017-to-deepseek-r1-2025-dae75dd3f59a)  
 Lecture 5: Double Machine Learning for Causal Inference [Slides](http://xishanyu2.github.io/files/Lecture5.pdf), [Math](http://xishanyu2.github.io/files/数学附录.pdf)  
-Lecture 6: AI Agents for Economic Research [Refs](https://ai.lingnan.top/book/index.html)
+Lecture 6: AI Agents for Economic Research [Slides](http://xishanyu2.github.io/files/Lecture6.pdf), [Refs](https://ai.lingnan.top/book/index.html)
