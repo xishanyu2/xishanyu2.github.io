@@ -216,6 +216,9 @@ collections:
   reports:
     output: true
     permalink: /:collection/:path/
+  reading:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -263,6 +266,15 @@ defaults:
   - scope:
       path: ""
       type: reports
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _reading
+  - scope:
+      path: ""
+      type: reading
     values:
       layout: single
       author_profile: true
