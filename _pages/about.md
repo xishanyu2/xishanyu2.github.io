@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal homepage! I'm Zhenyu Zhao, a first-year master’s student specializing in World Economy at [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm). I deeply believe that knowledge gains its true value when shared. That’s exactly why this website exists: it’s not just a platform, but my own little corner where I can dive into learning, keep track of my growth, and share the insights I’ve gathered along the way.
+Welcome to my personal homepage! I'm Zhenyu Zhao, a second year master’s student specializing in World Economy at [Nankai Institute of International Economics](https://nkiie.nankai.edu.cn/main.htm). I deeply believe that knowledge gains its true value when shared. That’s exactly why this website exists: it’s not just a platform, but my own little corner where I can dive into learning, keep track of my growth, and share the insights I’ve gathered along the way.
 
 Research
 ------
@@ -24,7 +24,7 @@ TA
 ------
 - Spring 2026 - [Market Research and Analysis](https://xishanyu2.github.io/reports/) (Undergraduate)
 - Spring 2026 - Econometrics and Stata Applications (Undergraduate)
-- Winter vacation 2026 - [lianxh's class](https://www.lianxh.cn/details/1737.html)
+- Winter vacation 2026 - [lianxianghui](https://www.lianxh.cn/details/1725.html)
 - Fall 2025 - [Statistics](https://xishanyu2.github.io/coding/) (Undergraduate) - Excellent TA
 - Fall 2025 - Applied Statistics and Econometrics (Master) - Honorary TA
 - Spring 2025 - [Econometrics and Stata Applications](https://xishanyu2.github.io/teaching/) (Undergraduate) - Excellent TA
