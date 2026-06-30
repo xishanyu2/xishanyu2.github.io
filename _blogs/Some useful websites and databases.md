@@ -18,7 +18,7 @@ My browser bookmarks.
 > 更推荐Bing，Bing比百度更干净、检索效率更高，这和PageRank算法有关。  
 > warning：如果是Bilibili专栏里的百度网盘链接下载了也是有密码的，直接避雷。
 2. 微信公众号、QQ群
-3. Zlibrary[镜像](https://zhuanlan.zhihu.com/p/2027804925510336957)，[Anna’s Archive](https://annas-archive.org/)
+3. [Zlibrary](https://zh.z-library.sk/)，[Anna’s Archive](https://annas-archive.org/)
 > Zlibrary上部分书可能因为版权问题无法下载，但只要能搜到就能在Anna库下载。
 4. [FreeMbook](https://freembook.com/)+本卡风公众号+书籍解压合成工具包
 > 使用[图书搜索联盟](http://www.ucdrs.superlib.net/)/[读秀](http://www.duxiu.com)可能需要搭配油猴插件才能显示SS号。  
@@ -33,7 +33,7 @@ My browser bookmarks.
 
 1. 金融类：[东方财富Choice](https://www.eastmoney.com/)，[同花顺iFinD](https://www.10jqka.com.cn/)，[万德Wind](https://www.wind.com.cn/)
 2. 经济类：[国泰安CSMAR](https://data.csmar.com/)，[CNRDS](https://www.cnrds.com/Home/Login)，[CEIC](https://insights.ceicdata.com.cn/login)
-3. 学院买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[中经网](https://db.cei.cn/jsps/Home)...
+3. 学院买的其他数据库：[EPS](https://www.epsnet.com.cn/index.html#/Index)，[锐思](https://www.resset.com/index/home/)，[国研网](http://g.drcnet.com.cn/u/723215/index.aspx)，[中经网](https://db.cei.cn/jsps/Home)...
 4. 研究用：工企、海关、工商注册、税调、SDC、BvD、FactSet...
 
 # Thesis
