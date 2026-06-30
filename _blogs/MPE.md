@@ -21,8 +21,6 @@ Prerequisites: **Principle of Marxist Political Economy**, **Linear Algebra**(de
 	- 线性映射与线性空间
 		- 线性代数基本定理
 	- _数值计算_
-		- LU分解
-		- QR分解
 	- 数学工具
 		- Moore-Penrose伪逆
 		- Perron-Frobenius定理
