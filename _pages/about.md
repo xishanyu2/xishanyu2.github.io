@@ -24,7 +24,7 @@ TA
 ------
 - Spring 2026 - [Market Research and Analysis](https://xishanyu2.github.io/reports/) (Undergraduate)
 - Spring 2026 - Econometrics and Stata Applications (Undergraduate)
-- Winter vacation 2026 - [lianxianghui](https://www.lianxh.cn/details/1725.html)
+- Winter vacation 2026 - 连享会 · 2026 寒假班
 - Fall 2025 - [Statistics](https://xishanyu2.github.io/coding/) (Undergraduate) - Excellent TA
 - Fall 2025 - Applied Statistics and Econometrics (Master) - Honorary TA
 - Spring 2025 - [Econometrics and Stata Applications](https://xishanyu2.github.io/teaching/) (Undergraduate) - Excellent TA
