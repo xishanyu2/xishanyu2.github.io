@@ -30,12 +30,12 @@ author_profile: true
 
 [[中级计量经济学]Chap6 addition to Three-Stage Least Squares (3SLS) - 知乎](https://zhuanlan.zhihu.com/p/1993017819311399666) — — [Download pdf](http://xishanyu2.github.io/files/Chap6_addition.pdf)
 
-[[中级计量经济学]Chap9 Models with Limited Dependent Variables (1)] — — [Download pdf](http://xishanyu2.github.io/files/Chap9.pdf)
+[中级计量经济学]Chap9 Models with Limited Dependent Variables (1) — — [Download pdf](http://xishanyu2.github.io/files/Chap9.pdf)
 
-[[中级计量经济学]Chap10 Models with Limited Dependent Variables (2).pdf](http://xishanyu2.github.io/files/Chap10.pdf)
+[中级计量经济学]Chap10 Models with Limited Dependent Variables (2) — — [Download pdf](http://xishanyu2.github.io/files/Chap10.pdf)
 
 [[中级计量经济学]Chap11 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177)  [Download pdf](http://xishanyu2.github.io/files/Chap11.pdf)
 
 [[中级计量经济学]番外：Model Comparisons - 知乎](https://zhuanlan.zhihu.com/p/1993348877789708327)
 
-[[中级计量经济学]期末复习串讲整理](http://xishanyu2.github.io/files/Final_Review.pdf)
+[中级计量经济学]期末复习串讲整理 — — [Download pdf](http://xishanyu2.github.io/files/Final_Review.pdf)
