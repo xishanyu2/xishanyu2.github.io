@@ -30,6 +30,10 @@ author_profile: true
 
 [[中级计量经济学]Chap6 addition to Three-Stage Least Squares (3SLS) - 知乎](https://zhuanlan.zhihu.com/p/1993017819311399666) — — [Download pdf](http://xishanyu2.github.io/files/Chap6_addition.pdf)
 
+[中级计量经济学]Chap7 Extremum Estimators (*)
+
+[中级计量经济学]Chap8 Examples of Maximum Likelihood (*)
+
 [中级计量经济学]Chap9 Models with Limited Dependent Variables (1) — — [Download pdf](http://xishanyu2.github.io/files/Chap9.pdf)
 
 [中级计量经济学]Chap10 Models with Limited Dependent Variables (2) — — [Download pdf](http://xishanyu2.github.io/files/Chap10.pdf)
