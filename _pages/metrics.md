@@ -34,7 +34,7 @@ author_profile: true
 
 [中级计量经济学]Chap10 Models with Limited Dependent Variables (2) — — [Download pdf](http://xishanyu2.github.io/files/Chap10.pdf)
 
-[[中级计量经济学]Chap11 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177)  [Download pdf](http://xishanyu2.github.io/files/Chap11.pdf)
+[[中级计量经济学]Chap11 Panel Data - 知乎](https://zhuanlan.zhihu.com/p/1990191625750746177) — — [Download pdf](http://xishanyu2.github.io/files/Chap11.pdf)
 
 [[中级计量经济学]番外：Model Comparisons - 知乎](https://zhuanlan.zhihu.com/p/1993348877789708327)
 
