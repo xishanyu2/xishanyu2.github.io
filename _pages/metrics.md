@@ -42,4 +42,4 @@ author_profile: true
 
 [[中级计量经济学]番外：Model Comparisons - 知乎](https://zhuanlan.zhihu.com/p/1993348877789708327)
 
-[中级计量经济学]期末复习串讲整理 — — [Download pdf](http://xishanyu2.github.io/files/Final_Review.pdf)
+[中级计量经济学]Final Review — — [Download pdf](http://xishanyu2.github.io/files/Final_Review.pdf)
