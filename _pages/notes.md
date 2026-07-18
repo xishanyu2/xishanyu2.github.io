@@ -8,6 +8,6 @@ redirect_from:
 
 ---
 
-[Intermediate Econometrics (master's level)]()
+[Intermediate Econometrics (master's level)](https://xishanyu2.github.io/notes/metrics)
 
 [Linear ALgebra (MIT18.06)]()
