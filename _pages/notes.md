@@ -10,6 +10,4 @@ redirect_from:
 
 [Intermediate Econometrics (master's level)](https://xishanyu2.github.io/notes/metrics)
 
-[Linear Algebra (MIT18.06)](https://xishanyu2.github.io/quarto_book/LA)
-
-[Text and Network Analysis (with Python)](https://xishanyu2.github.io/quarto_book/TNA)
+[Text and Network Analysis (with Python)](https://xishanyu2.github.io/quarto_book)
