@@ -6,9 +6,7 @@ redirect_from:
   - /reading
 ---
 
----
-
-# Patent Economics
+## Patent Economics
 
 [](https://xishanyu2.github.io/quarto_book)
 
