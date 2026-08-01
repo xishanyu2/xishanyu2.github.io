@@ -8,7 +8,7 @@ redirect_from:
 
 ## Intermediate Econometrics 
 
-[**Download ALL**](http://xishanyu2.github.io/files/合并.pdf)
+[***Download All***](http://xishanyu2.github.io/files/合并.pdf)
 
 ---
 
