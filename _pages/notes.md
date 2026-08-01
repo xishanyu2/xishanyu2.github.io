@@ -6,9 +6,7 @@ redirect_from:
   - /notes
 ---
 
----
-
-# Intermediate Econometrics 
+## Intermediate Econometrics 
 
 [**Download ALL**](http://xishanyu2.github.io/files/合并.pdf)
 
