@@ -14,7 +14,7 @@ redirect_from:
 
 [[中级计量经济学]前言 - 知乎](https://zhuanlan.zhihu.com/p/1989626169159615457)
 
-[[中级计量经济学]Chap1 Finite Sample Properties of OLS - 知乎](https://zhuanlan.zhihu.com/p/1989365462644065546) — — [Download pdf](http://xishanyu2.github.io/files/Chap1.pdf)
+[[中级计量经济学]Chap1 Finite Sample Properties of OLS - 知乎](https://zhuanlan.zhihu.com/p/1989365462644065546) — — [*Download pdf*](http://xishanyu2.github.io/files/Chap1.pdf)
 
 [[中级计量经济学]Chap2 Large Sample Theory - 知乎](https://zhuanlan.zhihu.com/p/1989368241076838501) — — [Download pdf](http://xishanyu2.github.io/files/Chap2.pdf)
 
