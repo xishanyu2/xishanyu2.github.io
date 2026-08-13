@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /blogs/mpe/ea
+permalink: /blogs/notes/metrics
 author_profile: true
 ---
 
