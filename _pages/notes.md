@@ -8,6 +8,6 @@ redirect_from:
 
 ---
 
-### [Linear Algebra](https://xishanyu2.github.io/notes/LA/)
+### [Linear Algebra](https://xishanyu2.github.io/notes/LA)
 
-### [Intermediate Econometrics](https://xishanyu2.github.io/notes/metrics/)
+### [Intermediate Econometrics](https://xishanyu2.github.io/notes/metrics)
