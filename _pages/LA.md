@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /blogs/notes/LA
+permalink: /notes/LA
 author_profile: true
 ---
 
