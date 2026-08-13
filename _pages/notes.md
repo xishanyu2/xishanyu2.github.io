@@ -6,6 +6,8 @@ redirect_from:
   - /notes
 ---
 
-### [Linear Algebra]()
+---
 
-### [Intermediate Econometrics]()
+### [Linear Algebra](https://xishanyu2.github.io/notes/LA/)
+
+### [Intermediate Econometrics](https://xishanyu2.github.io/notes/metrics/)
