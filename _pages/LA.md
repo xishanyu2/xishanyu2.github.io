@@ -14,8 +14,12 @@ author_profile: true
 
 [第二讲：矩阵消元](http://xishanyu2.github.io/files/LA2.pdf)
 
-[第三讲：矩阵乘法与逆矩阵](http://xishanyu2.github.io/files/LA3.pdf)  
+[第三讲：矩阵乘法与逆矩阵](http://xishanyu2.github.io/files/LA3.pdf)
 
-[第四讲：矩阵的 LU 分解](http://xishanyu2.github.io/files/LA4.pdf)  
+[第四讲：矩阵的 LU 分解](http://xishanyu2.github.io/files/LA4.pdf)
+
+[第五讲：转置、对称与向量空间](http://xishanyu2.github.io/files/LA5.pdf)
+
+[第六讲：列空间和零空间]((http://xishanyu2.github.io/files/LA6.pdf))
 
 Updating...
