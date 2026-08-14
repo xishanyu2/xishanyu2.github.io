@@ -22,4 +22,8 @@ author_profile: true
 
 [第六讲：列空间和零空间](http://xishanyu2.github.io/files/LA6.pdf)
 
+[第七讲：求解 Ax = 0](http://xishanyu2.github.io/files/LA7.pdf)
+
+[第八讲：求解 Ax = b](http://xishanyu2.github.io/files/LA8.pdf)
+
 Updating...
