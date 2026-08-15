@@ -30,4 +30,8 @@ author_profile: true
 
 [第十讲：四个基本子空间](http://xishanyu2.github.io/files/LA10.pdf)
 
+[第十一讲：矩阵空间、秩1矩阵](http://xishanyu2.github.io/files/LA11.pdf)
+
+[第十二讲：网络、图论与矩阵](http://xishanyu2.github.io/files/LA12.pdf)
+
 Updating...
