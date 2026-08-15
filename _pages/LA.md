@@ -26,4 +26,8 @@ author_profile: true
 
 [第八讲：求解 Ax = b](http://xishanyu2.github.io/files/LA8.pdf)
 
+[第九讲：线性相关性、基、维数](http://xishanyu2.github.io/files/LA9.pdf)
+
+[第十讲：四个基本子空间](http://xishanyu2.github.io/files/LA10.pdf)
+
 Updating...
