@@ -1,13 +1,15 @@
 ---
-permalink: /reading/
-title: "Reading"
+permalink: /friends/
+title: "Friends"
 author_profile: true
 redirect_from: 
-  - /reading
+  - /friends
 ---
 
-## Patent Economics
+## 友链
 
-[](https://xishanyu2.github.io/quarto_book)
+[Jiahe GE](https://jiahege.github.io/publish-blog/)
+
+[Hengxin CUI](https://cuihengxin.github.io/)
 
 
