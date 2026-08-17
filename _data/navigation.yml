@@ -11,9 +11,6 @@ main:
   - title: "Reports"
     url: /reports/ 
 
-  - title: "Reading"
-    url: /reading/ 
-
   - title: "Teaching"
     url: /teaching/    
 
@@ -25,3 +22,6 @@ main:
         
   - title: "Blogs"
     url: /blogs/
+
+  - title: "Friends"
+    url: /friends/ 
