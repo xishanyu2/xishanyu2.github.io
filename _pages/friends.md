@@ -8,8 +8,5 @@ redirect_from:
 
 ## 友链
 
-[GE Jiahe](https://jiahege.github.io/publish-blog/)
-
-[CUI Hengxin](https://cuihengxin.github.io/)
-
-
+- [GE Jiahe](https://jiahege.github.io/publish-blog/)
+- [CUI Hengxin](https://cuihengxin.github.io/)
