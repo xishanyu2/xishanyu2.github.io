@@ -19,7 +19,7 @@ author_profile: true
 | [第五讲：转置、对称与向量空间](http://xishanyu2.github.io/files/LA5.pdf) |  |  |
 | [第六讲：列空间和零空间](http://xishanyu2.github.io/files/LA6.pdf) | [第十七讲：行列式](http://xishanyu2.github.io/files/LA17.pdf) |  |
 | [第七讲：求解 Ax = 0](http://xishanyu2.github.io/files/LA7.pdf) | [第十八讲：行列式的几何意义](http://xishanyu2.github.io/files/LA18.rar) |  |
-| [第八讲：求解 Ax = b](http://xishanyu2.github.io/files/LA8.pdf) |  |  |
+| [第八讲：求解 Ax = b](http://xishanyu2.github.io/files/LA8.pdf) | [第十九讲：特征值和特征向量](http://xishanyu2.github.io/files/LA19.pdf) |  |
 | [第九讲：线性相关、基、维数](http://xishanyu2.github.io/files/LA9.pdf) |  |  |
 | [第十讲：四个基本子空间](http://xishanyu2.github.io/files/LA10.pdf) |  |  |
 | [第十一讲：矩阵空间、秩1矩阵](http://xishanyu2.github.io/files/LA11.pdf) | | |
