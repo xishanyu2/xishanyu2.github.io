@@ -23,5 +23,5 @@ author_profile: true
 | [第九讲：线性相关、基、维数](http://xishanyu2.github.io/files/LA9.pdf) | [第二十讲：相似对角化](http://xishanyu2.github.io/files/LA20.pdf) |  |
 | [第十讲：四个基本子空间](http://xishanyu2.github.io/files/LA10.pdf) | [第二十一讲：微分方程和矩阵指数](http://xishanyu2.github.io/files/LA21.pdf) | [第三十讲：线性代数的艺术](http://xishanyu2.github.io/files/The-Art-of-Linear-Algebra-zh-CN.pdf) |
 | [第十一讲：矩阵空间、秩1矩阵](http://xishanyu2.github.io/files/LA11.pdf) | [第二十二讲：马尔可夫链、傅里叶级数](http://xishanyu2.github.io/files/LA22.pdf) | [后记（上）](https://xishanyu2.github.io/blogs/LA1) |
-| [第十二讲：网络、图论与矩阵](http://xishanyu2.github.io/files/LA12.pdf) | | [后记（下）](https://xishanyu2.github.io/blogs/LA2) |
+| [第十二讲：网络、图论与矩阵](http://xishanyu2.github.io/files/LA12.pdf) | 复矩阵、厄米特矩阵、酉矩阵(*) | [后记（下）](https://xishanyu2.github.io/blogs/LA2) |
 
