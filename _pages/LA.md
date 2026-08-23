@@ -16,7 +16,7 @@ author_profile: true
 | [第二讲：矩阵消元](http://xishanyu2.github.io/files/LA2.pdf) | [第十四讲：子空间投影](http://xishanyu2.github.io/files/LA14.pdf) | [第二十四讲：二次型的几何意义](http://xishanyu2.github.io/files/LA24.pdf) |
 | [第三讲：矩阵乘法与逆矩阵](http://xishanyu2.github.io/files/LA3.pdf) | [第十五讲：投影矩阵和最小二乘法](http://xishanyu2.github.io/files/LA15.pdf) | [第二十五讲：相似矩阵和若尔当型](http://xishanyu2.github.io/files/LA25.pdf) |
 | [第四讲：矩阵的 LU 分解](http://xishanyu2.github.io/files/LA4.pdf) | [第十六讲：矩阵的 QR 分解](http://xishanyu2.github.io/files/LA16.pdf) | [第二十六讲：矩阵的SVD分解](http://xishanyu2.github.io/files/LA26.pdf) |
-| [第五讲：转置、对称与向量空间](http://xishanyu2.github.io/files/LA5.pdf) |  |  |
+| [第五讲：转置、对称与向量空间](http://xishanyu2.github.io/files/LA5.pdf) |  | [第二十七讲：线性变换与矩阵的几何意义](http://xishanyu2.github.io/files/LA27.pdf) |
 | [第六讲：列空间和零空间](http://xishanyu2.github.io/files/LA6.pdf) | [第十七讲：行列式](http://xishanyu2.github.io/files/LA17.pdf) |  |
 | [第七讲：求解 Ax = 0](http://xishanyu2.github.io/files/LA7.pdf) | [第十八讲：行列式的几何意义](http://xishanyu2.github.io/files/LA18.rar) |  |
 | [第八讲：求解 Ax = b](http://xishanyu2.github.io/files/LA8.pdf) | [第十九讲：特征值和特征向量](http://xishanyu2.github.io/files/LA19.pdf) | [第三十讲：线性代数的艺术](http://xishanyu2.github.io/files/The-Art-of-Linear-Algebra-zh-CN.pdf) |
