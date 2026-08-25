@@ -145,7 +145,7 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 </div>
 
 <div align="center">
-  <img src="https://pbs.twimg.com/media/FuPyO6cX0AEf6rI.jpg" width="150" />
+  <img src="https://pbs.twimg.com/media/FuPyO6cX0AEf6rI.jpg" width="200" />
   <img src="https://img14.360buyimg.com/pop/jfs/t1/433871/1/12229/108254/6a09b23eFab8ff87b/00833e83e8b1cbc5.jpg" width="200" />
 </div>
 
