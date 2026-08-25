@@ -136,7 +136,7 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
   <img src="https://ts1.tc.mm.bing.net/th/id/R-C.ac2bb3b1c7867c3766641209651f19f0?rik=TSl4u7Kkzm1Zag&riu=http%3a%2f%2fs.cmpedu.com%2fimages%2fupload%2f2023%2f6%2f4%2f1689094884274(lt800).JPG&ehk=%2f1tDVm8Sy0XQnimzy4etPi%2f57%2buMEJ8fi2JxMKhi4Ho%3d&risl=&pid=ImgRaw&r=0" width="140" />
 </div>
 
-Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自新等老前辈翻译、南开大学出版社出版的（对于我开没有使用GS的书感到遗憾），GS的书分为三种：
+Gilbert Strang的书这两年出中文版了，虽然最早是由侯自新等老前辈翻译、南开大学出版社出版的（对于我开没有使用GS的书感到遗憾），GS的书分为三种：
 
 <div align="center">
   <img src="https://img9.doubanio.com/view/subject/s/public/s27194825.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -178,3 +178,9 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 </div>
 
 七、鸣谢
+
+感谢Gilbert Strang给我们带来如此精彩的课程，每次我先整理笔记预习再观看视频GS都能给我新的启发；虽然老爷子已经退休，但他的学术瑰宝滋养了一代代学子。
+
+感谢学术开源的前辈们，特别是三少爷的键（知乎）、Photon Hunter（小红书），我从头到尾认真读完了这两份高质量笔记，吸收了很多精华的内容。
+
+感谢看到这里的你，希望对你的线代学习有所帮助，让我们一起感受数学之美！
