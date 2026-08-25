@@ -1,10 +1,10 @@
 ---
-title: Afterword：It's 2026, why do I learn Linear Algebra again？
+title: Afterword of Linear Algebra (1)
 date: 2026-08-25
 permalink: /blogs/LA1
 ---
 
-Part 1
+It's 2026, why do I learn Linear Algebra again？
 
 ---
 
