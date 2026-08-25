@@ -145,7 +145,7 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 </div>
 
 <div align="center">
-  <img src="https://m.media-amazon.com/images/I/61B1IZtXceL._SL1500_.jpg" width="160" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://m.media-amazon.com/images/I/61B1IZtXceL._SL1500_.jpg" width="170" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img14.360buyimg.com/pop/jfs/t1/433871/1/12229/108254/6a09b23eFab8ff87b/00833e83e8b1cbc5.jpg" width="200" />
 </div>
 
@@ -176,7 +176,3 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
   <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg" width="210" />
   <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="140" />
 </div>
-
-
-
-七、鸣谢
