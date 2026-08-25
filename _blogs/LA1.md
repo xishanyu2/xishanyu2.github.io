@@ -139,18 +139,19 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自新等老前辈翻译、南开大学出版社出版的（对于我开没有使用GS的书感到遗憾），GS的书分为三种：
 
 <div align="center">
-  <img src="https://img9.doubanio.com/view/subject/s/public/s27194825.jpg" width="200" />
-  <img src="https://i-blog.csdnimg.cn/img_convert/8f83311340a0fb930705a6bbcf89cd7c.png" width="200" />
+  <img src="https://img9.doubanio.com/view/subject/s/public/s27194825.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img1.doubanio.com/view/subject/s/public/s2727799.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img3.doubanio.com/view/subject/s/public/s35295437.jpg" width="150" />
 </div>
 
 <div align="center">
-  <img src="https://www.feifeiziyuan.com/wp-content/uploads/2024/10/th_uj8tHNz8qrjCC5qklinQ45uaH1MRC.webp" width="200" />
+  <img src="https://img3.doubanio.com/view/subject/s/public/s34511932.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img14.360buyimg.com/pop/jfs/t1/433871/1/12229/108254/6a09b23eFab8ff87b/00833e83e8b1cbc5.jpg" width="200" />
 </div>
 
 <div align="center">
-  <img src="https://ts2.tc.mm.bing.net/th/id/OIP-C.rnl5lx2Gi_w9KIbRBo_iFQHaJH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
-  <img src="https://www.tup.com.cn/upload/bigbookimg3/091350-01.jpg" width="200" />
+  <img src="https://img3.doubanio.com/view/subject/s/public/s29978582.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img3.doubanio.com/view/subject/s/public/s34917042.jpg" width="150" />
 </div>
 
 一些值得参考的教材还有：  
