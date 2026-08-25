@@ -155,21 +155,21 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 </div>
 
 一些值得参考的教材还有：  
-1. 线性代数的几何意义：
+1、线性代数的几何意义：
 
 <div align="center">
   <img src="https://th.bing.com/th/id/R.cb44341f6a4e69e487a552b86468e5f9?rik=GJNkfkoirQoz0Q&riu=http%3a%2f%2fimg13.360buyimg.com%2fn1%2fjfs%2ft2221%2f255%2f2373924388%2f137976%2f2a8f749e%2f56d7fc3dN93330807.jpg&ehk=UvT2t4HzU3AAsca1V6ScimRCtImiLPZ3QPu2BNJ%2fF34%3d&risl=&pid=ImgRaw&r=0" width="200" />
   <img src="https://tse1.mm.bing.net/th/id/OIP.aHDRrbjGFWV_hUFaUn5QlAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
 </div>
 
-2. Strang风格的教材：
+2、Strang风格的教材：
 
 <div align="center">
   <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/097005-01.jpg" width="200" />
   <img src="https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg" width="190" />
 </div>
 
-3. 代码实现（Python、MATLAB、Julia）：
+3、代码实现（Python、MATLAB、Julia）：
 
 <div align="center">
   <img src="https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500" width="200" />
