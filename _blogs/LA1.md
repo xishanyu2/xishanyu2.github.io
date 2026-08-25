@@ -22,27 +22,29 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 经常刷知乎可以看到，在一些“国内教材和国外教材对比”、"线性代数听不懂"类似的帖子下面，同济版紫皮线代教材一定“榜上有名”、赫然在列。不同于高数、概率论有相对统一的教材，线代的教材五花八门，大多又是照搬同济版。
 
 <div align="center">
-  <img src="https://img14.360buyimg.com/pop/jfs/t1/142923/11/34146/74755/64088453F8941e55b/f033c91841aa1bb8.jpg" width="300" />
-  <img src="https://t13.baidu.com/it/u=3045645194,2883644068&fm=224&app=112&f=JPEG?w=500&h=500" width="300" alt="我校经济学使用的教材（大类和伯苓班）" />
+  <img src="https://img14.360buyimg.com/pop/jfs/t1/142923/11/34146/74755/64088453F8941e55b/f033c91841aa1bb8.jpg" width="225" />
+  <img src="https://t13.baidu.com/it/u=3045645194,2883644068&fm=224&app=112&f=JPEG?w=500&h=500" width="225" />
 </div>
 
 以我所在的学校为例，除去数学、统计这种需要学习“高等代数”的专业，和一些学习“文科高等数学”的对线代谈及尚浅，剩下的理工科、商科对线代的要求应该在同一难度——比如材料学院、电光学院、商学院使用的都是同济紫皮线代，而化学院用的是Lay的《线性代数及其应用》，软件学院用的川大出的《高等数学（第三册）》，经济、金融用的又是自己学校出的经管类教材，更多的学院又有更多不同的教材......（不同年份、不同授课教师教材选用可能会有差异）虽说不同专业对线代的应用不同，但作为大学/考研数学三件套之一，以及对同一难度层次的判断，同一校内的教材五花八门，用“混乱”来形容也不为过；放眼全国，线代教材更是良莠不齐。
 
 <div align="center">
-  <img src="https://img11.360buyimg.com/n1/jfs/t1/85527/5/10639/142407/5e1d18ffE13d50a14/a55310e47e582524.jpg" width="300" />
-  <img src="https://img.alicdn.com/i3/859515618/O1CN013B2uIt1rN5tKz6Mwh_!!859515618.jpg" width="300" />
+  <img src="https://img11.360buyimg.com/n1/jfs/t1/85527/5/10639/142407/5e1d18ffE13d50a14/a55310e47e582524.jpg" width="225" />
+  <img src="https://img.alicdn.com/i3/859515618/O1CN013B2uIt1rN5tKz6Mwh_!!859515618.jpg" width="225" />
 </div>
 
 为什么同济线代如此”臭名昭著“？第一个批评当属以行列式开篇，以至于判断线代教材好坏的成了是不是从行列式开始（这种办法不无道理，据此就能排除掉以行列式开始的里面99%的烂教材）。
 
-![](https://img.alicdn.com/i2/2424358848/O1CN01J89R0j2FER3ZDIbjE_!!2424358848.jpg)
-
-![](https://img14.360buyimg.com/pop/jfs/t1/51084/1/24901/64480/6454a9d1Fa09d91f4/7ceb493e8498524d.jpg)
+<div align="center">
+  <img src="https://img.alicdn.com/i2/2424358848/O1CN01J89R0j2FER3ZDIbjE_!!2424358848.jpg" width="225" />
+  <img src="https://img14.360buyimg.com/pop/jfs/t1/51084/1/24901/64480/6454a9d1Fa09d91f4/7ceb493e8498524d.jpg" width="225" />
+</div>
 
 也有从矩阵开始讲起的，比如以下两种 B站视频：厦门大学余铌娜老师[《线性代数》哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ip4y197vF/?spm_id_from=333.1387.homepage.video_card.click)、东南大学张小向老师[[线性代数]Ch1-矩阵(合集)哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1y3411K72h/?spm_id_from=333.1387.favlist.content.click)：
 
-
-![](https://img14.360buyimg.com/pop/jfs/t1/463363/33/14643/83768/6a424362Ff10c2b5e/008332032043c951.jpg)
+<div align="center">
+  <img src="https://img14.360buyimg.com/pop/jfs/t1/463363/33/14643/83768/6a424362Ff10c2b5e/008332032043c951.jpg" width="225" />
+</div>
 
 还有从线性方程组、线性映射，向量、向量空间，既然有如此多个切入的角度，从行列式开始只会让学生感到莫名奇妙，失去对线性代数的兴趣以及对其本质认识的可能。
 
@@ -50,7 +52,9 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 
 三、《九章算术》——线性代数的中国根源
 
-![](https://pqnoss.kepuchina.cn/2026/06/09/21/scimall/945c75.)
+<div align="center">
+  <img src="https://pqnoss.kepuchina.cn/2026/06/09/21/scimall/945c75" width="225" />
+</div>
 
 在《九章算数》第八章”方程“里有这样一个问题：
 > Given 3 bundles of superior paddy unhusked rice, 2 bundles of ordinary paddy, and 1 bundle of inferior paddy, together they yield 39 dou of grain; 2 bundles of superior paddy, 3 bundles of ordinary paddy, and 1 bundle of inferior paddy together yield 34 dou of grain; 1 bundle of superior paddy, 2 bundles of ordinary paddy, and 3 bundles of inferior paddy together yield]26 dou of grain. Problem: 1 bundle of superior, ordinary, and inferior paddy each yield how much grain?
