@@ -139,7 +139,6 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 Gilbert Strang的书这两年出中文版了，虽然最早是由侯自新老校长等人翻译、南开大学出版社出版的（对于我开没有使用GS的书感到遗憾），GS的书分为三种：
 
 <div align="center">
-  <img src="https://img9.doubanio.com/view/subject/s/public/s27194825.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://ts4.tc.mm.bing.net/th/id/OIP-C.hzBiuRnoxIWXH2NTU3G3QAHaJo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://i.guancha.cn/bbs/2025/11/21/20251121145321143.pc_detail?imageView2/2/w/500/format/jpg" width="150" />
 </div>
