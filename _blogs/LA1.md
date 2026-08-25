@@ -43,6 +43,7 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 也有从矩阵开始讲起的，比如以下两种 B站视频：厦门大学余铌娜老师[《线性代数》哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ip4y197vF/?spm_id_from=333.1387.homepage.video_card.click)、东南大学张小向老师[[线性代数]Ch1-矩阵(合集)哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1y3411K72h/?spm_id_from=333.1387.favlist.content.click)：
 
 <div align="center">
+  <img src="https://xinhuapic.oss-cn-hangzhou.aliyuncs.com/C/01650/2649832-fm.jpg?x-oss-process=style/zjxh_b" width="225" />
   <img src="https://img14.360buyimg.com/pop/jfs/t1/463363/33/14643/83768/6a424362Ff10c2b5e/008332032043c951.jpg" width="225" />
 </div>
 
