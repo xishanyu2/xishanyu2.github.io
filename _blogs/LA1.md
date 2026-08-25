@@ -123,13 +123,13 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 - 创新性：根据我自身学习积累，结合专业知识，例如在矩阵乘法补充了计量经济学中会用到的克罗内克积（Kronecker积）；在图论与网络一讲将物理学中的基尔霍夫定理例子替换为社会网络分析中的”共识“、”意见领袖“、”信息流“表述，使得非物理专业也能理解，同时补充空间计量邻接矩阵相关知识；最后一讲提及摩尔-彭罗斯（Moore-Penrose）伪逆，这是数理政治经济学的基础。
 - 完备性：除了上述补充，在课程的第三部分节奏加快，补充了九种二次曲面的标准型（二次型的几何意义）、矩阵的恒等/反射/伸缩/切变/投影/旋转变换（矩阵的几何意义）；结合之前线性方程组的几何意义、行列式的几何意义，合起来就比较完整了。
 - 学术性：探求相关理论背后的经典论文，涉及四个基本子空间`The Fundamental Theorem of Linear Algebra（Gilbert Strang, 1993）`、小世界现象`An Experimental Study of the Small World Problem (Travers & Milgram, 1977)`、人脸识别`Face Recognition Using Eigenfaces (Turk & Pentland, 1991)`、MP伪逆`线性规划、摩尔-彭诺斯伪逆与重力方法（李帮喜等）`。
-- 应用性：针对矩阵分解，LU、QR、SVD三讲补充了Python和MATLAB代码，这三讲经过调整后刚好位于同一行上（诸如此类的“巧思”比如每一讲命名就留给读者探寻）。
+- 应用性：针对矩阵分解，LU、QR、SVD三讲补充了Python和MATLAB代码，这三讲经过调整后刚好位于同一行上（诸如此类的“巧思”比如章节不同的命名、行列式与线性变换两讲前留空代表不同的切入视角）。
 
 诚然，本系列笔记还有很多不足，对于一些结论性性质并没有给出证明；由于我有一点线代基础（我真有吗？），一些初次出现的概念于我而言并不是新知识，可能不是很详尽。
 
 六、也谈线代教材选择
 
-如果让我推荐一本线性代数教材，我会选择Lay的Linear Algebra and its Applications，绘图较Strang的教材更好，英文版彩图更佳。
+如果让我推荐一本线性代数教材，我会选择Lay的Linear Algebra and its Applications，绘图较Strang的教材更好，英文版彩图更佳（我从里面直接截了很多图作为补充）。
 
 <div align="center">
   <img src="https://cdn11.bigcommerce.com/s-phtso/images/stencil/2048x2048/products/5845/7326/9781292351216-800__92962.1639637851.jpg?c=2" width="200" />
