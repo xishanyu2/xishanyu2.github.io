@@ -145,7 +145,7 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 </div>
 
 <div align="center">
-  <img src="https://pbs.twimg.com/media/FuPyO6cX0AEf6rI.jpg" width="200" />
+  <img src="https://pbs.twimg.com/media/FuPyO6cX0AEf6rI.jpg" width="250" />
   <img src="https://img14.360buyimg.com/pop/jfs/t1/433871/1/12229/108254/6a09b23eFab8ff87b/00833e83e8b1cbc5.jpg" width="200" />
 </div>
 
@@ -159,22 +159,22 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 
 <div align="center">
   <img src="https://th.bing.com/th/id/R.cb44341f6a4e69e487a552b86468e5f9?rik=GJNkfkoirQoz0Q&riu=http%3a%2f%2fimg13.360buyimg.com%2fn1%2fjfs%2ft2221%2f255%2f2373924388%2f137976%2f2a8f749e%2f56d7fc3dN93330807.jpg&ehk=UvT2t4HzU3AAsca1V6ScimRCtImiLPZ3QPu2BNJ%2fF34%3d&risl=&pid=ImgRaw&r=0" width="200" />
-  <img src="https://img2.doubanio.com/view/subject/l/public/s34286351.jpg" width="200" />
+  <img src="https://tse1.mm.bing.net/th/id/OIP.aHDRrbjGFWV_hUFaUn5QlAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
 </div>
 
 2. Strang风格的教材：
 
 <div align="center">
   <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/097005-01.jpg" width="200" />
-  <img src="https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg" width="200" />
+  <img src="https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg" width="190" />
 </div>
 
 3. 代码实现（Python、MATLAB、Julia）：
 
 <div align="center">
   <img src="https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500" width="200" />
-  <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg" width="200" />
-  <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
+  <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg" width="210" />
+  <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="150" />
 </div>
 
 
