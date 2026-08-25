@@ -174,7 +174,7 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 <div align="center">
   <img src="https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500" width="200" />
   <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg" width="210" />
-  <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="150" />
+  <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="140" />
 </div>
 
 
