@@ -140,8 +140,8 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 
 <div align="center">
   <img src="https://img9.doubanio.com/view/subject/s/public/s27194825.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img1.doubanio.com/view/subject/s/public/s2727799.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img3.doubanio.com/view/subject/s/public/s35295437.jpg" width="150" />
+  <img src="https://ts4.tc.mm.bing.net/th/id/OIP-C.hzBiuRnoxIWXH2NTU3G3QAHaJo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.guancha.cn/bbs/2025/11/21/20251121145321143.pc_detail?imageView2/2/w/500/format/jpg" width="150" />
 </div>
 
 <div align="center">
