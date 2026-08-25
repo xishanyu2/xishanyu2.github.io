@@ -151,7 +151,7 @@ Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自
 
 <div align="center">
   <img src="https://img3.doubanio.com/view/subject/s/public/s29978582.jpg" width="150" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img3.doubanio.com/view/subject/s/public/s34917042.jpg" width="150" />
+  <img src="https://www.tup.com.cn/upload/bigbookimg3/091350-01.jpg" width="150" />
 </div>
 
 一些值得参考的教材还有：  
