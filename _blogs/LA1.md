@@ -122,33 +122,60 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 - 系统性：课程共35个视频，除去3次测验复习和1次总复习不在整理之列，以及第26讲复矩阵和快速傅里叶变换被我直接略去（我认为有些破坏前后两讲的衔接、一般不讨论复数域、埃尔米特矩阵在居余马书中也放在了附录），剩余29讲我加上了《线性代数的艺术》作为总复习（总结），形成“线性代数三十讲”。
 - 创新性：根据我自身学习积累，结合专业知识，例如在矩阵乘法补充了计量经济学中会用到的克罗内克积（Kronecker积）；在图论与网络一讲将物理学中的基尔霍夫定理例子替换为社会网络分析中的”共识“、”意见领袖“、”信息流“表述，使得非物理专业也能理解，同时补充空间计量邻接矩阵相关知识；最后一讲提及摩尔-彭罗斯（Moore-Penrose）伪逆，这是数理政治经济学的基础。
 - 完备性：除了上述补充，在课程的第三部分节奏加快，补充了九种二次曲面的标准型（二次型的几何意义）、矩阵的恒等/反射/伸缩/切变/投影/旋转变换（矩阵的几何意义）；结合之前线性方程组的几何意义、行列式的几何意义，合起来就比较完整了。
-- 学术性：探求相关理论背后的经典论文，涉及四个基本子空间`The Fundamental Theorem of Linear Algebra（Gilbert Strang, 1993）`、小世界现象`An Experimental Study of the Small World Problem (Travers & Milgram, 1977)`、人脸识别`Face Recognition Using Eigenfaces (Turk & Pentland, 1991)`、伪逆`线性规划、摩尔-彭诺斯伪逆与重力方法（李帮喜等）`。
+- 学术性：探求相关理论背后的经典论文，涉及四个基本子空间`The Fundamental Theorem of Linear Algebra（Gilbert Strang, 1993）`、小世界现象`An Experimental Study of the Small World Problem (Travers & Milgram, 1977)`、人脸识别`Face Recognition Using Eigenfaces (Turk & Pentland, 1991)`、MP伪逆`线性规划、摩尔-彭诺斯伪逆与重力方法（李帮喜等）`。
 - 应用性：针对矩阵分解，LU、QR、SVD三讲补充了Python和MATLAB代码，这三讲经过调整后刚好位于同一行上（诸如此类的“巧思”比如每一讲命名就留给读者探寻）。
 
 诚然，本系列笔记还有很多不足，对于一些结论性性质并没有给出证明；由于我有一点线代基础（我真有吗？），一些初次出现的概念于我而言并不是新知识，可能不是很详尽。
 
 六、也谈线代教材选择
 
-线性代数的几何意义：
+如果让我推荐一本线性代数教材，我会选择Lay的Linear Algebra and its Applications，绘图比较Strang的教材更好，英文版彩图更佳。
+
+<div align="center">
+  <img src="https://cdn11.bigcommerce.com/s-phtso/images/stencil/2048x2048/products/5845/7326/9781292351216-800__92962.1639637851.jpg?c=2" width="200" />
+  <img src="https://ts1.tc.mm.bing.net/th/id/R-C.ac2bb3b1c7867c3766641209651f19f0?rik=TSl4u7Kkzm1Zag&riu=http%3a%2f%2fs.cmpedu.com%2fimages%2fupload%2f2023%2f6%2f4%2f1689094884274(lt800).JPG&ehk=%2f1tDVm8Sy0XQnimzy4etPi%2f57%2buMEJ8fi2JxMKhi4Ho%3d&risl=&pid=ImgRaw&r=0" width="200" />
+</div>
+
+Gilbert Strang老爷子的书这两年出中文版了，虽然最早是由侯自新等老前辈翻译、南开大学出版社出版的（对于我开没有使用GS的书感到遗憾），GS的书分为三种：
+
+<div align="center">
+  <img src="https://img9.doubanio.com/view/subject/s/public/s27194825.jpg" width="200" />
+  <img src="https://i-blog.csdnimg.cn/img_convert/8f83311340a0fb930705a6bbcf89cd7c.png" width="200" />
+</div>
+
+<div align="center">
+  <img src="https://www.feifeiziyuan.com/wp-content/uploads/2024/10/th_uj8tHNz8qrjCC5qklinQ45uaH1MRC.webp" width="200" />
+  <img src="https://img14.360buyimg.com/pop/jfs/t1/433871/1/12229/108254/6a09b23eFab8ff87b/00833e83e8b1cbc5.jpg" width="200" />
+</div>
+
+<div align="center">
+  <img src="https://ts2.tc.mm.bing.net/th/id/OIP-C.rnl5lx2Gi_w9KIbRBo_iFQHaJH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
+  <img src="https://www.tup.com.cn/upload/bigbookimg3/091350-01.jpg" width="200" />
+</div>
+
+一些值得参考的教材还有：  
+1. 线性代数的几何意义：
 
 <div align="center">
   <img src="https://th.bing.com/th/id/R.cb44341f6a4e69e487a552b86468e5f9?rik=GJNkfkoirQoz0Q&riu=http%3a%2f%2fimg13.360buyimg.com%2fn1%2fjfs%2ft2221%2f255%2f2373924388%2f137976%2f2a8f749e%2f56d7fc3dN93330807.jpg&ehk=UvT2t4HzU3AAsca1V6ScimRCtImiLPZ3QPu2BNJ%2fF34%3d&risl=&pid=ImgRaw&r=0" width="200" />
-  <img src="https://cdn11.bigcommerce.com/s-phtso/images/stencil/2048x2048/products/5845/7326/9781292351216-800__92962.1639637851.jpg?c=2" width="200" />
+  <img src="https://img2.doubanio.com/view/subject/l/public/s34286351.jpg" width="200" />
 </div>
 
-Strang风格的教材：
+2. Strang风格的教材：
 
 <div align="center">
   <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/097005-01.jpg" width="200" />
   <img src="https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg" width="200" />
 </div>
 
-市面上也不乏相应教材：
+3. 代码实现（Python、MATLAB、Julia）：
 
 <div align="center">
   <img src="https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500" width="200" />
   <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg" width="200" />
   <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
 </div>
+
+
 
 七、鸣谢
