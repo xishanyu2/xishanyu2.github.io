@@ -6,8 +6,6 @@ permalink: /blogs/LA1
 
 It's 2026, why do I learn Linear Algebra again？
 
----
-
 2026年暑假，我花10天时间学完了Gilbert Strang教授的MIT18.06线性代数课程（[Linear Algebra | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)）。
 
 一、我的线代学习之路
