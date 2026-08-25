@@ -122,7 +122,8 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 - 系统性：课程共35个视频，除去3次测验复习和1次总复习不在整理之列，以及第26讲复矩阵和快速傅里叶变换被我直接略去（我认为有些破坏前后两讲的衔接、一般不讨论复数域、埃尔米特矩阵在居余马书中也放在了附录），剩余29讲我加上了《线性代数的艺术》作为总复习（总结），形成“线性代数三十讲”。
 - 创新性：根据我自身学习积累，结合专业知识，例如在矩阵乘法补充了计量经济学中会用到的克罗内克积（Kronecker积）；在图论与网络一讲将物理学中的基尔霍夫定理例子替换为社会网络分析中的”共识“、”意见领袖“、”信息流“表述，使得非物理专业也能理解，同时补充空间计量邻接矩阵相关知识；最后一讲提及摩尔-彭罗斯（Moore-Penrose）伪逆，这是数理政治经济学的基础。
 - 完备性：除了上述补充，在课程的第三部分节奏加快，补充了九种二次曲面的标准型（二次型的几何意义）、矩阵的恒等/反射/伸缩/切变/投影/旋转变换（矩阵的几何意义）；结合之前线性方程组的几何意义、行列式的几何意义，合起来就比较完整了。
-- 学术性：An Experimental Study of the Small World Problem (Travers & Milgram, 1977)Face Recognition Using Eigenfaces (Turk & Pentland, 1991)
+- 学术性：探求相关理论背后的经典论文，涉及四个基本子空间`The Fundamental Theorem of Linear Algebra（Gilbert Strang, 1993）`、小世界现象`An Experimental Study of the Small World Problem (Travers & Milgram, 1977)`、人脸识别`Face Recognition Using Eigenfaces (Turk & Pentland, 1991)`、伪逆`线性规划、摩尔-彭诺斯伪逆与重力方法（李帮喜等）`。
+- 应用性：针对矩阵分解，LU、QR、SVD三讲补充了Python和MATLAB代码，这三讲经过调整后刚好位于同一行上（诸如此类的“巧思”比如每一讲命名就留给读者探寻）。
 
 由于我有一点线性代数基础（我真有吗？），一些初次出现的概念于我而言并不是新知识可能不会详说。
 
@@ -142,7 +143,7 @@ Strang风格的教材：
   <img src="https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg" width="200" />
 </div>
 
-针对矩阵分解，LU、QR、SVD三讲补充了Python和MATLAB代码，市面上也不乏相应教材：
+市面上也不乏相应教材：
 
 <div align="center">
   <img src="https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500" width="200" />
