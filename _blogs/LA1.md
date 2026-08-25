@@ -54,7 +54,7 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 三、《九章算术》——线性代数的中国根源
 
 <div align="center">
-  <img src="https://pqnoss.kepuchina.cn/2026/06/09/21/scimall/945c75" width="200" />
+  <img src="https://ts1.tc.mm.bing.net/th/id/OIP-C.sOZWt-SOSUCiZDuWWLmy1gHaLD?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
 </div>
 
 在《九章算数》第八章”方程“里有这样一个问题：
@@ -120,22 +120,25 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 六、也谈线代教材选择
 
 线性代数的几何意义：
-![](https://th.bing.com/th/id/R.cb44341f6a4e69e487a552b86468e5f9?rik=GJNkfkoirQoz0Q&riu=http%3a%2f%2fimg13.360buyimg.com%2fn1%2fjfs%2ft2221%2f255%2f2373924388%2f137976%2f2a8f749e%2f56d7fc3dN93330807.jpg&ehk=UvT2t4HzU3AAsca1V6ScimRCtImiLPZ3QPu2BNJ%2fF34%3d&risl=&pid=ImgRaw&r=0)
 
-![](https://cdn11.bigcommerce.com/s-phtso/images/stencil/2048x2048/products/5845/7326/9781292351216-800__92962.1639637851.jpg?c=2)
+<div align="center">
+  <img src="https://th.bing.com/th/id/R.cb44341f6a4e69e487a552b86468e5f9?rik=GJNkfkoirQoz0Q&riu=http%3a%2f%2fimg13.360buyimg.com%2fn1%2fjfs%2ft2221%2f255%2f2373924388%2f137976%2f2a8f749e%2f56d7fc3dN93330807.jpg&ehk=UvT2t4HzU3AAsca1V6ScimRCtImiLPZ3QPu2BNJ%2fF34%3d&risl=&pid=ImgRaw&r=0" width="200" />
+  <img src="https://cdn11.bigcommerce.com/s-phtso/images/stencil/2048x2048/products/5845/7326/9781292351216-800__92962.1639637851.jpg?c=2" width="200" />
+</div>
 
 Strang风格的教材：
 
-![](https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/097005-01.jpg)
-
-![](https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg)
+<div align="center">
+  <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/097005-01.jpg" width="200" />
+  <img src="https://img14.360buyimg.com/pop/jfs/t1/326465/32/27549/54661/68e88e66F531e17b2/ff7682b7e32b095e.jpg" width="200" />
+</div>
 
 针对矩阵分解，LU、QR、SVD三讲补充了Python和MATLAB代码，市面上也不乏相应教材：
 
-![](https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500)
-
-![](https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg)
-
-![](https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3)
+<div align="center">
+  <img src="https://t14.baidu.com/it/u=1940376275,2644280210&fm=224&app=112&f=JPEG?w=500&h=500" width="200" />
+  <img src="https://www.tup.tsinghua.edu.cn/upload/bigbookimg3/104593-01.jpg" width="200" />
+  <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200" />
+</div>
 
 七、鸣谢
