@@ -129,7 +129,7 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 
 六、也谈线代教材选择
 
-如果让我推荐一本线性代数教材，我会选择Lay的Linear Algebra and its Applications，绘图比较Strang的教材更好，英文版彩图更佳。
+如果让我推荐一本线性代数教材，我会选择Lay的Linear Algebra and its Applications，绘图较Strang的教材更好，英文版彩图更佳。
 
 <div align="center">
   <img src="https://cdn11.bigcommerce.com/s-phtso/images/stencil/2048x2048/products/5845/7326/9781292351216-800__92962.1639637851.jpg?c=2" width="200" />
