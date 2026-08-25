@@ -6,11 +6,11 @@ permalink: /blogs/LA1
 
 It's 2026, why do I learn Linear Algebra again?
 
-2026年暑假，我花10天时间学完了Gilbert Strang教授的MIT18.06线性代数课程（[Linear Algebra | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)）。
+2026年暑假，我花10天时间学完了Gilbert Strang教授的MIT18.06线性代数课程[Linear Algebra | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)。
 
 一、我的线代学习之路
 
-我的线代学习之路可谓一波三折。大学时期，我曾不止一次学习宋浩的线性代数课程，但都一直止步于第一章行列式；在学校也听过不同老师讲线性代数，大多也是从行列式讲起；虽然学了很多线代的计算方法与技巧，但一直不得其道，于是我收获了我大学里唯一一门没有上80分的课程（一门线代毁了我的✕✕梦(bushi)）。在此之后，对线性代数“补完”的愿望愈发强烈，在2024年暑假，我又学习了刘思齐老师的课程（[北京某高校《线性代数》哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1sH4y1S7gm/?spm_id_from=333.1387.homepage.video_card.click)），虽然只学到特征值和特征向量一章，稍显吃力便没有继续之后的内容，现在也几乎忘光了，但却开始从一个更高的维度重新审视线性代数。
+我的线代学习之路可谓一波三折。大学时期，我曾不止一次学习宋浩的线性代数课程，但都一直止步于第一章行列式；在学校也听过不同老师讲线性代数，大多也是从行列式讲起；虽然学了很多线代的计算方法与技巧，但一直不得其道，于是我收获了我大学里唯一一门没有上80分的课程（一门线代毁了我的✕✕梦(bushi)）。在此之后，对线性代数“补完”的愿望愈发强烈，在2024年暑假，我又学习了刘思齐老师的课程[北京某高校《线性代数》哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1sH4y1S7gm/?spm_id_from=333.1387.homepage.video_card.click)，虽然只学到特征值和特征向量一章，稍显吃力便没有继续之后的内容，现在也几乎忘光了，但却开始从一个更高的维度重新审视线性代数。
 
 BTW，647老师的课程最有趣的当属每一条视频下的简介，我这个网站设立的初衷深受刘老师主页个签“知识理应共享”的影响。
 
@@ -31,10 +31,12 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 ![](https://img.alicdn.com/i3/859515618/O1CN013B2uIt1rN5tKz6Mwh_!!859515618.jpg)
 
 为什么同济线代如此”臭名昭著“？第一个批评当属以行列式开篇，以至于判断线代教材好坏的成了是不是从行列式开始（这种办法不无道理，据此就能排除掉以行列式开始的里面99%的烂教材）。
+
 ![](https://img.alicdn.com/i2/2424358848/O1CN01J89R0j2FER3ZDIbjE_!!2424358848.jpg)
+
 ![](https://img14.360buyimg.com/pop/jfs/t1/51084/1/24901/64480/6454a9d1Fa09d91f4/7ceb493e8498524d.jpg)
 
-也有从矩阵开始讲起的，比如以下两种（B站视频：厦门大学余铌娜老师[《线性代数》哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ip4y197vF/?spm_id_from=333.1387.homepage.video_card.click)、东南大学张小向老师[[线性代数]Ch1-矩阵(合集)哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1y3411K72h/?spm_id_from=333.1387.favlist.content.click)）：
+也有从矩阵开始讲起的，比如以下两种 B站视频：厦门大学余铌娜老师[《线性代数》哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ip4y197vF/?spm_id_from=333.1387.homepage.video_card.click)、东南大学张小向老师[[线性代数]Ch1-矩阵(合集)哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1y3411K72h/?spm_id_from=333.1387.favlist.content.click)：
 
 
 ![](https://img14.360buyimg.com/pop/jfs/t1/463363/33/14643/83768/6a424362Ff10c2b5e/008332032043c951.jpg)
@@ -94,7 +96,7 @@ BTW，647老师的课程最有趣的当属每一条视频下的简介，我这�
 
 网上前人对于MIT 18.06的笔记众多，我为什么还要费时费力重新整理呢？
 
-网上对于MIT 18.06课程的笔记大致可分为三代人的努力，第一代见于丁坤博七年前的github仓库（[GitHub - MLNLP-World/MIT-Linear-Algebra-Notes](https://github.com/MLNLP-World/MIT-Linear-Algebra-Notes)），第二代是知乎THU[三少爷的键](https://www.zhihu.com/people/san-shao-ye-de-jian-37)的[MIT—线性代数笔记00 - 知乎](https://zhuanlan.zhihu.com/p/45707832)，后续很多笔记对此都有所参考借鉴，所以我整理的其实已经是第三代了。
+网上对于MIT 18.06课程的笔记大致可分为三代人的努力，第一代见于丁坤博七年前的github仓库[GitHub - MLNLP-World/MIT-Linear-Algebra-Notes](https://github.com/MLNLP-World/MIT-Linear-Algebra-Notes)，第二代是知乎THU[三少爷的键](https://www.zhihu.com/people/san-shao-ye-de-jian-37)的[MIT—线性代数笔记00 - 知乎](https://zhuanlan.zhihu.com/p/45707832)，后续很多笔记对此都有所参考借鉴，所以我整理的其实已经是第三代了。
 
 眼过千遍，不如手过一遍，只有自己真正过一遍、搭建起自己的知识框架与体系，才能将知识内化为自己的，此为第一点原因；其二，网络上的笔记或是排版不算美观、或是没有能直接下载的pdf版本、或是内容高度凝练简洁直接阅读缺少细节不适合初学，我在整理笔记时牢记以下原则：
 
