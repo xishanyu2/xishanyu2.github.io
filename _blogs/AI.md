@@ -6,6 +6,3 @@ permalink: /blogs/AI
 
 The first thing that AI replaces is AI.
 
-<div align="center">
-  <img src='/images/The Evolving Vocabulary of AI.png' />
-</div>
