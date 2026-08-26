@@ -5,3 +5,7 @@ permalink: /blogs/LA3
 ---
 
 Epilogue: The first thing that AI replaces is AI.
+
+<div align="center">
+  <img src='/images/The Evolving Vocabulary of AI.png' />
+</div>
