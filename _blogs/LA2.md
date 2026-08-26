@@ -66,7 +66,7 @@ It’s 2026, why do I learn Linear Algebra again?
 
 我们不妨通过GS《The Fundamental Theorem of Linear Algebra》这篇文章来总结线性代数基本定理，对整个课程核心做一个梳理。
 
-线性代数的学习存在一个关键的“认知跃升”。初学时，我们只把Ax看作是一堆数字的乘加运算；但真正理解线性代数，必须将Ax**视为矩阵列的线性组合**。
+线性代数的学习存在一个关键的“认知跃升”。初学时，我们只把Ax看作是一堆数字的乘加运算；但真正理解线性代数，必须将Ax视为**矩阵列的线性组合**。
 
 <div align="center">
   <img src='/images/屏幕截图 2026-08-26 105935.png' />
