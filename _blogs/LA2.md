@@ -36,6 +36,8 @@ It’s 2026, why do I learn Linear Algebra again?
   <img src='/images/屏幕截图 2026-08-26 002036.png' />
 </div>
 
+---
+
 线性代数在数据科学与机器学习中应用更甚，看GS另一本《线性代数与数据学习》的目录：
 
 ```
