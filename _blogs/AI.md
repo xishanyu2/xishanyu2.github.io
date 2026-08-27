@@ -38,9 +38,28 @@ The first thing that AI replaces is AI.
 
 但直到这时，主流用法仍是「人问、模型答」；更聪明，但还不是更自主。聪明和「能替你把一件事做完」，中间还差一层架子。
 
-**2025-2026：模型只是灵魂**
+**2026：模型只是灵魂**
 
 Harness 就是这层架子——一整套让模型「做完一件事」的环境。
+
+2026 年春天，OpenClaw（在中国被叫成「小龙虾」）给大脑装上手脚：本地跑、接聊天软件、操作浏览器和文件。线下有人排队「养虾」，大约四十天，国家互联网应急中心点名安全风险，舆论翻面，二手平台上的生意从「代装」变成「代卸」。
+
+更巧的是，OpenClaw 的创始人正是后来喊出"You shouldn't be prompting coding agents anymore. You should be **「designing loops」** that prompt your agents." （别再给编程 Agent 写提示词了，去设计能提示你的 Agent 的循环。）」的 Peter Steinberger——产品比口号更早到达现场。
+
+小龙虾不是假货。方向是对的：Agent 要有身体。它错在被当成可以排队买到的捷径，AutoGPT 是没有身体的脑，小龙虾是还没长好免疫系统的身体。**演示超前于可靠性，传播超前于理解，入场费收在高潮，学费付在退潮。** 所以「慢就是快」不是劝你躺平，是劝你不要每个四十天重装一次人生。
+
+Anthropic 把 **Claude Code** 推进终端。表面只是一个命令行，实质是一次用法革命：模型获得了读文件、改文件、执行命令、看报错、再改一版的闭环。你不再把函数贴进对话框，而是让它进你的仓库。
+开源世界走出 **OpenCode**，不绑一家模型，终端里就能换 Claude、GPT、DeepSeek。
+
+模型已经够聪明了，卡住的是它跑在什么里面。OpenAI工程师Ryan Lopopolo用`Agents aren't hard; the Harness is hard.`概括他带团队用5个月让Codex写出100万行代码的经验。Harness 就是那层「让模型理解环境、调用工具、记住会话、在真实世界里连续工作」的架子：工具、沙箱、权限、记忆、技能、子 Agent、反馈。模型负责聪明，Harness 负责让聪明可依赖。套娃关系从此成立——Harness 装着上下文，上下文装着提示词。Claude Code 负责人 Boris Cherny 那句`I don't prompt Claude anymore`说的就是这件事：人在设计它干活的环境，不再雕那句完美的话。
+
+用户侧能感觉到的，是入口突然变多。Agent 不仅长在终端里，从 CLI 做到独立桌面应用，再进 VS Code。同一套能力，PowerShell 里是一条命令，VS Code 里是侧边栏，桌面端是一个会自己开 diff 的窗口。于是 2026 年的开发者桌面，通常是叠着用的，而不是选一个信仰：Claude Code 啃硬骨头和长程重构，Codex 走 ChatGPT 账号和云端异步，OpenCode 适合想免费体验的人，VS Code 当公共码头。
+
+**MCP**（模型上下文协议）、**Skills**、`AGENTS.md` 是同一件事的不同层——模型是灵魂，Harness 是身体和手脚。同样一个 Claude 或 DeepSeek，塞进不同的循环里，能干的活完全不一样。API 也在这一年变成基础设施。以前要么直连 OpenAI/Anthropic，要么走中转。2026 年使用者会同时比较：DeepSeek、智谱 GLM、小米 MiMo。API 变成水电煤——谁提供稳定、便宜、长上下文、兼容 OpenAI/Anthropic 协议的 API，谁就能进你的 Agent 里当大脑。
+
+中国没有缺席，只是入口不一样。字节是一条完整链：豆包做 C 端助手，即梦做图像视频，扣子 Coze 搭 Agent，Trae 做 AI IDE，火山引擎 / 方舟聚焦企业数字化服务。字节一度同时铺多个，2026 年夏天开始往回收，整体并入豆包体系，对外要打出「豆包工作」。腾讯把元宝嵌进微信，背后混元也在追推理和 Agent（CodeBuddy 和 WorkBuddy）。DeepSeek 则在 2026 年把故事从「便宜的强模型」升级成「模型 + 运行时」。8 月的 **DeepSeek Harness** 核心就是 **Agent = Model + Harness**。
+
+前沿模型榜单每个月都在换，但对使用者来说，差别不再是「会不会聊天」，而是它能不能在一个 Harness 里连续工作几小时，少问你，多把事做完。Harness 让 Agent 能干活。Loop 决定它能不能连续干、干到什么时候停。
 
 <div align="center">
   <img src='/images/Pasted image 20260826231657.png' />
