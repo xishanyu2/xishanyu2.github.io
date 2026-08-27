@@ -44,7 +44,7 @@ Harness 就是这层架子——一整套让模型「做完一件事」的环境
 
 2026 年春天，OpenClaw（在中国被叫成「小龙虾」）给大脑装上手脚：本地跑、接聊天软件、操作浏览器和文件。线下有人排队「养虾」，大约四十天，国家互联网应急中心点名安全风险，舆论翻面，二手平台上的生意从「代装」变成「代卸」。
 
-更巧的是，OpenClaw 的创始人正是后来喊出"You shouldn't be prompting coding agents anymore. You should be **「designing loops」** that prompt your agents." （别再给编程 Agent 写提示词了，去设计能提示你的 Agent 的循环。）」的 Peter Steinberger——产品比口号更早到达现场。
+更巧的是，OpenClaw 的创始人正是后来喊出"You shouldn't be prompting coding agents anymore. You should be **「designing loops」** that prompt your agents." （别再给编程 Agent 写提示词了，去设计能提示你的 Agent 的循环。）的 Peter Steinberger——产品比口号更早到达现场。
 
 小龙虾不是假货。方向是对的：Agent 要有身体。它错在被当成可以排队买到的捷径，AutoGPT 是没有身体的脑，小龙虾是还没长好免疫系统的身体。**演示超前于可靠性，传播超前于理解，入场费收在高潮，学费付在退潮。** 所以「慢就是快」不是劝你躺平，是劝你不要每个四十天重装一次人生。
 
