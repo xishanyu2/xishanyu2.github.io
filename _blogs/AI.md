@@ -59,7 +59,7 @@ Anthropic 把 **Claude Code** 推进终端。表面只是一个命令行，实�
 
 中国没有缺席，只是入口不一样。字节是一条完整链：豆包做 C 端助手，即梦做图像视频，扣子 Coze 搭 Agent，Trae 做 AI IDE，火山引擎 / 方舟聚焦企业数字化服务。字节一度同时铺多个，2026 年夏天开始往回收，整体并入豆包体系，对外要打出「豆包工作」。腾讯把元宝嵌进微信，背后混元也在追推理和 Agent（CodeBuddy 和 WorkBuddy）。DeepSeek 则在 2026 年把故事从「便宜的强模型」升级成「模型 + 运行时」。8 月的 **DeepSeek Harness** 核心就是 **Agent = Model + Harness**。
 
-前沿模型榜单每个月都在换，但对使用者来说，差别不再是「会不会聊天」，而是它能不能在一个 Harness 里连续工作几小时，少问你，多把事做完。Harness 让 Agent 能干活。Loop 决定它能不能连续干、干到什么时候停。
+前沿模型榜单每个月都在换，但对使用者来说，差别不再是「会不会聊天」，而是它能不能在一个 Harness 里连续工作几小时，少问你，多把事做完。Harness 让 Agent 能干活，Loop 决定它能不能连续干、干到什么时候停。
 
 <div align="center">
   <img src='/images/Pasted image 20260826231657.png' />
