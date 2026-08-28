@@ -176,7 +176,7 @@ Gilbert Strang的书这两年出中文版了，虽然最早是由侯自新老校
   <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="140" />
 </div>
 
-以及一些用manim做成的视频：[3B1B](https://www.bilibili.com/video/BV1Ys411k7yQ/?spm_id_from=333.337.search-card.all.click)、[漫士沉思录](https://www.bilibili.com/video/BV1wu411T7dj/?spm_id_from=333.337.search-card.all.click)、[iris](https://www.bilibili.com/video/BV1ELY9zmEBJ?spm_id_from=333.788.videopod.sections)...
+以及一些用manim做成的视频：[3B1B](https://www.bilibili.com/video/BV1Ys411k7yQ/?spm_id_from=333.337.search-card.all.click)、[漫士沉思录](https://www.bilibili.com/video/BV1wu411T7dj/?spm_id_from=333.337.search-card.all.click)、[iris小课堂](https://www.bilibili.com/video/BV1ELY9zmEBJ?spm_id_from=333.788.videopod.sections)...
 
 七、鸣谢
 
