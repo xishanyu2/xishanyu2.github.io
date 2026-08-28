@@ -12,7 +12,7 @@ redirect_from:
 
 ## Lectures
 
-_For Market Research and Analysis_
+_*For Market Research and Analysis*_
 
 （2026/05/06）Syllabus and References [Slides](http://xishanyu2.github.io/files/Lecture0.pdf)  
 （2026/05/06）Lecture 1: Big Data Analysis in AI Era [Slides](http://xishanyu2.github.io/files/Lecture1.pdf)  
