@@ -176,6 +176,8 @@ Gilbert Strang的书这两年出中文版了，虽然最早是由侯自新老校
   <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.3M5CMMIKE3l4Fq6Gj0dNwgHaJ_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="140" />
 </div>
 
+以及一些用mamin做成的视频：[3B1B](https://www.bilibili.com/video/BV1Ys411k7yQ/?spm_id_from=333.337.search-card.all.click)、[漫士沉思录](https://www.bilibili.com/video/BV1wu411T7dj/?spm_id_from=333.337.search-card.all.click)、[iris](https://www.bilibili.com/video/BV1ELY9zmEBJ?spm_id_from=333.788.videopod.sections)...
+
 七、鸣谢
 
 感谢Gilbert Strang给我们带来如此精彩的课程，每次我先整理笔记预习再观看视频GS都能给我新的启发；虽然老爷子已经退休，但他的学术瑰宝滋养着一代代学子。
