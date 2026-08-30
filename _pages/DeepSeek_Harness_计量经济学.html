@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeepSeek Harness × 计量经济学</title>
+<style>
+  :root {
+    --bg: #f5f7fb;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #1e293b;
+    --text-2: #475569;
+    --text-3: #94a3b8;
+    --blue: #4f6ef7;
+    --blue-light: #eef1fe;
+    --cyan: #10b981;
+    --cyan-light: #e7f8f1;
+    --purple: #8b5cf6;
+    --orange: #f59e0b;
+    --red: #ef4444;
+    --code-bg: #1e293b;
+    --code-text: #e2e8f0;
+    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.04);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { height:100%; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif; background:var(--bg); color:var(--text); overflow:hidden; }
+
+  .deck { position:relative; width:100vw; height:100vh; }
+  .slide {
+    position:absolute; inset:0;
+    display:none;
+    flex-direction:column;
+    padding:44px 60px 80px;
+    opacity:0; transition:opacity .3s ease;
+  }
+  .slide.active { display:flex; opacity:1; }
+
+  .topbar { position:relative; height:28px; margin-bottom:8px; display:flex; align-items:center; }
+  .chapter-tag { font-size:13px; color:var(--blue); font-weight:600; background:var(--blue-light); padding:3px 14px; border-radius:20px; letter-spacing:.5px; }
+  .top-line { flex:1; height:3px; margin-left:16px; border-radius:2px; background:linear-gradient(90deg, var(--blue-light), #f1f5f9); }
+
+  .slide-title { font-size:36px; font-weight:800; line-height:1.25; margin-bottom:6px; letter-spacing:-.5px; }
+  .slide-title .accent { background:linear-gradient(90deg, var(--blue), var(--cyan)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+  .title-underline { width:56px; height:4px; border-radius:2px; margin:8px 0 22px; background:linear-gradient(90deg, var(--blue), var(--cyan)); }
+  .slide-body { flex:1; display:flex; flex-direction:column; justify-content:center; }
+
+  /* Cover */
+  .cover { align-items:center; justify-content:center; text-align:center; background:radial-gradient(ellipse at 50% 40%, #eef2ff 0%, var(--bg) 60%); }
+  .cover .whale { font-size:72px; margin-bottom:20px; }
+  .cover h1 { font-size:56px; font-weight:900; letter-spacing:-1px; line-height:1.2; }
+  .cover h1 .grad { background:linear-gradient(90deg, var(--blue), var(--cyan)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+  .cover .subtitle { font-size:20px; color:var(--text-2); margin-top:18px; }
+  .cover .meta { margin-top:40px; display:flex; gap:32px; font-size:14px; color:var(--text-3); }
+  .cover .meta b { color:var(--text-2); font-weight:600; }
+
+  /* TOC */
+  .toc-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px 24px; }
+  .toc-item { display:flex; align-items:center; gap:16px; background:var(--card); border:1px solid var(--card-border); border-radius:12px; padding:18px 22px; box-shadow:var(--shadow); transition:all .15s; cursor:pointer; }
+  .toc-item:hover { transform:translateY(-2px); border-color:var(--blue); box-shadow:0 4px 16px rgba(79,110,247,.15); }
+  .toc-num { font-size:24px; font-weight:800; color:var(--blue); min-width:36px; font-family:"SF Mono", Consolas, monospace; }
+  .toc-item.review .toc-num { color:var(--purple); }
+  .toc-text h4 { font-size:16px; font-weight:700; margin-bottom:2px; }
+  .toc-text p { font-size:13px; color:var(--text-3); }
+
+  /* Cards */
+  .card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:22px; box-shadow:var(--shadow); }
+  .card-icon { width:40px; height:40px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:20px; margin-bottom:12px; }
+  .card h3 { font-size:17px; font-weight:700; margin-bottom:8px; }
+  .card p { font-size:13px; color:var(--text-2); line-height:1.7; }
+
+  /* Review */
+  .review-banner { background:linear-gradient(135deg,#f5f3ff,#ede9fe); border:1px solid #ddd6fe; border-radius:12px; padding:12px 20px; margin-bottom:16px; display:flex; align-items:center; gap:10px; font-size:13px; color:#6d28d9; font-weight:500; }
+  .review-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .review-card { background:var(--card); border:1px solid var(--card-border); border-radius:12px; padding:18px 20px; box-shadow:var(--shadow); }
+  .review-card h4 { font-size:14px; font-weight:700; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .review-card h4 .rn { background:var(--purple); color:#fff; font-size:11px; width:22px; height:22px; border-radius:6px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .stata-code { background:#0f172a; color:var(--code-text); border-radius:10px; padding:10px 14px; font-family:"SF Mono", Consolas, monospace; font-size:11.5px; line-height:1.85; overflow-x:auto; }
+  .stata-code .cmd { color:#7dd3fc; }
+  .stata-code .opt { color:#c4b5fd; }
+  .stata-code .cm { color:#64748b; }
+  .stata-code .var { color:#fbbf24; }
+  .review-note { font-size:12px; color:var(--text-3); margin-top:12px; line-height:1.7; padding-left:10px; border-left:2px solid #ddd6fe; }
+
+  .code-block { background:var(--code-bg); color:var(--code-text); border-radius:10px; padding:12px 16px; font-family:"SF Mono", Consolas, monospace; font-size:12px; line-height:1.8; margin-top:10px; overflow-x:auto; }
+  .code-block .cm { color:#64748b; }
+  .code-block .kw { color:#7dd3fc; }
+  .code-block .str { color:#86efac; }
+  .code-block .done { color:#34d399; }
+  .code-block .run { color:#fbbf24; }
+  .code-block .todo { color:#94a3b8; }
+
+  .tags-row { display:flex; gap:10px; margin-bottom:16px; }
+  .tag { font-size:12px; font-weight:600; padding:4px 14px; border-radius:20px; }
+  .tag.blue { background:var(--blue-light); color:var(--blue); }
+  .tag.cyan { background:var(--cyan-light); color:var(--cyan); }
+  .tag.orange { background:#fef3c7; color:#b45309; }
+  .grid-2x2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .tool-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .tool-chip { font-size:12px; padding:4px 12px; border-radius:16px; background:var(--blue-light); color:var(--blue); font-weight:500; }
+  .tool-chip.cyan { background:var(--cyan-light); color:var(--cyan); }
+  .bottom-note { text-align:center; font-size:13px; color:var(--text-2); margin-top:14px; }
+  .bottom-note b { color:var(--blue); }
+
+  /* Formula */
+  .formula-row { display:flex; align-items:center; justify-content:center; gap:18px; margin-bottom:24px; }
+  .formula-box { background:var(--card); border:2px solid var(--card-border); border-radius:14px; padding:18px 32px; text-align:center; min-width:150px; box-shadow:var(--shadow); }
+  .formula-box .fi { font-size:30px; margin-bottom:4px; }
+  .formula-box .ft { font-size:24px; font-weight:800; }
+  .formula-box .fs { font-size:12px; color:var(--text-3); margin-top:4px; }
+  .formula-box.blue { border-color:var(--blue); }
+  .formula-box.blue .ft { color:var(--blue); }
+  .formula-box.cyan { border-color:var(--cyan); }
+  .formula-box.cyan .ft { color:var(--cyan); }
+  .formula-op { font-size:30px; font-weight:800; color:var(--blue); }
+  .formula-2col { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .formula-2col .card h4 { font-size:15px; font-weight:700; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .formula-2col .card h4.blue { color:var(--blue); }
+  .formula-2col .card h4.cyan { color:var(--cyan); }
+  .check-list { margin-top:8px; }
+  .check-list li { list-style:none; font-size:13px; color:var(--text-2); padding:5px 0; display:flex; align-items:center; gap:10px; }
+  .check-list li::before { content:"✓"; color:var(--cyan); font-weight:700; }
+  .formula-bottom { margin-top:14px; background:var(--card); border:1px solid var(--card-border); border-radius:12px; padding:14px 22px; text-align:center; font-size:13px; color:var(--text-2); box-shadow:var(--shadow); }
+  .formula-bottom b { color:var(--blue); }
+
+  /* OSS */
+  .oss-formula { display:flex; align-items:center; justify-content:center; gap:14px; margin-bottom:20px; }
+  .oss-box { background:var(--card); border:2px solid var(--card-border); border-radius:14px; padding:16px 24px; text-align:center; min-width:140px; box-shadow:var(--shadow); }
+  .oss-box .oi { font-size:26px; margin-bottom:4px; }
+  .oss-box .ot { font-size:20px; font-weight:800; }
+  .oss-box .os { font-size:11px; color:var(--text-3); margin-top:4px; }
+  .oss-box.model { border-color:var(--cyan); }
+  .oss-box.model .ot { color:var(--cyan); }
+  .oss-box.harness { border-color:var(--red); }
+  .oss-box.harness .ot { color:var(--red); }
+  .oss-badge { display:inline-block; font-size:11px; font-weight:600; padding:3px 10px; border-radius:12px; margin-top:6px; }
+  .oss-badge.cyan { background:var(--cyan-light); color:var(--cyan); }
+  .oss-badge.red { background:#fee2e2; color:var(--red); }
+  .star-card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:18px 26px; display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; box-shadow:var(--shadow); }
+  .star-left { display:flex; align-items:center; gap:14px; }
+  .star-avatar { width:42px; height:42px; border-radius:10px; background:linear-gradient(135deg,#fbbf24,#f97316); display:flex; align-items:center; justify-content:center; font-size:20px; }
+  .star-repo { font-size:16px; font-weight:700; }
+  .star-desc { font-size:12px; color:var(--text-3); margin-top:2px; }
+  .star-num { text-align:right; }
+  .star-num .n { font-size:30px; font-weight:900; color:#f59e0b; }
+  .star-num .l { font-size:11px; color:var(--text-3); }
+  .complete-card { background:linear-gradient(135deg, #f0fdf4, #ecfeff); border:1px solid #a7f3d0; border-radius:14px; padding:18px 24px; }
+  .complete-card h4 { font-size:15px; font-weight:700; color:var(--cyan); margin-bottom:6px; display:flex; align-items:center; gap:8px; }
+  .complete-card p { font-size:13px; color:var(--text-2); line-height:1.7; }
+  .complete-card b { color:var(--blue); }
+
+  /* Browser mock */
+  .browser-mock { background:var(--card); border:1px solid var(--card-border); border-radius:14px; overflow:hidden; margin-bottom:18px; box-shadow:var(--shadow); }
+  .browser-bar { background:#f1f5f9; padding:9px 14px; display:flex; align-items:center; gap:8px; border-bottom:1px solid var(--card-border); }
+  .browser-dot { width:10px; height:10px; border-radius:50%; }
+  .browser-url { margin-left:10px; font-size:12px; color:var(--text-3); font-family:monospace; }
+  .browser-body { padding:16px 20px; }
+  .browser-query { font-size:13px; color:var(--cyan); font-weight:600; margin-bottom:12px; }
+  .config-chips { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .config-chip { font-size:11px; padding:4px 12px; border-radius:16px; background:var(--blue-light); color:var(--blue); font-weight:500; }
+  .config-chip.warn { background:#fef3c7; color:#b45309; }
+  .config-chip.ok { background:var(--cyan-light); color:var(--cyan); }
+  .run-btn { margin-left:auto; background:var(--blue); color:#fff; font-size:12px; font-weight:600; padding:6px 18px; border-radius:8px; border:none; cursor:pointer; }
+  .compare-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  .compare-card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .compare-card.highlight { border:2px solid var(--blue); }
+  .compare-card .ci { font-size:28px; margin-bottom:8px; }
+  .compare-card h4 { font-size:17px; font-weight:800; margin-bottom:4px; }
+  .compare-card .vendor { font-size:12px; color:var(--text-3); margin-bottom:8px; }
+  .compare-card .desc { font-size:13px; color:var(--text-2); margin-bottom:10px; }
+  .compare-card .badge { display:inline-block; font-size:11px; padding:4px 10px; border-radius:12px; background:var(--blue-light); color:var(--blue); font-weight:500; }
+  .compare-card.highlight .badge { background:var(--cyan-light); color:var(--cyan); }
+  .compare-bottom { margin-top:14px; background:var(--card); border:1px solid var(--card-border); border-radius:12px; padding:12px 22px; text-align:center; font-size:13px; color:var(--text-2); box-shadow:var(--shadow); }
+  .compare-bottom b { color:var(--blue); }
+
+  /* Plugin */
+  .plugin-layout { display:grid; grid-template-columns:1fr 1fr; gap:26px; align-items:start; }
+  .plugin-env { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .plugin-env h4 { font-size:15px; font-weight:700; margin-bottom:14px; display:flex; align-items:center; gap:8px; }
+  .plugin-env h4 span { font-size:12px; color:var(--text-3); font-weight:400; }
+  .plugin-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .plugin-cell { background:var(--bg); border:1px solid var(--card-border); border-radius:10px; padding:14px; text-align:center; }
+  .plugin-cell .pi { font-size:24px; margin-bottom:4px; }
+  .plugin-cell .pt { font-size:13px; font-weight:700; }
+  .plugin-cell .ps { font-size:10px; color:var(--text-3); margin-top:2px; font-family:monospace; }
+  .plugin-cell.wide { grid-column:span 2; border-color:var(--cyan); background:var(--cyan-light); }
+  .plugin-cell.wide .pt { color:var(--cyan); }
+  .terminal-mock { background:var(--code-bg); border-radius:12px; overflow:hidden; margin-bottom:14px; }
+  .terminal-bar { padding:7px 12px; display:flex; gap:6px; border-bottom:1px solid #334155; }
+  .terminal-body { padding:12px 16px; font-family:"SF Mono", Consolas, monospace; font-size:12px; line-height:1.9; color:var(--code-text); }
+  .terminal-body .prompt { color:var(--cyan); }
+  .terminal-body .cmd { color:#94a3b8; }
+  .plugin-note { background:linear-gradient(135deg,#f0fdf4,#ecfeff); border:1px solid #a7f3d0; border-radius:14px; padding:18px 22px; }
+  .plugin-note h4 { font-size:15px; font-weight:700; color:var(--cyan); margin-bottom:6px; display:flex; align-items:center; gap:8px; }
+  .plugin-note p { font-size:13px; color:var(--text-2); line-height:1.8; }
+  .plugin-note b { color:var(--blue); }
+
+  /* Workflow */
+  .flow-wrap { display:flex; flex-direction:column; align-items:center; gap:0; }
+  .flow-row { display:flex; align-items:center; gap:0; margin-bottom:16px; }
+  .flow-node { background:var(--card); border:1px solid var(--card-border); border-radius:12px; padding:12px 18px; text-align:center; min-width:120px; box-shadow:var(--shadow); }
+  .flow-node .fi { font-size:18px; margin-bottom:4px; }
+  .flow-node .ft { font-size:13px; font-weight:700; }
+  .flow-node .fs { font-size:10px; color:var(--text-3); margin-top:2px; }
+  .flow-node.highlight { border-color:var(--blue); background:var(--blue-light); }
+  .flow-node.cyan-node { border-color:var(--cyan); background:var(--cyan-light); }
+  .flow-node.warn-node { border-color:var(--orange); background:#fef3c7; }
+  .flow-arrow { font-size:18px; color:var(--blue); margin:0 6px; font-weight:700; }
+  .flow-note { margin-top:8px; font-size:13px; color:var(--text-2); text-align:center; }
+  .flow-note b { color:var(--orange); }
+
+  /* Demo */
+  .demo-layout { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .demo-left { display:flex; flex-direction:column; gap:16px; }
+  .demo-right { display:flex; flex-direction:column; gap:16px; }
+  .prompt-card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .prompt-card h4 { font-size:15px; font-weight:700; color:var(--cyan); margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .prompt-card .quote { font-size:13px; color:var(--text-2); line-height:1.9; padding-left:10px; border-left:3px solid var(--cyan); }
+  .exec-card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .exec-card h4 { font-size:15px; font-weight:700; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .exec-list li { list-style:none; font-size:13px; color:var(--text-2); padding:6px 0; display:flex; align-items:center; gap:10px; }
+  .exec-list li::before { content:"✓"; color:var(--cyan); font-weight:700; font-size:14px; }
+  .check-card { background:#fffbeb; border:1px solid #fde68a; border-radius:14px; padding:18px 22px; }
+  .check-card h4 { font-size:15px; font-weight:700; color:#b45309; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .check-list-warn li { list-style:none; font-size:13px; color:var(--text-2); padding:5px 0; display:flex; align-items:flex-start; gap:10px; }
+  .check-list-warn li::before { content:"!"; color:var(--orange); font-weight:800; background:#fef3c7; width:17px; height:17px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:11px; flex-shrink:0; margin-top:1px; }
+  .reg-table { width:100%; border-collapse:collapse; font-size:12px; margin-top:6px; }
+  .reg-table th { background:var(--blue-light); color:var(--blue); font-weight:700; padding:8px 10px; text-align:center; border-bottom:2px solid var(--blue); }
+  .reg-table td { padding:7px 10px; text-align:center; border-bottom:1px solid var(--card-border); color:var(--text-2); }
+  .reg-table td:first-child { text-align:left; font-weight:500; color:var(--text); }
+  .reg-table tr:last-child td { border-bottom:none; }
+
+  /* Setup */
+  .setup-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .setup-col { display:flex; flex-direction:column; gap:16px; }
+  .setup-card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .setup-card h4 { font-size:15px; font-weight:700; margin-bottom:12px; display:flex; align-items:center; gap:10px; }
+  .setup-card .si { width:34px; height:34px; border-radius:9px; background:var(--blue-light); display:flex; align-items:center; justify-content:center; font-size:17px; }
+  .setup-card p { font-size:13px; color:var(--text-2); line-height:1.7; margin-bottom:8px; }
+  .btn-row { display:flex; gap:10px; margin-top:6px; }
+  .btn { font-size:12px; padding:6px 14px; border-radius:8px; font-weight:500; display:inline-flex; align-items:center; gap:6px; }
+  .btn.blue { background:var(--blue-light); color:var(--blue); }
+  .btn.gray { background:#f1f5f9; color:var(--text-2); }
+  .prompt-tips { background:linear-gradient(135deg,#f0fdf4,#ecfeff); border:1px solid #a7f3d0; border-radius:14px; padding:18px 22px; }
+  .prompt-tips h4 { font-size:15px; font-weight:700; color:var(--cyan); margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .tip-item { display:flex; align-items:flex-start; gap:10px; padding:5px 0; font-size:13px; color:var(--text-2); }
+  .tip-item::before { content:"✓"; color:var(--cyan); font-weight:700; }
+  .tip-item b { color:var(--text); }
+
+  /* Ethics */
+  .ethics-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .ethics-col { display:flex; flex-direction:column; gap:16px; }
+  .ethics-card { background:var(--card); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .ethics-card.good { border:1px solid #a7f3d0; }
+  .ethics-card.bad { border:1px solid #fecaca; }
+  .ethics-card h4 { font-size:15px; font-weight:700; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .ethics-card.good h4 { color:var(--cyan); }
+  .ethics-card.bad h4 { color:var(--red); }
+  .ethics-list li { list-style:none; font-size:13px; color:var(--text-2); padding:6px 0; display:flex; align-items:center; gap:10px; }
+  .ethics-card.good .ethics-list li::before { content:"✓"; color:var(--cyan); font-weight:700; }
+  .ethics-card.bad .ethics-list li::before { content:"!"; color:var(--orange); font-weight:800; background:#fef3c7; width:17px; height:17px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:11px; flex-shrink:0; }
+  .submit-card { background:var(--card); border:1px solid var(--card-border); border-radius:14px; padding:20px; box-shadow:var(--shadow); }
+  .submit-card h4 { font-size:15px; font-weight:700; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .submit-card ul { padding-left:18px; }
+  .submit-card li { font-size:13px; color:var(--text-2); padding:4px 0; line-height:1.7; }
+  .principle-card { background:linear-gradient(135deg,#fffbeb,#fef3c7); border:1px solid #fde68a; border-radius:14px; padding:22px; }
+  .principle-card h4 { font-size:15px; font-weight:700; color:#b45309; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .principle-card .big { font-size:17px; font-weight:800; margin-bottom:8px; color:var(--text); }
+  .principle-card p { font-size:13px; color:var(--text-2); line-height:1.9; }
+
+  /* Ending */
+  .ending { align-items:center; justify-content:center; text-align:center; background:radial-gradient(ellipse at 50% 50%, #eef2ff 0%, var(--bg) 60%); }
+  .ending .whale { font-size:76px; margin-bottom:20px; }
+  .ending h2 { font-size:46px; font-weight:900; letter-spacing:-.5px; line-height:1.3; }
+  .ending h2 .grad { background:linear-gradient(90deg, var(--blue), var(--cyan)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+  .ending .formula-line { font-size:16px; color:var(--text-2); margin-top:18px; letter-spacing:.5px; }
+  .ending .qa { font-size:19px; font-weight:700; color:var(--blue); margin-top:32px; letter-spacing:4px; }
+  .ending .foot { margin-top:36px; font-size:12px; color:var(--text-3); }
+
+  /* Nav - 修正底部导航 */
+  .nav {
+    position:fixed; bottom:16px; left:50%; transform:translateX(-50%);
+    display:flex; align-items:center; gap:12px; z-index:9999;
+    background:var(--card); border:1px solid var(--card-border);
+    padding:8px 18px; border-radius:30px; box-shadow:0 4px 16px rgba(0,0,0,.1);
+  }
+  .nav button {
+    width:30px; height:30px; border-radius:50%; border:1px solid var(--card-border);
+    background:var(--bg); color:var(--text-2); font-size:15px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; transition:all .15s;
+  }
+  .nav button:hover { background:var(--blue); color:#fff; border-color:var(--blue); }
+  .dots { display:flex; gap:5px; align-items:center; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#cbd5e1; cursor:pointer; transition:all .2s; }
+  .dot.active { background:var(--blue); width:22px; border-radius:4px; }
+  .page-num { font-size:11px; color:var(--text-3); font-family:monospace; min-width:42px; text-align:center; }
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+  <!-- 1 Cover -->
+  <div class="slide cover active">
+    <div class="whale">🐳</div>
+    <h1>计量经济学 × <br><span class="grad">DeepSeek Harness</span></h1>
+    <div class="subtitle">用 Agent 驾驭你的实证研究 —— 上机课导论</div>
+    <div class="meta">
+      <span><b>课程</b>　微观计量经济学</span>
+      <span><b>环节</b>　上机实验课</span>
+      <span><b>主讲</b>　助教</span>
+    </div>
+  </div>
+
+  <!-- 2 TOC -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">导论</span><div class="top-line"></div></div>
+    <div class="slide-title">目录</div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="toc-grid">
+        <div class="toc-item review" onclick="show(2)"><div class="toc-num">00</div><div class="toc-text"><h4>计量经济学基础回顾</h4><p>你已经掌握的 Stata 实证流程</p></div></div>
+        <div class="toc-item" onclick="show(6)"><div class="toc-num">01</div><div class="toc-text"><h4>为什么引入  Agent</h4><p>从手工跑回归到智能协作</p></div></div>
+        <div class="toc-item" onclick="show(7)"><div class="toc-num">02</div><div class="toc-text"><h4>Harness 概念与架构</h4><p>驾驭的艺术 · 公式 · 开源 · 插件</p></div></div>
+        <div class="toc-item" onclick="show(13)"><div class="toc-num">03</div><div class="toc-text"><h4>工作流与实战演示</h4><p>从数据到论文的全流程</p></div></div>
+        <div class="toc-item" onclick="show(17)"><div class="toc-num">04</div><div class="toc-text"><h4>DSH 配置</h4><p>让 Agent 在真实场景中持续工作</p></div></div>
+        <div class="toc-item" onclick="show(18)"><div class="toc-num">05</div><div class="toc-text"><h4>作业要求与学术诚信</h4><p>如何正确使用 Agent 完成作业</p></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 Review 1 -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag" style="background:#f5f3ff;color:#7c3aed">00 · 复习</span><div class="top-line" style="background:linear-gradient(90deg,#f5f3ff,#f1f5f9)"></div></div>
+    <div class="slide-title">数据导入与预处理</div>
+    <div class="title-underline" style="background:linear-gradient(90deg,#8b5cf6,#a78bfa)"></div>
+    <div class="review-banner">📚 在使用 Agent 之前，我们先回顾已学的 Stata 计量分析流程——从数据导入到异质性分析，每一步都是后续 Agent 辅助的基础。</div>
+    <div class="slide-body">
+      <div class="review-grid" style="grid-template-columns:1fr 1fr">
+        <div class="review-card">
+          <h4><span class="rn">1</span>导入数据</h4>
+          <div class="stata-code"><span class="cmd">import excel</span> <span class="var">"路径.xlsx"</span>, <span class="opt">firstrow clear</span>
+<span class="cm">// 导入Excel，首行是变量名</span><br>
+<span class="cmd">use</span> <span class="var">"路径.dta"</span>, <span class="opt">clear</span>
+<span class="cm">// 导入Stata dta数据</span></div>
+        </div>
+        <div class="review-card">
+          <h4><span class="rn">2</span>面板数据设置</h4>
+          <div class="stata-code"><span class="cmd">encode</span> 个体变量, <span class="opt">gen</span>(id)<br>
+<span class="cmd">encode</span> 时间变量, <span class="opt">gen</span>(year)<br>
+<span class="cmd">xtset</span> id year
+<span class="cm">// 声明面板，可用xt系列命令</span></div>
+        </div>
+        <div class="review-card">
+          <h4><span class="rn">3</span>描述性统计</h4>
+          <div class="stata-code"><span class="cmd">summarize</span> y x1 x2 controls
+<span class="cm">// 均值、标准差、最值、样本量</span><br>
+<span class="cmd">estpost summarize</span> y x1 x2 controls<br>
+<span class="cmd">esttab</span> desc_stats using <span class="var">"描述性统计结果.rtf"</span>, <span class="opt">replace</span>
+<span class="cm">// 输出到Word</span></div>
+        </div>
+        <div class="review-card">
+          <h4><span class="rn">4</span>相关性、异常值</h4>
+          <div class="stata-code"><span class="cmd">correlate</span> y x1 x2 controls<br>
+          <span class="cmd">pwcorr</span> y x1 x2 controls, <span class="opt">sig star</span>(0.01)
+<span class="cm">// 相关系数矩阵+显著性星号</span><br>
+<span class="cmd">winsor</span> y x1 x2 controls, <span class="opt">replace cuts</span>(1 99)
+<span class="cm">// 1%/99%缩尾</span></div>
+        </div>
+      </div>
+      <div class="review-note">📝 面板数据必须先 xtset 声明，否则 xtreg、reghdfe 等面板命令无法使用。字符型个体标识（如企业名称）需先用 encode 转换。</div>
+    </div>
+  </div>
+
+  <!-- 4 Review 3 OLS -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag" style="background:#f5f3ff;color:#7c3aed">00 · 复习</span><div class="top-line" style="background:linear-gradient(90deg,#f5f3ff,#f1f5f9)"></div></div>
+    <div class="slide-title">OLS 与经典假设</div>
+    <div class="title-underline" style="background:linear-gradient(90deg,#8b5cf6,#a78bfa)"></div>
+    <div class="review-banner">📚 回归 → 多重共线性 → 异方差 → 自相关 → 线性性，五步检验法</div>
+<div class="slide-body">
+  <div class="review-full" style="background:var(--card);border:1px solid var(--card-border);border-radius:12px;padding:16px 20px;margin-bottom:14px;box-shadow:var(--shadow)">
+    <h4 style="font-size:14px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px">
+      <span class="rn" style="background:#7c3aed;color:#fff;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:4px;font-size:12px;font-weight:700;flex-shrink:0;">1</span>OLS 回归
+    </h4>
+    <div class="stata-code"><span class="cmd">reg</span> y x1 x2 controls<br>
+<span class="cmd">reg</span> y x1 x2 controls, <span class="opt">robust</span>
+<span class="cm">// 异方差稳健标准误</span></div>
+  </div>
+      <div class="review-grid" style="grid-template-columns:1fr 1fr">
+        <div class="review-card"><h4><span class="rn">2</span>多重共线性检验（VIF）</h4><div class="stata-code"><span class="cmd">estat vif</span>
+<span class="cm">// VIF&lt;10 无严重共线性，VIF&gt;10 需剔除高度相关变量</span></div></div>
+        <div class="review-card"><h4><span class="rn">3</span>异方差检验（怀特）</h4><div class="stata-code"><span class="cmd">estat imtest</span>, <span class="opt">white</span>
+<span class="cm">// 原假设：同方差，P&lt;0.05 则存在异方差</span></div></div>
+        <div class="review-card"><h4><span class="rn">4</span>自相关性检验（DW）</h4><div class="stata-code"><span class="cmd">estat dwatson</span>
+<span class="cm">// DW≈2 无自相关，DW&lt;2 正相关，DW&gt;2 负相关</span></div></div>
+        <div class="review-card"><h4><span class="rn">5</span>线性性检验（RESET）</h4><div class="stata-code"><span class="cmd">estat ovtest</span>
+<span class="cm">// 原假设：模型满足线性假设，P&lt;0.05 需加入平方项/交互项</span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 Review 4+5 merged -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag" style="background:#f5f3ff;color:#7c3aed">00 · 复习</span><div class="top-line" style="background:linear-gradient(90deg,#f5f3ff,#f1f5f9)"></div></div>
+    <div class="slide-title">稳健性检验与异质性分析</div>
+    <div class="title-underline" style="background:linear-gradient(90deg,#8b5cf6,#a78bfa)"></div>
+    <div class="review-banner">📚 四种常用方法验证核心结论的可靠性 + 子样本回归检验核心关系的异质性表现</div>
+    <div class="slide-body">
+      <div class="review-grid" style="grid-template-columns:1fr 1fr 1fr">
+        <div class="review-card"><h4><span class="rn">1</span>替换被解释变量</h4><div class="stata-code"><span class="cmd">gen</span> y2 = 新的被解释变量<br>
+<span class="cmd">reghdfe</span> y2 x1 x2 controls,
+  <span class="opt">absorb</span>(id year) <span class="opt">cluster</span>(id)</div></div>
+        <div class="review-card"><h4><span class="rn">2</span>替换核心解释变量</h4><div class="stata-code"><span class="cmd">gen</span> x1_2 = 新的核心解释变量<br>
+<span class="cmd">reghdfe</span> y x1_2 x2 controls,
+  <span class="opt">absorb</span>(id year) <span class="opt">cluster</span>(id)</div></div>
+        <div class="review-card"><h4><span class="rn">3</span>调整样本范围</h4><div class="stata-code"><span class="cmd">drop if</span> st_flag == 1
+<span class="cm">// 剔除ST企业</span><br>
+<span class="cmd">drop if</span> year &lt; 2010<br>
+<span class="cmd">reghdfe</span> y x1 x2 controls,
+  <span class="opt">absorb</span>(id year) <span class="opt">cluster</span>(id)</div></div>
+        <div class="review-card"><h4><span class="rn">4</span>更换计量模型</h4><div class="stata-code"><span class="cmd">logit</span> y x1 x2 controls, <span class="opt">robust</span><br>
+<span class="cmd">probit</span> y x1 x2 controls, <span class="opt">robust</span></div></div>
+        <div class="review-card"><h4><span class="rn">5</span>按企业规模分组</h4><div class="stata-code"><span class="cmd">reg</span> y x1 x2 controls <span class="cmd">if</span> size==1,
+  <span class="opt">robust</span> <span class="cm">// 大型企业子样本</span><br>
+<span class="cmd">reg</span> y x1 x2 controls <span class="cmd">if</span> size==0,
+  <span class="opt">robust</span> <span class="cm">// 中小企业子样本</span></div></div>
+<div class="review-card"><h4><span class="rn">6</span>按地区分组</h4><div class="stata-code"><span class="cmd">reg</span> y x1 x2 controls <span class="cmd">if</span> region==1,
+  <span class="opt">robust</span> <span class="cm">// 东部地区子样本</span><br>
+<span class="cmd">reg</span> y x1 x2 controls <span class="cmd">if</span> region==0,
+  <span class="opt">robust</span> <span class="cm">// 非东部地区子样本</span></div></div>
+      </div>
+      <div class="review-note">📝 异质性分析不仅要分组回归，还需在正文中解释「为什么」存在差异——结合理论机制说明大型企业与中小企业、东部与非东部在资源禀赋、制度环境等方面的不同。</div>
+    </div>
+  </div>
+
+  <!-- 6 Flow review -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag" style="background:#eef2ff;color:#4f6ef7">复习小结</span><div class="top-line" style="background:linear-gradient(90deg,#eef2ff,#f1f5f9)"></div></div>
+    <div class="slide-title">计量分析初步流程</div>
+    <div class="title-underline" style="background:linear-gradient(90deg,#4f6ef7,#8b5cf6)"></div>
+    <div style="font-size:16px;color:var(--text-2);margin-bottom:28px">从原始数据到论文结果的标准路径</div>
+    <div class="slide-body" style="justify-content:center">
+      <div style="display:flex;align-items:stretch;gap:0;margin-bottom:36px">
+        <div style="flex:1;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:24px 16px;text-align:center;box-shadow:var(--shadow)">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px">1</div>
+          <div style="font-size:17px;font-weight:800;margin-bottom:6px">数据导入</div>
+          <div style="font-size:12px;color:var(--text-3);line-height:1.7">Excel / dta<br>面板数据声明</div>
+        </div>
+        <div style="display:flex;align-items:center;color:var(--blue);font-size:24px;font-weight:700;padding:0 6px">→</div>
+        <div style="flex:1;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:24px 16px;text-align:center;box-shadow:var(--shadow)">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px">2</div>
+          <div style="font-size:17px;font-weight:800;margin-bottom:6px">预处理</div>
+          <div style="font-size:12px;color:var(--text-3);line-height:1.7">描述性统计<br>相关性 + 缩尾</div>
+        </div>
+        <div style="display:flex;align-items:center;color:var(--blue);font-size:24px;font-weight:700;padding:0 6px">→</div>
+        <div style="flex:1;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:24px 16px;text-align:center;box-shadow:var(--shadow)">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px">3</div>
+          <div style="font-size:17px;font-weight:800;margin-bottom:6px">基础回归</div>
+          <div style="font-size:12px;color:var(--text-3);line-height:1.7">OLS / 固定效应<br>经典假设检验</div>
+        </div>
+        <div style="display:flex;align-items:center;color:var(--blue);font-size:24px;font-weight:700;padding:0 6px">→</div>
+        <div style="flex:1;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:24px 16px;text-align:center;box-shadow:var(--shadow)">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px">4</div>
+          <div style="font-size:17px;font-weight:800;margin-bottom:6px">稳健性</div>
+          <div style="font-size:12px;color:var(--text-3);line-height:1.7">替换变量<br>调整样本 / 换模型</div>
+        </div>
+        <div style="display:flex;align-items:center;color:var(--blue);font-size:24px;font-weight:700;padding:0 6px">→</div>
+        <div style="flex:1;background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:24px 16px;text-align:center;box-shadow:var(--shadow)">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px">5</div>
+          <div style="font-size:17px;font-weight:800;margin-bottom:6px">异质性</div>
+          <div style="font-size:12px;color:var(--text-3);line-height:1.7">分组回归<br>机制解释</div>
+        </div>
+      </div>
+      <div style="background:linear-gradient(135deg,#eef2ff,#f5f3ff);border:1px solid #c7d2fe;border-radius:14px;padding:18px 32px;text-align:center;font-size:16px;font-weight:700;color:var(--blue)">💡 接下来：如何用 AI Agent 加速这一整套流程？</div>
+    </div>
+  </div>
+
+  <!-- 7 Why Agent -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">01 · 背景</span><div class="top-line"></div></div>
+    <div class="slide-title">为什么引入 <span class="accent">Agent</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="pain-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:18px">
+        <div class="card"><div class="card-icon" style="background:var(--blue-light)">📊</div><h3>数据处理繁琐</h3><p>清洗、合并、缩尾、生成变量……每一步都要写代码、查语法、调 bug，大量时间消耗在机械操作上。</p></div>
+        <div class="card"><div class="card-icon" style="background:var(--blue-light)">🔬</div><h3>模型选择复杂</h3><p>OLS / IV / DID / 面板固定效应……该用哪个？假设检验怎么做？内生性如何处理？需要反复试错。</p></div>
+        <div class="card"><div class="card-icon" style="background:var(--blue-light)">📝</div><h3>结果输出耗时</h3><p>回归表格、系数图、稳健性检验……整理成论文格式又是一轮重复劳动，还容易出错。</p></div>
+      </div>
+      <div class="agent-can" style="background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:20px 26px;box-shadow:var(--shadow)">
+        <h4 style="font-size:15px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:8px">💡 Agent 能做什么？</h4>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px">
+          <div style="text-align:center"><div style="font-size:26px;margin-bottom:6px">🤖</div><div style="font-size:13px;font-weight:600">自动写代码</div><div style="font-size:11px;color:var(--text-3);margin-top:2px">查文档 / 调语法</div></div>
+          <div style="text-align:center"><div style="font-size:26px;margin-bottom:6px">🔄</div><div style="font-size:13px;font-weight:600">迭代试错</div><div style="font-size:11px;color:var(--text-3);margin-top:2px">跑不通自己修</div></div>
+          <div style="text-align:center"><div style="font-size:26px;margin-bottom:6px">📈</div><div style="font-size:13px;font-weight:600">可视化结果</div><div style="font-size:11px;color:var(--text-3);margin-top:2px">自动出表出图</div></div>
+          <div style="text-align:center"><div style="font-size:26px;margin-bottom:6px">🧠</div><div style="font-size:13px;font-weight:600">方法论建议</div><div style="font-size:11px;color:var(--text-3);margin-top:2px">提醒假设与陷阱</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8 Harness concept -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">02 · 概念</span><div class="top-line"></div></div>
+    <div class="slide-title"> 什么是 <span class="accent">Harness</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div style="display:grid;grid-template-columns:1fr 1.2fr;gap:36px;align-items:center">
+        <div style="text-align:center">
+          <div style="font-size:110px;margin-bottom:14px;filter:drop-shadow(0 8px 16px rgba(0,0,0,.08))">🐎</div>
+          <div style="display:inline-block;background:var(--blue-light);color:var(--blue);font-size:13px;font-weight:600;padding:5px 16px;border-radius:20px;margin-bottom:12px">这匹马 = AI 模型</div>
+          <div style="font-size:14px;color:var(--text-2);line-height:1.8">马再快，没有装束，<br>你也骑不走、跑不远。</div>
+        </div>
+        <div>
+          <div class="dict-card" style="background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:20px 24px;margin-bottom:14px;box-shadow:var(--shadow)">
+            <div><span style="font-size:22px;font-weight:800">harness</span><span style="font-size:14px;color:var(--text-3);margin-left:8px">/ˈhɑːrnɪs/</span></div>
+            <div style="margin-top:8px;font-size:13px;line-height:1.9">
+              <div><span style="color:var(--blue);font-weight:700;margin-right:6px">n.</span>马具、挽具（套在马身上那一整套装备）</div>
+              <div><span style="color:var(--blue);font-weight:700;margin-right:6px">v.</span><b>驾驭</b>、控制、利用</div>
+            </div>
+          </div>
+          <div class="harness-parts" style="background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:20px 24px;box-shadow:var(--shadow)">
+            <h4 style="font-size:15px;font-weight:700;margin-bottom:12px">套在马身上的这一整套，就是 Harness</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px 22px">
+              <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-2)"><div style="width:26px;height:26px;border-radius:7px;background:var(--blue-light);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0">🎯</div>缰绳 · 控制方向</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-2)"><div style="width:26px;height:26px;border-radius:7px;background:var(--blue-light);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0">🪑</div>马鞍 · 坐得稳</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-2)"><div style="width:26px;height:26px;border-radius:7px;background:var(--blue-light);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0">👢</div>马镫 · 使得上劲</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-2)"><div style="width:26px;height:26px;border-radius:7px;background:var(--blue-light);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0">🔗</div>肚带 · 不散架</div>
+              <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-2)"><div style="width:26px;height:26px;border-radius:7px;background:var(--blue-light);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0">🔔</div>笼头 · 听得懂指令</div>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="review-note">📌 本部分内容参考自 B 站 UP 主「程序员鱼皮」DeepSeek Harness 介绍视频。</div>
+    </div>
+  </div>
+
+  <!-- 9 Harness engineering -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">02 · 概念</span><div class="top-line"></div></div>
+    <div class="slide-title">Harness 工程：研究怎么让马<span class="accent">跑得更快、更稳</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="tags-row">
+        <span class="tag blue">跑得更快</span>
+        <span class="tag cyan">跑得更稳</span>
+        <span class="tag orange">顺利完成任务</span>
+      </div>
+      <div class="grid-2x2">
+        <div class="card"><div class="card-icon" style="background:var(--blue-light)">📋</div><h3>项目规则文件</h3><div class="tool-chips"><span class="tool-chip"># AGENTS.md</span></div></div>
+        <div class="card"><div class="card-icon" style="background:var(--blue-light)">🔧</div><h3>配置的各种工具</h3><div class="tool-chips"><span class="tool-chip">读写文件</span><span class="tool-chip">执行命令</span><span class="tool-chip">搜索网页</span><span class="tool-chip">调用接口</span><span class="tool-chip cyan">运行代码</span><span class="tool-chip cyan">生成图表</span></div></div>
+        <div class="card"><div class="card-icon" style="background:var(--blue-light)">📑</div><h3>任务拆分和执行顺序</h3><div class="code-block">1. 读源码，理清模块 <span class="done">done</span><br>
+2. 补单元测试 <span class="done">done</span><br>
+3. 改实现 <span class="run">running</span><br>
+4. 跑全量回归 <span class="todo">todo</span></div></div>
+        <div class="card"><div class="card-icon" style="background:var(--cyan-light)">✅</div><h3>测试检查流程</h3><div class="code-block">$ npm run lint <span class="done">0 errors</span><br>
+$ npm run build <span class="done">built in 1.4s</span><br>
+$ npm test <span class="done">24 passed</span></div></div>
+      </div>
+      <div class="formula-bottom">规则文件、工具配置、任务拆分、测试检查……<b>这些统统都算 Harness</b>。</div>
+    </div>
+  </div>
+
+  <!-- 10 Formula -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">03 · 公式</span><div class="top-line"></div></div>
+    <div class="slide-title">和网页端有什么不同</div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="formula-row">
+        <div class="formula-box blue"><div class="fi">🤖</div><div class="ft">Agent</div><div class="fs">能干活的 AI</div></div>
+        <div class="formula-op">=</div>
+        <div class="formula-box blue"><div class="fi">🧠</div><div class="ft">Model</div><div class="fs">模型 · 负责想</div></div>
+        <div class="formula-op">+</div>
+        <div class="formula-box cyan"><div class="fi">⚡</div><div class="ft">Harness</div><div class="fs">驾驭工程 · 负责做</div></div>
+      </div>
+      <div class="formula-2col">
+        <div class="card"><h4 class="blue">🧠 模型负责思考和生成</h4><div class="code-block"><span class="cm">「用户要一个求和函数，我写一个 sum」</span><br>
+<span class="kw">export function</span> <span class="str">sum</span>(a, b) {<br> <span class="kw">return</span> a + b<br> }</div><p style="margin-top:10px;font-size:12px;color:var(--text-3)">但它吐出来的，始终只是一段文字。</p></div>
+        <div class="card" style="border:1px solid var(--cyan)"><h4 class="cyan">⚡ Harness 负责接入现实环境</h4><ul class="check-list"><li>文件系统 → 在 src/utils/sum.ts 中编写求和函数</li><li>终端 → 运行 npm test，确保所有 24 个测试用例通过</li><li>网页 → 查阅 Vitest 官方文档，了解断言（assertion）的写法</li><li>工具链 → 通过 GitHub API 自动创建并提交 Pull Request</li></ul></div>
+      </div>
+      <div class="formula-bottom">模型只会「想」，Harness 把想法接上文件系统、终端、网页和工具链，<b>AI 才真正能在现实环境里干活</b>。</div>
+    </div>
+  </div>
+
+  <!-- 11 OSS -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">04 · 开源</span><div class="top-line"></div></div>
+    <div class="slide-title">之前 DeepSeek 只开源了<span class="accent">模型这一半</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="oss-formula">
+        <div class="oss-box"><div class="oi" style="font-size:90px;">🏇</div><div class="ot">Agent</div><div class="os">完整了</div></div>
+<div class="formula-op">=</div>
+<div class="oss-box model"><div class="oi" style="font-size:60px;">🐴</div><div class="ot">Model</div><div class="os">V4 Pro 等模型权重</div><div class="oss-badge cyan">✓ 早就开源了</div></div>
+<div class="formula-op">+</div>
+<div class="oss-box harness"><div class="oi" style="font-size:60px;">🎠</div><div class="ot">Harness</div><div class="os">Deepseek Harness</div><div class="oss-badge red">✓ 这次开源了</div></div>
+      </div>
+      <div class="star-card">
+        <div class="star-left"><div class="star-avatar">🐱</div><div><div class="star-repo">deepseek-ai / deepseek-harness</div><div class="star-desc">刚开源12小时，GitHub仓库就冲破了5万Star。 </div></div></div>
+        <div class="star-num"><div class="n">203k+</div><div class="l">⭐ Stars</div></div>
+      </div>
+      <div class="complete-card"><h4>🎉 这次终于补齐了</h4><p>模型 + Harness 都是自家的，DeepSeek 手里第一次有了<b>完整的一整套 Agent</b>。</p></div>
+    </div>
+  </div>
+
+  <!-- 12 Compare -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">05 · 定位</span><div class="top-line"></div></div>
+    <div class="slide-title">一个可以<span class="accent">高度定制</span>的 AI 编程工具</div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="browser-mock">
+        <div class="browser-bar"><div class="browser-dot" style="background:#ef4444"></div><div class="browser-dot" style="background:#f59e0b"></div><div class="browser-dot" style="background:#10b981"></div><div class="browser-url">localhost:3000</div></div>
+        <div class="browser-body">
+          <div class="browser-query">💬 帮我分析当前项目的代码仓库结构，画一张架构图</div>
+          <div class="config-chips">
+            <span class="config-chip">模型 DeepSeek-V4-Pro</span>
+            <span class="config-chip">推理等级 high</span>
+            <span class="config-chip">文件权限 可读写</span>
+            <span class="config-chip warn">终端权限 需确认</span>
+            <span class="config-chip ok">运行模式 标准模式</span>
+            <button class="run-btn">▶ 运行</button>
+          </div>
+        </div>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-card"><div class="ci">🔶</div><h4>Claude Code</h4><div class="vendor">Anthropic 出品</div><div class="desc">终端里的编程 Agent</div><span class="badge">编程 Agent</span></div>
+        <div class="compare-card"><div class="ci">🌀</div><h4>Codex</h4><div class="vendor">OpenAI 出品</div><div class="desc">终端里的编程 Agent</div><span class="badge">编程 Agent</span></div>
+        <div class="compare-card highlight"><div class="ci">🐳</div><h4 style="color:var(--blue)">DeepSeek Harness</h4><div class="vendor">DeepSeek 出品</div><div class="desc">网页里的编程 Agent</div><span class="badge">可配置、可重组的 Agent 运行环境</span></div>
+      </div>
+      <div class="compare-bottom">🌿 别人交付的是一个编程 Agent，它交付的是<b>一套能自己攒 Agent 的运行环境</b>。</div>
+    </div>
+  </div>
+
+  <!-- 13 Plugin -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">06 · 架构</span><div class="top-line"></div></div>
+    <div class="slide-title">一切皆插件，<span class="accent">运行有迹可循</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="plugin-layout">
+        <div class="plugin-env">
+          <h4>🧩 Agent 运行环境 <span>每一格都能拔换</span></h4>
+          <div class="plugin-grid">
+            <div class="plugin-cell"><div class="pi">🧠</div><div class="pt">模型</div><div class="ps">v4-pro / 可换</div></div>
+            <div class="plugin-cell"><div class="pi">🔧</div><div class="pt">工具</div><div class="ps">bash / edit</div></div>
+            <div class="plugin-cell"><div class="pi">✨</div><div class="pt">技能</div><div class="ps">skills</div></div>
+            <div class="plugin-cell"><div class="pi">💬</div><div class="pt">会话</div><div class="ps">session</div></div>
+            <div class="plugin-cell"><div class="pi">📦</div><div class="pt">沙箱</div><div class="ps">sandbox</div></div>
+            <div class="plugin-cell"><div class="pi">🔄</div><div class="pt">循环</div><div class="ps">agent-loop</div></div>
+            <div class="plugin-cell wide"><div class="pi">🖥️</div><div class="pt">界面</div><div class="ps">turtle-ui</div></div>
+          </div>
+        </div>
+        <div>
+          <div class="terminal-mock">
+            
+
+          </div>
+          <div class="plugin-note"><h4>🔌 一切皆插件</h4><p>DeepSeek Harness 基于 Cordis 插件系统构建。模型、工具、技能、会话、沙箱、存储、循环、调度、UI 等所有 Agent 能力均由插件提供，并通过 Cordis 服务与事件彼此协作。开发者无需改动 DeepSeek Harness 源码，即可在配置层选择、替换或扩展任一能力。</b></p></div>
+<br>
+<div class="plugin-note"><h4>⏳ 每一次运行都有迹可循</h4><p>模型看到的一切都会写入仅追加设计的会话日志，包括系统提示词、思维链、工具调用与结果、子 Agent 调度，以及每一次上下文注入。在 Trajectory 视图中，你可以按来源查看这些信息。恢复、分叉、检索与回放也共享同一份事件流。</b></p></div>
+<br>
+<div class="plugin-note"><h4>🔀 多种运行模式</h4><p>标准模式提供完整的工具组合；PTC 模式通过模型生成的一段代码组合多轮工具调用；极简模式仅保留一个 shell 工具与一个文件编辑工具，用于最小化环境下的模型基准测试；创造模式可以检查当前运行时、在内存中试验 Cordis 插件，并据此组合和创作新的模式。</b></p></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 14 Workflow -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">07 · 工作流</span><div class="top-line"></div></div>
+     <div class="slide-title">计量经济学×Agent <span class="accent">全流程工作流</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="flow-wrap" style="transform:scale(1.3);transform-origin:top ;">
+        <div class="flow-row">
+          <div class="flow-node"><div class="fi">📥</div><div class="ft">数据导入</div><div class="fs">Excel / CSV / Stata</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">🧹</div><div class="ft">数据清洗</div><div class="fs">缺失值 / 异常值</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">🔨</div><div class="ft">变量构造</div><div class="fs">对数 / 交互 / 滞后</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">📊</div><div class="ft">描述统计</div><div class="fs">均值 / 相关 / 分布</div></div>
+        </div>
+        <div class="flow-row">
+          <div class="flow-node highlight"><div class="fi">🔬</div><div class="ft">基准回归</div><div class="fs">OLS / 面板 FE</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">🔍</div><div class="ft">模型诊断</div><div class="fs">异方差 / 自相关</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">🛡️</div><div class="ft">内生性处理</div><div class="fs">IV / DID / RDD</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">✅</div><div class="ft">稳健性检验</div><div class="fs">换变量 / 换样本</div></div>
+        </div>
+        <div class="flow-row">
+          <div class="flow-node cyan-node"><div class="fi">📈</div><div class="ft">结果可视化</div><div class="fs">系数图 / 回归表</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node"><div class="fi">📝</div><div class="ft">论文写作</div><div class="fs">结果解读 / 表格</div></div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node warn-node"><div class="fi">⚠️</div><div class="ft">人工复核</div><div class="fs">验证 / 质疑 / 定稿</div></div>
+        </div>
+        <div class="flow-note">💡 Agent 负责执行与建议，<b>你负责判断与决策</b> —— 这才是正确的协作方式</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 15 Demo 1 -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">07 · 演示</span><div class="top-line"></div></div>
+    <div class="slide-title">演示 1：数据清洗与<span class="accent">描述性统计</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="demo-layout">
+        <div class="demo-left">
+          <div class="prompt-card"><h4>💬 你对 Agent 说</h4><div class="quote">"我有一份中国家庭追踪调查（CFPS）数据，帮我：<br>① 读取并查看基本结构<br>② 处理缺失值和异常值<br>③ 对收入变量做 1% 缩尾<br>④ 生成描述性统计表和相关系数矩阵"</div></div>
+          <div class="exec-card"><h4>⚡ Agent 自动执行</h4><ul class="exec-list"><li>读取 data.csv，输出 shape / dtypes / head()</li><li>识别缺失值模式，建议删除或多重插补</li><li>用 winsorize 对收入做 1%/99% 缩尾</li><li>生成 describe() 统计表 + 相关系数热力图</li><li>自动保存为 clean_data.csv 和 summary_table.docx</li></ul></div>
+        </div>
+        <div class="demo-right">
+          <div class="terminal-mock" style="margin:0">
+            <div class="terminal-bar"><div class="browser-dot" style="background:#ef4444"></div><div class="browser-dot" style="background:#f59e0b"></div><div class="browser-dot" style="background:#10b981"></div><span style="margin-left:10px;font-size:11px;color:#94a3b8;font-family:monospace">agent · python</span></div>
+            <div class="terminal-body">
+              <div><span class="prompt">▸</span> 读取数据并清洗</div>
+              <div><span class="cmd">▸ import pandas as pd</span></div>
+              <div><span class="cmd">▸ from scipy.stats.mstats import winsorize</span></div>
+              <div><span class="cmd">▸ df = pd.read_csv('cfps_data.csv')</span></div>
+              <div><span class="cmd">▸ print(df.shape) </span></div>
+              <div><span class="cmd">▸ df.isnull().sum() </span></div>
+              <div><span class="cmd">▸ df['income_w'] = winsorize(df['income'], limits=[0.01,0.01])</span></div>
+              <div><span class="cmd">▸ desc = df.describe().T[['mean','std','min','25%','50%','75%','max']]</span></div>
+              <div><span class="cmd">▸ desc.to_csv('descriptive_stats.csv')</span></div>
+              <div><span class="prompt">✓ 完成！已生成清洗后数据 + 描述统计表 + 相关系数热力图</span></div>
+            </div>
+          </div>
+          <div class="check-card"><h4>⚠️ 你需要检查</h4><ul class="check-list-warn"><li>缩尾比例是否合理？（1% 还是 5%？）</li><li>缺失值处理方式是否符合研究设计？</li><li>异常值判断是否结合了变量的经济含义？</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 16 Demo 2 -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">07 · 演示</span><div class="top-line"></div></div>
+    <div class="slide-title">演示 2：回归分析与<span class="accent">模型诊断</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="demo-layout">
+        <div class="demo-left">
+          <div class="prompt-card"><h4>💬 你对 Agent 说</h4><div class="quote">"研究教育对收入的影响：<br>① 跑基准 OLS 回归（log收入 ~ 教育年限 + 控制变量）<br>② 做异方差检验（Breusch-Pagan）和多重共线性检验（VIF）<br>③ 如果有异方差，用稳健标准误重新估计<br>④ 输出规范的回归结果表格"</div></div>
+          <div class="exec-card"><h4>⚡ Agent 自动执行</h4><ul class="exec-list"><li>用 linearmodels / statsmodels 跑 OLS</li><li>BP 检验 → 发现异方差（p &lt; 0.05）</li><li>VIF 检验 → 所有变量 VIF &lt; 5，无严重共线性</li><li>改用 HC3 稳健标准误重新估计</li><li>用 stargazer / 自定义函数输出三列对比表</li></ul></div>
+        </div>
+        <div class="demo-right">
+          <div class="terminal-mock" style="margin:0">
+            <div class="terminal-bar"><div class="browser-dot" style="background:#ef4444"></div><div class="browser-dot" style="background:#f59e0b"></div><div class="browser-dot" style="background:#10b981"></div><span style="margin-left:10px;font-size:11px;color:#94a3b8;font-family:monospace">agent · regression</span></div>
+            <div class="terminal-body">
+              <div><span class="prompt">▸</span> 基准回归 + 诊断</div>
+              <div><span class="cmd">▸ import statsmodels.api as sm</span></div>
+              <div><span class="cmd">▸ from statsmodels.stats.diagnostic import het_breuschpagan</span></div>
+              <div><span class="cmd">▸ from statsmodels.stats.outliers_influence import variance_inflation_factor</span></div>
+              <div><span class="cmd">▸ X = df[['edu','age','age_sq','gender','urban']]</span></div>
+              <div><span class="cmd">▸ X = sm.add_constant(X)</span></div>
+              <div><span class="cmd">▸ model = sm.OLS(df['log_income'], X).fit()</span></div>
+              <div><span class="cmd">▸ bp = het_breuschpagan(model.resid, X)</span></div>
+              <div><span class="cmd">▸ model_robust = sm.OLS(...).fit(cov_type='HC3')</span></div>
+              <div><span class="prompt">✓ 教育年限系数 0.082***，稳健标准误下仍显著</span></div>
+            </div>
+          </div>
+          <div class="card" style="padding:14px 18px">
+            <h4 style="font-size:14px;margin-bottom:6px">📋 回归结果表（Agent 自动生成）</h4>
+            <table class="reg-table">
+              <tr><th></th><th>(1) OLS</th><th>(2) 稳健SE</th><th>(3) 加控制</th></tr>
+              <tr><td>教育年限</td><td>0.075***</td><td>0.075***</td><td>0.082***</td></tr>
+              <tr><td>年龄</td><td>—</td><td>—</td><td>0.031**</td></tr>
+              <tr><td>常数项</td><td>8.21***</td><td>8.21***</td><td>7.56***</td></tr>
+              <tr><td>N</td><td>12,480</td><td>12,480</td><td>12,480</td></tr>
+              <tr><td>R²</td><td>0.142</td><td>0.142</td><td>0.187</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 17 Demo 3 -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">07 · 演示</span><div class="top-line"></div></div>
+    <div class="slide-title">演示 3：内生性处理与<span class="accent">稳健性检验</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="demo-layout">
+        <div class="demo-left">
+          <div class="prompt-card"><h4>💬 你对 Agent 说</h4><div class="quote">"基准回归可能有内生性（能力遗漏变量），帮我：<br>① 用父母教育年限作为工具变量做 2SLS<br>② 做弱工具变量检验（F统计量）和过度识别检验<br>③ 做一系列稳健性检验：换被解释变量、换样本、聚类标准误<br>④ 把所有结果整理成一张稳健性检验矩阵"</div></div>
+          <div class="exec-card"><h4>⚡ Agent 自动执行</h4><ul class="exec-list"><li>用 linearmodels.IV2SLS 做工具变量回归</li><li>第一阶段 F = 24.7 &gt; 10，排除弱工具变量</li><li>Hansen J 检验 p = 0.31，工具变量外生</li><li>自动跑 6 种稳健性检验</li><li>生成系数对比图（forest plot）+ 汇总表</li></ul></div>
+        </div>
+        <div class="demo-right">
+          <div class="card" style="padding:16px 20px">
+            <h4 style="font-size:14px;margin-bottom:8px">🛡️ 稳健性检验矩阵</h4>
+            <table class="reg-table">
+              <tr><th>检验类型</th><th>系数</th><th>标准误</th><th>显著性</th></tr>
+              <tr><td>基准 OLS</td><td>0.082</td><td>0.006</td><td>***</td></tr>
+              <tr><td>2SLS (IV)</td><td>0.095</td><td>0.012</td><td>***</td></tr>
+              <tr><td>换被解释变量(年收入)</td><td>0.078</td><td>0.007</td><td>***</td></tr>
+              <tr><td>剔除极端样本</td><td>0.080</td><td>0.006</td><td>***</td></tr>
+              <tr><td>省份聚类标准误</td><td>0.082</td><td>0.009</td><td>***</td></tr>
+              <tr><td>控制省份固定效应</td><td>0.079</td><td>0.007</td><td>***</td></tr>
+            </table>
+            <div style="margin-top:8px;font-size:12px;color:var(--cyan);font-weight:600">✓ 核心系数在 0.078~0.095 之间，方向和显著性稳健</div>
+          </div>
+          <div class="check-card"><h4>⚠️ Agent 不会替你做的判断</h4><ul class="check-list-warn"><li>工具变量是否真的外生？（需要经济学论证）</li><li>IV 估计结果比 OLS 大，是否合理？（LATE 解释）</li><li>稳健性检验的规格选择是否有 cherry-picking 嫌疑？</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 18 Setup -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">08 · 上手</span><div class="top-line"></div></div>
+    <div class="slide-title">如何开始使用 <span class="accent">DeepSeek Harness</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="setup-grid">
+        <div class="setup-col">
+          <div class="setup-card"><h4><span class="si">⚙️</span>方式一：本地部署（推荐）</h4><div class="code-block"><span class="cm"># 1. 安装依赖Node.js后运行</span><br>
+npx @deepseek-ai/dsh web<br>
+<span class="cm"># 2. 等待时间较长，看到下载过程可以运行</span><br>
+npm install -g --verbose @deepseek-ai/dsh<br>
+<span class="cm">▸ Need to install the following packages:</span><br>
+<span class="cm">▸ @deepseek-ai/dsh@0.1.1-rc.2</span><br>
+<span class="cm">▸ Ok to proceed? (y)</span><br>
+<span class="cm"># 3. 配置 API Key</span><br>
+<span class="cm"># 4. 启动 Web UI</span><br>
+dsh web</div></div>
+          <div class="setup-card"><h4><span class="si">🌐</span>方式二：在线平台</h4><p>直接使用如 WorkBuddy 官网的 Agent 模式，无需本地安装。</p><div class="btn-row"><span class="btn blue">🐳 DeepSeek 官网</span><span class="btn gray">☁️ 在线 IDE</span></div></div>
+        </div>
+        <div class="setup-col">
+          <div class="setup-card"><h4><span class="si">📝</span>关键配置：AGENTS.md（你的缰绳）</h4><div class="code-block">
+<span class="kw">## 角色</span>
+你是计量经济学研究者，精通 Stata / Python。<br>
+<span class="kw">## 工作原则</span><br>
+- 所有回归必须报告标准误类型<br>
+- 发现异方差时自动建议稳健标准误<br>
+- 内生性问题必须主动提醒<br>
+- 生成的表格必须符合学术论文格式<br>
+<span class="kw">## 禁止</span><br>
+- 不得编造数据或结果<br>
+- 不得跳过诊断检验直接给结论<br>
+- 不得替用户做方法论的最终决策</div></div>
+          <div class="prompt-tips"><h4>💡 写好 Prompt 的三个要点</h4><div class="tip-item"><b>明确角色：</b>"你是计量经济学专家"</div><div class="tip-item"><b>给足上下文：</b>数据来源、研究问题、变量定义</div><div class="tip-item"><b>指定输出格式：</b>"用 stargazer 格式输出三列表格"</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 19 Ethics -->
+  <div class="slide">
+    <div class="topbar"><span class="chapter-tag">08 · 作业</span><div class="top-line"></div></div>
+    <div class="slide-title">作业要求与<span class="accent">学术诚信</span></div>
+    <div class="title-underline"></div>
+    <div class="slide-body">
+      <div class="ethics-grid">
+        <div class="ethics-col">
+          <div class="ethics-card good"><h4>✅ 鼓励这样使用 Agent</h4><ul class="ethics-list"><li>用 Agent 学习语法和代码写法</li><li>让 Agent 帮你做重复性的数据清洗</li><li>请 Agent 解释回归结果的经济学含义</li><li>用 Agent 检查代码中的 bug 和逻辑错误</li><li>让 Agent 生成可视化图表的初稿</li><li>请 Agent 提醒你可能遗漏的检验步骤</li></ul></div>
+          <div class="principle-card"><h4>⚖️ 学术诚信原则</h4><div class="big">Agent 是工具，不是替身。</div><p>你需要理解每一行代码、每一个系数、每一个结论。<br>能向别人讲清楚的结果，才是你自己的结果。</p></div>
+        </div>
+        <div class="ethics-col">
+          <div class="ethics-card bad"><h4>❌ 严禁这样使用 Agent</h4><ul class="ethics-list"><li>直接把作业题目丢给 Agent，复制粘贴答案</li><li>不理解代码含义就直接提交 Agent 生成的代码</li><li>让 Agent 编造数据或伪造回归结果</li><li>对 Agent 给出的错误结果不加验证就使用</li><li>在报告中隐瞒 Agent 的使用情况</li></ul></div>
+          <div class="submit-card"><h4>📋 作业提交要求</h4><ul><li>提交完整的 Python / Stata 代码文件</li><li>提交可复现的结果（数据 + 代码 + 输出）</li><li>在报告中注明哪些部分使用了 Agent 辅助</li><li>附上你与 Agent 的关键对话截图或记录</li><li>对核心结果必须有自己的解读和判断</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 20 Ending -->
+  <div class="slide ending">
+    <div class="whale">🐳</div>
+    <h2>驾驭 Agent，<span class="grad">释放你的研究力</span></h2>
+    <div class="formula-line">Agent = Model + Harness　｜　模型负责想，你负责判断，Harness 负责做</div>
+    <div class="qa">Q &amp; A</div>
+    <div class="foot">有问题随时提问　｜　驾驭 AI，而不是被 AI 驾驭</div>
+  </div>
+
+</div>
+
+<!-- Navigation -->
+<div class="nav">
+  <button onclick="go(-1)">‹</button>
+  <div class="dots" id="dots"></div>
+  <span class="page-num" id="pageNum">01 / 20</span>
+  <button onclick="go(1)">›</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  let current = 0;
+
+  const dotsEl = document.getElementById('dots');
+  for (let i = 0; i < total; i++) {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.onclick = () => show(i);
+    dotsEl.appendChild(d);
+  }
+
+  function show(idx) {
+    if (idx < 0 || idx >= total) return;
+    slides[current].classList.remove('active');
+    current = idx;
+    slides[current].classList.add('active');
+    document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i === current));
+    document.getElementById('pageNum').textContent = String(current + 1).padStart(2, '0') + ' / ' + String(total).padStart(2, '0');
+  }
+  function go(dir) { show(current + dir); }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1); }
+    if (e.key === 'Home') show(0);
+    if (e.key === 'End') show(total - 1);
+  });
+</script>
+</body>
+</html>
