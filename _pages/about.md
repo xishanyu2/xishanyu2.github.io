@@ -18,9 +18,9 @@ Research
 Educations
 ------
 
-- 2025-present - Master of Economics, Nankai University
-- 2021-2025 - Bachelor of Economics, Nankai University
-- 2015-2021 - ChengDu Foreign Languages School
+- 2025~present - Master of Economics, Nankai University
+- 2021~2025 - Bachelor of Economics, Nankai University
+- 2015~2021 - ChengDu Foreign Languages School
 
 TA
 ------
@@ -35,8 +35,8 @@ Awards
 ------
 
 - 2025 Postgraduate Recommendation Scholarship  
-- 2023-2024 Academic Excellence Scholarship ([School of Economics, Nankai University](https://economics.nankai.edu.cn/))  
-- 2021-2022 Academic Excellence Scholarship ([School of Materials Science and Engineering, Nankai University](https://mse.nankai.edu.cn/))
+- 2023~2024 Academic Excellence Scholarship ([School of Economics, Nankai University](https://economics.nankai.edu.cn/))  
+- 2021~2022 Academic Excellence Scholarship ([School of Materials Science and Engineering, Nankai University](https://mse.nankai.edu.cn/))
 
 Contact
 ------
