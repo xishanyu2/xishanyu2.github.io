@@ -40,4 +40,5 @@ Awards
 
 Contact
 ------
-My email address is <2113133@mail.nankai.edu.cn>. You can reach me at <zzynankai@outlook.com> as well.
+- My email address is <2113133@mail.nankai.edu.cn>.
+- You can reach me at <zzynankai@outlook.com> as well.
