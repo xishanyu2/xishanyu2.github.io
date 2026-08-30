@@ -18,9 +18,9 @@ Research
 Educations
 ------
 
-- 2025-present - Master of Economics, Nankai University
-- 2021-2025 - Bachelor of Economics, Nankai University
-- 2015-2021 - ChengDu Foreign Languages School
+- 2025-present: Master of Economics, Nankai University
+- 2021-2025: Bachelor of Economics, Nankai University
+- 2015-2021: ChengDu Foreign Languages School
 
 TA
 ------
