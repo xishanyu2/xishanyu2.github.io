@@ -24,4 +24,6 @@ redirect_from:
 
 [Agent辅助计量经济学](https://xishanyu2.github.io/_pages/DeepSeek_Harness_计量经济学.html)
 
+微观计量上机课
+
 ## Matlab
