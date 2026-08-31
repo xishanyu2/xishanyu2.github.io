@@ -1,13 +1,13 @@
 ---
 title: "Econometrics：Special Topics in Stata Applications"
 collection: teaching
-type: "Excellent Teaching Assistant"
+type: "Introduction"
 permalink: /teaching/stata
 venue: "Spring"
 date: 2025-01-01
 ---
 
-Equipped with instructional videos, please contact me if needed.
+Once uploaded tutorial videos on Bilibili.
 
 ---
 # 写在前面：理解计量经济学的3种方式
