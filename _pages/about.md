@@ -24,6 +24,7 @@ Educations
 
 TA
 ------
+- Fall 2026 - Microeconometrics (Undergraduate)
 - Spring 2026 - [Market Research and Analysis](https://xishanyu2.github.io/reports/) (Undergraduate)
 - Spring 2026 - Econometrics and Stata Applications (Undergraduate)
 - Winter vacation 2026 - 连享会 · 2026 寒假班
