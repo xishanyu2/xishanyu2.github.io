@@ -22,6 +22,4 @@ redirect_from:
 
 [统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)、[第二次上机课](http://xishanyu2.github.io/files/第二次上机课.pdf)、[第三次上机课](http://xishanyu2.github.io/files/第三次上机课.pdf)
 
-[Agent辅助计量经济学](https://xishanyu2.github.io/_pages/DeepSeek_Harness_计量经济学.html)
-
 ## Matlab
