@@ -72,7 +72,7 @@ Endnote，[Zotero](https://www.zotero.org/)，Mendeley，[知云](https://www.zh
 2. 微观类：[聂辉华](http://www.niehuihua.com/)，[孙祥](https://www.xiangsun.org/)
 3. 宏观类：[刘岩](http://www.liuyanecon.com/)，[王彬](https://github.com/binwangwork)，[冯志钢](https://sites.google.com/site/zfeng202/)
 4. 计量类：[连享会](https://www.lianxh.cn/)，[陈强](http://www.econometrics-stata.com/)，[司继春](http://www.sijichun.pro/)，[史震涛](https://zhentaoshi.github.io/)，[黄嘉平](https://huangjp.com/teaching/)
-[徐轶青](https://yiqingxu.org/)，[丁鹏](https://sites.google.com/site/pengdingpku/home)，[Sant'Anna](https://psantanna.com/)
+5. CI：[徐轶青](https://yiqingxu.org/)，[丁鹏](https://sites.google.com/site/pengdingpku/home)，[Sant'Anna](https://psantanna.com/)
 6. ML：[李宏毅](https://speech.ee.ntu.edu.tw/~hylee/index.php)，[吴恩达](https://www.andrewng.org/)，[林轩田](https://www.csie.ntu.edu.tw/~htlin/)，[郭峰](http://www.guof1984.net/)，[姚加权](https://www.jiaquanyao.com/)，[陈志远](https://zhiyuanryanchen.github.io/)
 7. IE：[Arkolakis](https://arkolakis.com/)，[Chaney](https://sites.google.com/site/thomaschaney/)，[Donaldson](https://dave-donaldson.com/)，[Feenstra](http://www.robertcfeenstra.com/)，[Yotov](https://yotoyotov.com/index.html)
 8. EH：[Acemoglu](https://economics.mit.edu/people/faculty/daron-acemoglu)，[Nunn](https://nathannunn.arts.ubc.ca/)，[Fernández-Villaverde](https://www.sas.upenn.edu/~jesusfv/index.html)，[龚启圣](https://www.jameskung.net/home)，[李楠](https://nanlifudan.wixsite.com/homepage)...
