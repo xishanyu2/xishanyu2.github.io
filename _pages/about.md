@@ -24,6 +24,7 @@ Educations
 
 TA
 ------
+- 连享会 · 2026 LLM × Agent：超级研究者专题
 - Fall 2026 - [Microeconometrics](https://xishanyu2.github.io/coding/) (Undergraduate)
 - Spring 2026 - [Market Research and Analysis](https://xishanyu2.github.io/reports/) (Undergraduate)
 - Spring 2026 - Econometrics and Stata Applications (Undergraduate)
