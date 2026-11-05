@@ -22,6 +22,7 @@ redirect_from:
 
 [统计学第一次上机课](http://xishanyu2.github.io/files/统计学（Stata实现）.pdf)、[第二次上机课](http://xishanyu2.github.io/files/第二次上机课.pdf)、[第三次上机课](http://xishanyu2.github.io/files/第三次上机课.pdf)
 
-微观计量第一次上机课：[工具变量估计](http://xishanyu2.github.io/files/IV.pdf)、[面板数据方法](http://xishanyu2.github.io/files/panel.pdf)、[二元选择模型](http://xishanyu2.github.io/files/binary.pdf)
+微观计量第一次上机课：[工具变量估计](http://xishanyu2.github.io/files/IV.pdf)、[面板数据方法](http://xishanyu2.github.io/files/panel.pdf)、[二元选择模型](http://xishanyu2.github.io/files/binary.pdf)  
+第一次上机作业：[工具变量](http://xishanyu2.github.io/files/ex1.pdf)、[面板二项选择](http://xishanyu2.github.io/files/ex2.pdf)  
 
 ## Matlab
