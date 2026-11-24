@@ -26,6 +26,6 @@ redirect_from:
 第一次上机课：[工具变量估计](http://xishanyu2.github.io/files/IV.pdf)、[面板数据方法](http://xishanyu2.github.io/files/panel.pdf)、[二元选择模型](http://xishanyu2.github.io/files/binary.pdf)  
 第一次上机作业：[工具变量](http://xishanyu2.github.io/files/ex1.pdf)、[面板二项选择](http://xishanyu2.github.io/files/ex2.pdf)  
 第二次上机课：[多项选择模型](http://xishanyu2.github.io/files/multi.pdf)、[Tobit模型与样本选择](http://xishanyu2.github.io/files/tobit.pdf)、[计数数据模型](http://xishanyu2.github.io/files/poisson.pdf)  
-第二次上机作业：[引力模型(ppml)](http://xishanyu2.github.io/files/trade-gravity.pdf)（选做）
+第二次上机作业：[引力模型(ppml)](http://xishanyu2.github.io/files/trade-gravity.pdf)
 
 ## Matlab
