@@ -12,7 +12,7 @@ Welcome to my personal homepage! I'm Zhenyu Zhao, a second year master’s stude
 
 Research
 ------
-- Fields of study: Transnational Firms and International Investment, Causal Inference and Machine Learning
+- Fields of study: Transnational Firms and International Investment, Causal Inference and Machine Learning, Text Analysis and Network Analysis
 - Fields of interest: [Mathematical Political Economy](https://xishanyu2.github.io/blogs/mpe), [Cliometrics](https://xishanyu2.github.io/blogs/eh)
 
 Educations
